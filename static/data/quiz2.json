@@ -1,0 +1,650 @@
+[
+    {
+        "phonogram": "スイス",
+        "meaning": "Switzerland"
+    },
+    {
+        "phonogram": "アメリカ",
+        "meaning": "America"
+    },
+    {
+        "phonogram": "リスク",
+        "meaning": "risk"
+    },
+    {
+        "phonogram": "ホテル",
+        "meaning": "hotel"
+    },
+    {
+        "phonogram": "ミルク",
+        "meaning": "milk"
+    },
+    {
+        "phonogram": "ナイフ",
+        "meaning": "knife"
+    },
+    {
+        "phonogram": "カメラ",
+        "meaning": "camera"
+    },
+    {
+        "phonogram": "トイレ",
+        "meaning": "toilet"
+    },
+    {
+        "phonogram": "ネクタイ",
+        "meaning": "necktie"
+    },
+    {
+        "phonogram": "クラス",
+        "meaning": "class"
+    },
+    {
+        "phonogram": "レモン",
+        "meaning": "lemon"
+    },
+    {
+        "phonogram": "インフレ",
+        "meaning": "inflation"
+    },
+    {
+        "phonogram": "フランス",
+        "meaning": "France"
+    },
+    {
+        "phonogram": "コンタクト",
+        "meaning": "contact"
+    },
+    {
+        "phonogram": "エアコン",
+        "meaning": "air condition"
+    },
+    {
+        "phonogram": "アイロン",
+        "meaning": "iron"
+    },
+    {
+        "phonogram": "レストラン",
+        "meaning": "restaurant"
+    },
+    {
+        "phonogram": "サンフランシスコ",
+        "meaning": "San Francisco"
+    },
+    {
+        "phonogram": "バナナ",
+        "meaning": "Banana"
+    },
+    {
+        "phonogram": "テレビ",
+        "meaning": "TV"
+    },
+    {
+        "phonogram": "バス",
+        "meaning": "Bus"
+    },
+    {
+        "phonogram": "ズボン",
+        "meaning": "Pants"
+    },
+    {
+        "phonogram": "ドア",
+        "meaning": "Door"
+    },
+    {
+        "phonogram": "ビル",
+        "meaning": "building"
+    },
+    {
+        "phonogram": "ラジオ",
+        "meaning": "radio"
+    },
+    {
+        "phonogram": "ガラス",
+        "meaning": "glass"
+    },
+    {
+        "phonogram": "ガス",
+        "meaning": "Gas"
+    },
+    {
+        "phonogram": "ドライブ",
+        "meaning": "drive"
+    },
+    {
+        "phonogram": "ボタン",
+        "meaning": "botton"
+    },
+    {
+        "phonogram": "アルバイト",
+        "meaning": "parttime"
+    },
+    {
+        "phonogram": "ビジネス",
+        "meaning": "business"
+    },
+    {
+        "phonogram": "ガソリン",
+        "meaning": "gasoline"
+    },
+    {
+        "phonogram": "アイデア",
+        "meaning": "idea"
+    },
+    {
+        "phonogram": "ピアノ",
+        "meaning": "piano"
+    },
+    {
+        "phonogram": "タイプ",
+        "meaning": "type"
+    },
+    {
+        "phonogram": "パイプ",
+        "meaning": "pipe"
+    },
+    {
+        "phonogram": "サンプル",
+        "meaning": "sample"
+    },
+    {
+        "phonogram": "パン",
+        "meaning": "Bread"
+    },
+    {
+        "phonogram": "ポスト",
+        "meaning": "post"
+    },
+    {
+        "phonogram": "プラス",
+        "meaning": "plus"
+    },
+    {
+        "phonogram": "パパイヤ",
+        "meaning": "papaya"
+    },
+    {
+        "phonogram": "スイッチ",
+        "meaning": "switch"
+    },
+    {
+        "phonogram": "ヘルメット",
+        "meaning": "Helmet"
+    },
+    {
+        "phonogram": "ロボット",
+        "meaning": "robot"
+    },
+    {
+        "phonogram": "トラック",
+        "meaning": "truck"
+    },
+    {
+        "phonogram": "ピクニック",
+        "meaning": "picnic"
+    },
+    {
+        "phonogram": "ネックレス",
+        "meaning": "necklace"
+    },
+    {
+        "phonogram": "チップ",
+        "meaning": "Chip"
+    },
+    {
+        "phonogram": "カップ",
+        "meaning": "cup(for coffee)"
+    },
+    {
+        "phonogram": "コップ",
+        "meaning": "cup(for juice)"
+    },
+    {
+        "phonogram": "スリッパ",
+        "meaning": "slipper"
+    },
+    {
+        "phonogram": "コーヒー",
+        "meaning": "coffee"
+    },
+    {
+        "phonogram": "ケーキ",
+        "meaning": "cake"
+    },
+    {
+        "phonogram": "コンサート",
+        "meaning": "concert"
+    },
+    {
+        "phonogram": "ホームページ",
+        "meaning": "home page"
+    },
+    {
+        "phonogram": "エレベーター",
+        "meaning": "Elevator"
+    },
+    {
+        "phonogram": "スポーツ",
+        "meaning": "Sports"
+    },
+    {
+        "phonogram": "タクシー",
+        "meaning": "taxi"
+    },
+    {
+        "phonogram": "オートバイ",
+        "meaning": "motorcycle"
+    },
+    {
+        "phonogram": "コピー",
+        "meaning": "copy"
+    },
+    {
+        "phonogram": "スーパー",
+        "meaning": "Supermarket"
+    },
+    {
+        "phonogram": "パスポート",
+        "meaning": "passport"
+    },
+    {
+        "phonogram": "レポート",
+        "meaning": "Report"
+    },
+    {
+        "phonogram": "パジャマ",
+        "meaning": "pajamas"
+    },
+    {
+        "phonogram": "チャンス",
+        "meaning": "chance"
+    },
+    {
+        "phonogram": "ワイシャツ",
+        "meaning": "shirt"
+    },
+    {
+        "phonogram": "T-シャツ",
+        "meaning": "T-shirt"
+    },
+    {
+        "phonogram": "マニュアル",
+        "meaning": "manual"
+    },
+    {
+        "phonogram": "ショッピング",
+        "meaning": "shopping"
+    },
+    {
+        "phonogram": "チョッキ",
+        "meaning": "Cock"
+    },
+    {
+        "phonogram": "フィルム",
+        "meaning": "the film"
+    },
+    {
+        "phonogram": "フィリピン",
+        "meaning": "Philippines"
+    },
+    {
+        "phonogram": "パーティー",
+        "meaning": "party"
+    },
+    {
+        "phonogram": "ファッション",
+        "meaning": "fashion"
+    },
+    {
+        "phonogram": "ファクシミリ",
+        "meaning": "facsimile"
+    },
+    {
+        "phonogram": "スパゲティ",
+        "meaning": "Spaghetti"
+    },
+    {
+        "phonogram": "フォーク",
+        "meaning": "fork"
+    },
+    {
+        "phonogram": "チェックイン",
+        "meaning": "check in"
+    },
+    {
+        "phonogram": "ファイル",
+        "meaning": "File"
+    },
+    {
+        "phonogram": "ジュース",
+        "meaning": "juice"
+    },
+    {
+        "phonogram": "ニュース",
+        "meaning": "news"
+    },
+    {
+        "phonogram": "コンピューター",
+        "meaning": "computer"
+    },
+    {
+        "phonogram": "スケジュール",
+        "meaning": "Schedule"
+    },
+    {
+        "phonogram": "インタビュー",
+        "meaning": "interview"
+    },
+    {
+        "phonogram": "ショールーム",
+        "meaning": "showroom"
+    },
+    {
+        "phonogram": "ノート",
+        "meaning": "Note"
+    },
+    {
+        "phonogram": "クーラー",
+        "meaning": "cooler"
+    },
+    {
+        "phonogram": "デパート",
+        "meaning": "Department store"
+    },
+    {
+        "phonogram": "キウイ",
+        "meaning": "Kiwi"
+    },
+    {
+        "phonogram": "ココア",
+        "meaning": "cocoa"
+    },
+    {
+        "phonogram": "エプロン",
+        "meaning": "apron 圍裙"
+    },
+    {
+        "phonogram": "オレンジ",
+        "meaning": "Orange"
+    },
+    {
+        "phonogram": "サーカス",
+        "meaning": "Circus"
+    },
+    {
+        "phonogram": "クッキー",
+        "meaning": "cookie"
+    },
+    {
+        "phonogram": "カラオケ",
+        "meaning": "karaoke"
+    },
+    {
+        "phonogram": "コピー",
+        "meaning": "copy"
+    },
+    {
+        "phonogram": "サングラス",
+        "meaning": "sunglasses"
+    },
+    {
+        "phonogram": "スキー",
+        "meaning": "Ski"
+    },
+    {
+        "phonogram": "シーソー",
+        "meaning": "seesaw"
+    },
+    {
+        "phonogram": "セーター",
+        "meaning": "sweater"
+    },
+    {
+        "phonogram": "キス",
+        "meaning": "kiss"
+    },
+    {
+        "phonogram": "アイスクリーム",
+        "meaning": "ice cream"
+    },
+    {
+        "phonogram": "ギター",
+        "meaning": "guitar"
+    },
+    {
+        "phonogram": "ポテト",
+        "meaning": "potato"
+    },
+    {
+        "phonogram": "スカート",
+        "meaning": "skirt"
+    },
+    {
+        "phonogram": "ドーナツ",
+        "meaning": "donut"
+    },
+    {
+        "phonogram": "チーズ",
+        "meaning": "cheese"
+    },
+    {
+        "phonogram": "ピーナッツ",
+        "meaning": "Peanut"
+    },
+    {
+        "phonogram": "ノック",
+        "meaning": "knock"
+    },
+    {
+        "phonogram": "スニーカー",
+        "meaning": "sneakers"
+    },
+    {
+        "phonogram": "カップヌードル",
+        "meaning": "Cup Noodles"
+    },
+    {
+        "phonogram": "テスト",
+        "meaning": "test"
+    },
+    {
+        "phonogram": "テニス",
+        "meaning": "tennis"
+    },
+    {
+        "phonogram": "ハンカチ",
+        "meaning": "handkerchief"
+    },
+    {
+        "phonogram": "ホーム",
+        "meaning": "home"
+    },
+    {
+        "phonogram": "ヒーロー",
+        "meaning": "Hero"
+    },
+    {
+        "phonogram": "ハム",
+        "meaning": "Ham"
+    },
+    {
+        "phonogram": "ミニバス",
+        "meaning": "Minibus"
+    },
+    {
+        "phonogram": "メロン",
+        "meaning": "melon"
+    },
+    {
+        "phonogram": "マイク",
+        "meaning": "Microphone"
+    },
+    {
+        "phonogram": "メモ",
+        "meaning": "Note"
+    },
+    {
+        "phonogram": "クレヨン",
+        "meaning": "crayon"
+    },
+    {
+        "phonogram": "タイヤ",
+        "meaning": "tire"
+    },
+    {
+        "phonogram": "ユニコーン",
+        "meaning": "unicorn"
+    },
+    {
+        "phonogram": "アニメ",
+        "meaning": "Anime"
+    },
+    {
+        "phonogram": "トマト",
+        "meaning": "tomato"
+    },
+    {
+        "phonogram": "ロケット",
+        "meaning": "rocket"
+    },
+    {
+        "phonogram": "ライオン",
+        "meaning": "Lion"
+    },
+    {
+        "phonogram": "リボン",
+        "meaning": "ribbon"
+    },
+    {
+        "phonogram": "プール",
+        "meaning": "Pool"
+    },
+    {
+        "phonogram": "ハワイ",
+        "meaning": "Hawaii"
+    },
+    {
+        "phonogram": "ホンコン",
+        "meaning": "Honkon"
+    },
+    {
+        "phonogram": "リモコン",
+        "meaning": "Remote controller"
+    },
+    {
+        "phonogram": "テント",
+        "meaning": "tent"
+    },
+    {
+        "phonogram": "インク",
+        "meaning": "ink"
+    },
+    {
+        "phonogram": "レモン",
+        "meaning": "lemon"
+    },
+    {
+        "phonogram": "レストラン",
+        "meaning": "Restaurant"
+    },
+    {
+        "phonogram": "ワイン",
+        "meaning": "wine"
+    },
+    {
+        "phonogram": "コンビニ",
+        "meaning": "convenience store"
+    },
+    {
+        "phonogram": "イギリス",
+        "meaning": "England"
+    },
+    {
+        "phonogram": "パソコン",
+        "meaning": "computer"
+    },
+    {
+        "phonogram": "ピアス",
+        "meaning": "Earrings"
+    },
+    {
+        "phonogram": "ペン",
+        "meaning": "pen"
+    },
+    {
+        "phonogram": "プリン",
+        "meaning": "Pudding"
+    },
+    {
+        "phonogram": "マッチ",
+        "meaning": "Match"
+    },
+    {
+        "phonogram": "サンドイッチ",
+        "meaning": "sandwich"
+    },
+    {
+        "phonogram": "ボールペン",
+        "meaning": "Ballpoint pen"
+    },
+    {
+        "phonogram": "ゲーム",
+        "meaning": "game"
+    },
+    {
+        "phonogram": "サッカー",
+        "meaning": "Soccer"
+    },
+    {
+        "phonogram": "シャツ",
+        "meaning": "shirt"
+    },
+    {
+        "phonogram": "ケチャップ",
+        "meaning": "ketchup"
+    },
+    {
+        "phonogram": "チョコレート",
+        "meaning": "chocolate"
+    },
+    {
+        "phonogram": "キャラクター",
+        "meaning": "character"
+    },
+    {
+        "phonogram": "メニュー",
+        "meaning": "menu"
+    },
+    {
+        "phonogram": "チャーハン",
+        "meaning": "Fried rice"
+    },
+    {
+        "phonogram": "チャーシュー",
+        "meaning": "roasted pork fillet"
+    },
+    {
+        "phonogram": "スケジュール",
+        "meaning": "Schedule"
+    },
+    {
+        "phonogram": "スマートフォン",
+        "meaning": "smartphone"
+    },
+    {
+        "phonogram": "ショートヘア",
+        "meaning": "short hair"
+    },
+    {
+        "phonogram": "マネージャー",
+        "meaning": "manager"
+    },
+    {
+        "phonogram": "バーベキュー",
+        "meaning": "barbecue"
+    },
+    {
+        "phonogram": "ボリューム",
+        "meaning": "volume"
+    }
+]

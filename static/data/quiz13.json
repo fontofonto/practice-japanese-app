@@ -1,0 +1,97 @@
+[
+    {
+        "phonogram": "かい",
+        "logogram": "階",
+        "meaning": "樓層"
+    },
+    {
+        "phonogram": "えいがかん",
+        "logogram": "映画館",
+        "meaning": "電影院"
+    },
+    {
+        "phonogram": "じどうしゃ",
+        "logogram": "自動車",
+        "meaning": "汽車"
+    },
+    {
+        "phonogram": "れいぞうこ",
+        "logogram": "冷蔵庫",
+        "meaning": "冰箱"
+    },
+    {
+        "phonogram": "ひきだし",
+        "logogram": "引き出し",
+        "meaning": "抽屜"
+    },
+    {
+        "phonogram": "ホッチキス",
+        "logogram": "",
+        "meaning": "釘書機"
+    },
+    {
+        "phonogram": "せいようじん",
+        "logogram": "西洋人",
+        "meaning": "西洋人"
+    },
+    {
+        "phonogram": "かんりにん",
+        "logogram": "管理人",
+        "meaning": "看更"
+    },
+    {
+        "phonogram": "へや",
+        "logogram": "部屋",
+        "meaning": "房間"
+    },
+    {
+        "phonogram": "うしろ",
+        "logogram": "後ろ",
+        "meaning": "後面"
+    },
+    {
+        "phonogram": "かいぎ",
+        "logogram": "会議",
+        "meaning": "會議"
+    },
+    {
+        "phonogram": "ほうこくしょ",
+        "logogram": "報告書",
+        "meaning": "報告書"
+    },
+    {
+        "phonogram": "しゅっちょう",
+        "logogram": "出張",
+        "meaning": "出差"
+    },
+    {
+        "phonogram": "ファイル",
+        "logogram": "",
+        "meaning": "文件"
+    },
+    {
+        "phonogram": "ねずみ",
+        "logogram": "",
+        "meaning": "老鼠"
+    },
+    {
+        "phonogram": "ファックス",
+        "logogram": "",
+        "meaning": "傳真"
+    },
+    {
+        "phonogram": "ふうとう",
+        "logogram": "封筒",
+        "meaning": "信封"
+    },
+    {
+        "phonogram": "コンピュータ",
+        "logogram": "",
+        "meaning": "電腦"
+    },
+    {
+        "phonogram": "きっぷ",
+        "logogram": "切符",
+        "meaning": "票"
+    }
+]

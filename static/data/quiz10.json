@@ -1,0 +1,102 @@
+[
+    {
+        "phonogram": "いま",
+        "logogram": "今",
+        "meaning": "現在"
+    },
+    {
+        "phonogram": "ごぜん",
+        "logogram": "午前",
+        "meaning": "上午"
+    },
+    {
+        "phonogram": "ごご",
+        "logogram": "午後",
+        "meaning": "下午"
+    },
+    {
+        "phonogram": "すぎ",
+        "logogram": "過ぎ",
+        "meaning": "過了...分鐘"
+    },
+    {
+        "phonogram": "まえ",
+        "logogram": "前",
+        "meaning": "前"
+    },
+    {
+        "phonogram": "しゅっぱつ",
+        "logogram": "出発",
+        "meaning": "出發/離開"
+    },
+    {
+        "phonogram": "あさ",
+        "logogram": "朝",
+        "meaning": "早上"
+    },
+    {
+        "phonogram": "きんむ",
+        "logogram": "勤務",
+        "meaning": "工作"
+    },
+    {
+        "phonogram": "ひるやすみ",
+        "logogram": "昼休み",
+        "meaning": "午飯時間"
+    },
+    {
+        "phonogram": "ちかてつ",
+        "logogram": "地下鉄",
+        "meaning": "地鐵"
+    },
+    {
+        "phonogram": "しはつ",
+        "logogram": "始発",
+        "meaning": "頭班車"
+    },
+    {
+        "phonogram": "セントラル",
+        "logogram": "",
+        "meaning": "Central中環"
+    },
+    {
+        "phonogram": "さいしゅう",
+        "logogram": "最終",
+        "meaning": "最終的"
+    },
+    {
+        "phonogram": "よる",
+        "logogram": "夜",
+        "meaning": "夜晚（日落到日出這段黑暗的時間）"
+    },
+    {
+        "phonogram": "ばん",
+        "logogram": "晩",
+        "meaning": "晚上（日落之後到深夜之間的時間）"
+    },
+    {
+        "phonogram": "めいじ",
+        "logogram": "明治",
+        "meaning": "明治"
+    },
+    {
+        "phonogram": "たいしょう",
+        "logogram": "大正",
+        "meaning": "大正"
+    },
+    {
+        "phonogram": "しょうわ",
+        "logogram": "昭和",
+        "meaning": "昭和"
+    },
+    {
+        "phonogram": "へいせい",
+        "logogram": "平成",
+        "meaning": "平成"
+    },
+    {
+        "phonogram": "れいわ",
+        "logogram": "令和",
+        "meaning": "令和"
+    }
+]

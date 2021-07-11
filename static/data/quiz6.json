@@ -1,0 +1,132 @@
+[
+    {
+        "phonogram": "なん/なに",
+        "logogram": "何",
+        "meaning": "什麼"
+    },
+    {
+        "phonogram": "この",
+        "logogram": "",
+        "meaning": "這"
+    },
+    {
+        "phonogram": "その",
+        "logogram": "",
+        "meaning": "那"
+    },
+    {
+        "phonogram": "あの",
+        "logogram": "",
+        "meaning": "那"
+    },
+    {
+        "phonogram": "どの",
+        "logogram": "",
+        "meaning": "哪一個"
+    },
+    {
+        "phonogram": "わたし",
+        "logogram": "私",
+        "meaning": "我"
+    },
+    {
+        "phonogram": "あなた",
+        "logogram": "",
+        "meaning": "你"
+    },
+    {
+        "phonogram": "でんたく",
+        "logogram": "電卓",
+        "meaning": "計算器"
+    },
+    {
+        "phonogram": "いのうえ",
+        "logogram": "井上",
+        "meaning": "井上"
+    },
+    {
+        "phonogram": "にほんじん",
+        "logogram": "日本人",
+        "meaning": "日本人"
+    },
+    {
+        "phonogram": "ちゅうごくじん",
+        "logogram": "中国人",
+        "meaning": "中國人"
+    },
+    {
+        "phonogram": "なかがわ",
+        "logogram": "中川",
+        "meaning": "中川"
+    },
+    {
+        "phonogram": "ともだち",
+        "logogram": "友達",
+        "meaning": "朋友"
+    },
+    {
+        "phonogram": "みやした",
+        "logogram": "宮下",
+        "meaning": "宮下"
+    },
+    {
+        "phonogram": "かれ",
+        "logogram": "彼",
+        "meaning": "他"
+    },
+    {
+        "phonogram": "かのじょ",
+        "logogram": "彼女",
+        "meaning": "她"
+    },
+    {
+        "phonogram": "このひと",
+        "logogram": "この人",
+        "meaning": "這個人"
+    },
+    {
+        "phonogram": "そのひと",
+        "logogram": "その人",
+        "meaning": "那個人"
+    },
+    {
+        "phonogram": "あのひと",
+        "logogram": "あの人",
+        "meaning": "那個人（較遠）"
+    },
+    {
+        "phonogram": "どのひと",
+        "logogram": "どのひと",
+        "meaning": "哪個人"
+    },
+    {
+        "phonogram": "だれ",
+        "logogram": "誰",
+        "meaning": "誰"
+    },
+    {
+        "phonogram": "このかた",
+        "logogram": "この方",
+        "meaning": "這個人（丁寧）"
+    },
+    {
+        "phonogram": "そのかた",
+        "logogram": "その方",
+        "meaning": "那個人（丁寧）"
+    },
+    {
+        "phonogram": "あのかた",
+        "logogram": "あの方",
+        "meaning": "那個人（較遠、丁寧）"
+    },
+    {
+        "phonogram": "どのかた",
+        "logogram": "どの方",
+        "meaning": "哪個人（丁寧）"
+    },
+    {
+        "phonogram": "どなた",
+        "logogram": "",
+        "meaning": "誰（丁寧）"
+    }
+]

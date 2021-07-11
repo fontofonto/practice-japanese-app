@@ -1,0 +1,427 @@
+[
+    {
+        "phonogram": "スイス",
+        "english": "Switzerland",
+        "meaning": "瑞士"
+    },
+    {
+        "phonogram": "アメリカ",
+        "english": "America",
+        "meaning": "美國"
+    },
+    {
+        "phonogram": "リスク",
+        "english": "risk",
+        "meaning": "風險"
+    },
+    {
+        "phonogram": "ホテル",
+        "english": "hotel",
+        "meaning": "酒店"
+    },
+    {
+        "phonogram": "ミルク",
+        "english": "milk",
+        "meaning": "牛奶"
+    },
+    {
+        "phonogram": "ナイフ",
+        "english": "knife",
+        "meaning": "刀"
+    },
+    {
+        "phonogram": "カメラ",
+        "english": "camera",
+        "meaning": "相機"
+    },
+    {
+        "phonogram": "トイレ",
+        "english": "toilet",
+        "meaning": "洗手間"
+    },
+    {
+        "phonogram": "ネクタイ",
+        "english": "necktie",
+        "meaning": "領帶"
+    },
+    {
+        "phonogram": "クラス",
+        "english": "class",
+        "meaning": "班級"
+    },
+    {
+        "phonogram": "レモン",
+        "english": "lemon",
+        "meaning": "檸檬"
+    },
+    {
+        "phonogram": "インフレ",
+        "english": "inflation",
+        "meaning": "通貨膨脹"
+    },
+    {
+        "phonogram": "フランス",
+        "english": "France",
+        "meaning": "法國"
+    },
+    {
+        "phonogram": "コンタクト",
+        "english": "contact",
+        "meaning": "接觸"
+    },
+    {
+        "phonogram": "エアコン",
+        "english": "air condition",
+        "meaning": "冷氣機"
+    },
+    {
+        "phonogram": "アイロン",
+        "english": "iron",
+        "meaning": "熨斗"
+    },
+    {
+        "phonogram": "レストラン",
+        "english": "restaurant",
+        "meaning": "餐廳"
+    },
+    {
+        "phonogram": "サンフランシスコ",
+        "english": "San Francisco",
+        "meaning": "三藩市"
+    },
+    {
+        "phonogram": "バナナ",
+        "english": "Banana",
+        "meaning": "香蕉"
+    },
+    {
+        "phonogram": "テレビ",
+        "english": "TV",
+        "meaning": "電視機"
+    },
+    {
+        "phonogram": "バス",
+        "english": "Bus",
+        "meaning": "公共汽車"
+    },
+    {
+        "phonogram": "ズボン",
+        "english": "Pants",
+        "meaning": "褲子"
+    },
+    {
+        "phonogram": "ドア",
+        "english": "Door",
+        "meaning": "門"
+    },
+    {
+        "phonogram": "ビル",
+        "english": "building",
+        "meaning": "建造"
+    },
+    {
+        "phonogram": "ラジオ",
+        "english": "radio",
+        "meaning": "收音機"
+    },
+    {
+        "phonogram": "ガラス",
+        "english": "glass",
+        "meaning": "玻璃"
+    },
+    {
+        "phonogram": "ガス",
+        "english": "Gas",
+        "meaning": "氣體"
+    },
+    {
+        "phonogram": "ドライブ",
+        "english": "drive",
+        "meaning": "駕駛"
+    },
+    {
+        "phonogram": "ボタン",
+        "english": "botton",
+        "meaning": "按鈕"
+    },
+    {
+        "phonogram": "アルバイト",
+        "english": "parttime",
+        "meaning": "兼職工作"
+    },
+    {
+        "phonogram": "ビジネス",
+        "english": "business",
+        "meaning": "商業"
+    },
+    {
+        "phonogram": "ガソリン",
+        "english": "gasoline",
+        "meaning": "汽油"
+    },
+    {
+        "phonogram": "アイデア",
+        "english": "idea",
+        "meaning": "主意"
+    },
+    {
+        "phonogram": "ピアノ",
+        "english": "piano",
+        "meaning": "鋼琴"
+    },
+    {
+        "phonogram": "タイプ",
+        "english": "type",
+        "meaning": "類型"
+    },
+    {
+        "phonogram": "パイプ",
+        "english": "pipe",
+        "meaning": "管道"
+    },
+    {
+        "phonogram": "サンプル",
+        "english": "sample",
+        "meaning": "樣本"
+    },
+    {
+        "phonogram": "パン",
+        "english": "Bread",
+        "meaning": "麵包"
+    },
+    {
+        "phonogram": "ポスト",
+        "english": "post",
+        "meaning": "郵政"
+    },
+    {
+        "phonogram": "プラス",
+        "english": "plus",
+        "meaning": "加"
+    },
+    {
+        "phonogram": "パパイヤ",
+        "english": "papaya",
+        "meaning": "木瓜"
+    },
+    {
+        "phonogram": "スイッチ",
+        "english": "switch",
+        "meaning": "轉變"
+    },
+    {
+        "phonogram": "ヘルメット",
+        "english": "Helmet",
+        "meaning": "頭盔"
+    },
+    {
+        "phonogram": "ロボット",
+        "english": "robot",
+        "meaning": "機器人"
+    },
+    {
+        "phonogram": "トラック",
+        "english": "truck",
+        "meaning": "卡車"
+    },
+    {
+        "phonogram": "ピクニック",
+        "english": "picnic",
+        "meaning": "野餐"
+    },
+    {
+        "phonogram": "ネックレス",
+        "english": "necklace",
+        "meaning": "項鍊"
+    },
+    {
+        "phonogram": "チップ",
+        "english": "Chip",
+        "meaning": "芯片"
+    },
+    {
+        "phonogram": "カップ",
+        "english": "cup(for coffee)",
+        "meaning": "杯子"
+    },
+    {
+        "phonogram": "コップ",
+        "english": "cup(for juice)",
+        "meaning": "杯子"
+    },
+    {
+        "phonogram": "スリッパ",
+        "english": "slipper",
+        "meaning": "拖鞋"
+    },
+    {
+        "phonogram": "コーヒー",
+        "english": "coffee",
+        "meaning": "咖啡"
+    },
+    {
+        "phonogram": "ケーキ",
+        "english": "cake",
+        "meaning": "蛋糕"
+    },
+    {
+        "phonogram": "コンサート",
+        "english": "concert",
+        "meaning": "音樂會"
+    },
+    {
+        "phonogram": "ホームページ",
+        "english": "home page",
+        "meaning": "主頁"
+    },
+    {
+        "phonogram": "エレベーター",
+        "english": "Elevator",
+        "meaning": "電梯"
+    },
+    {
+        "phonogram": "スポーツ",
+        "english": "Sports",
+        "meaning": "體育運動"
+    },
+    {
+        "phonogram": "タクシー",
+        "english": "taxi",
+        "meaning": "的士"
+    },
+    {
+        "phonogram": "オートバイ",
+        "english": "motorcycle",
+        "meaning": "電單車"
+    },
+    {
+        "phonogram": "コピー",
+        "english": "copy",
+        "meaning": "影印，複製"
+    },
+    {
+        "phonogram": "スーパー",
+        "english": "Supermarket",
+        "meaning": "超級市場"
+    },
+    {
+        "phonogram": "パスポート",
+        "english": "passport",
+        "meaning": "護照"
+    },
+    {
+        "phonogram": "レポート",
+        "english": "Report",
+        "meaning": "報告"
+    },
+    {
+        "phonogram": "パジャマ",
+        "english": "pajamas",
+        "meaning": "睡衣"
+    },
+    {
+        "phonogram": "チャンス",
+        "english": "chance",
+        "meaning": "機會"
+    },
+    {
+        "phonogram": "ワイシャツ",
+        "english": "shirt",
+        "meaning": "襯衫"
+    },
+    {
+        "phonogram": "T-シャツ",
+        "english": "T-shirt",
+        "meaning": "T恤"
+    },
+    {
+        "phonogram": "マニュアル",
+        "english": "manual",
+        "meaning": "手動的"
+    },
+    {
+        "phonogram": "ショッピング",
+        "english": "shopping",
+        "meaning": "購物"
+    },
+    {
+        "phonogram": "チョッキ",
+        "english": "Cock",
+        "meaning": "公雞"
+    },
+    {
+        "phonogram": "フィルム",
+        "english": "the film",
+        "meaning": "電影"
+    },
+    {
+        "phonogram": "フィリピン",
+        "english": "Philippines",
+        "meaning": "菲律賓"
+    },
+    {
+        "phonogram": "パーティー",
+        "english": "party",
+        "meaning": "派對"
+    },
+    {
+        "phonogram": "ファッション",
+        "english": "fashion",
+        "meaning": "時尚"
+    },
+    {
+        "phonogram": "ファクシミリ",
+        "english": "facsimile",
+        "meaning": "傳真"
+    },
+    {
+        "phonogram": "スパゲティ",
+        "english": "Spaghetti",
+        "meaning": "意大利麵"
+    },
+    {
+        "phonogram": "フォーク",
+        "english": "fork",
+        "meaning": "叉"
+    },
+    {
+        "phonogram": "チェックイン",
+        "english": "check in",
+        "meaning": "報到"
+    },
+    {
+        "phonogram": "ファイル",
+        "english": "File",
+        "meaning": "文件"
+    },
+    {
+        "phonogram": "ジュース",
+        "english": "juice",
+        "meaning": "果汁"
+    },
+    {
+        "phonogram": "ニュース",
+        "english": "news",
+        "meaning": "消息"
+    },
+    {
+        "phonogram": "コンピューター",
+        "english": "computer",
+        "meaning": "電腦"
+    },
+    {
+        "phonogram": "スケジュール",
+        "english": "Schedule",
+        "meaning": "日程"
+    },
+    {
+        "phonogram": "インタビュー",
+        "english": "interview",
+        "meaning": "面試"
+    },
+    {
+        "phonogram": "ショールーム",
+        "english": "showroom",
+        "meaning": "陳列室"
+    }
+]

@@ -1,4 +1,9 @@
 export default {
+  // Define the server connection variables for your application inside
+  server: {
+    host: '0.0.0.0', // default: localhost,
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -31,7 +36,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-      'nuxt-windicss',
+    'nuxt-windicss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -1,0 +1,72 @@
+[
+    {
+        "phonogram": "おてあらい",
+        "logogram": "お手洗い",
+        "meaning": "衛生間"
+    },
+    {
+        "phonogram": "ちん",
+        "logogram": "陳",
+        "meaning": "陳"
+    },
+    {
+        "phonogram": "シー．アイ．エフ",
+        "logogram": "",
+        "meaning": "CIF（貿易詞語）"
+    },
+    {
+        "phonogram": "エフ．オー．ビー",
+        "logogram": "",
+        "meaning": "FOB（貿易詞語）"
+    },
+    {
+        "phonogram": "かかく",
+        "logogram": "価格",
+        "meaning": "價格"
+    },
+    {
+        "phonogram": "スミス",
+        "logogram": "",
+        "meaning": "Smiths"
+    },
+    {
+        "phonogram": "イギリスじん",
+        "logogram": "イギリス人",
+        "meaning": "英國人"
+    },
+    {
+        "phonogram": "アメリカじん",
+        "logogram": "アメリカ人",
+        "meaning": "美國人"
+    },
+    {
+        "phonogram": "きのう",
+        "logogram": "昨日",
+        "meaning": "昨天"
+    },
+    {
+        "phonogram": "きょう",
+        "logogram": "今日",
+        "meaning": "今天"
+    },
+    {
+        "phonogram": "あした",
+        "logogram": "明日",
+        "meaning": "明天"
+    },
+    {
+        "phonogram": "まえさわ",
+        "logogram": "前沢",
+        "meaning": "前沢"
+    },
+    {
+        "phonogram": "ぶちょう",
+        "logogram": "部長",
+        "meaning": "部長"
+    },
+    {
+        "phonogram": "だいり",
+        "logogram": "代理",
+        "meaning": "代理"
+    }
+]

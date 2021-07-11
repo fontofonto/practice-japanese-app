@@ -1,0 +1,92 @@
+[
+    {
+        "phonogram": "これ",
+        "logogram": "",
+        "meaning": "這"
+    },
+    {
+        "phonogram": "それ",
+        "logogram": "",
+        "meaning": "它"
+    },
+    {
+        "phonogram": "あれ",
+        "logogram": "",
+        "meaning": "那"
+    },
+    {
+        "phonogram": "どれ",
+        "logogram": "",
+        "meaning": "哪一個"
+    },
+    {
+        "phonogram": "つくえ",
+        "logogram": "机",
+        "meaning": "桌子"
+    },
+    {
+        "phonogram": "けしごむ",
+        "logogram": "消しゴム",
+        "meaning": "橡皮"
+    },
+    {
+        "phonogram": "しゅうせいえき",
+        "logogram": "修正液",
+        "meaning": "塗改液"
+    },
+    {
+        "phonogram": "ごみばこ",
+        "logogram": "ごみ箱",
+        "meaning": "垃圾箱"
+    },
+    {
+        "phonogram": "ほん",
+        "logogram": "本",
+        "meaning": "書"
+    },
+    {
+        "phonogram": "ざっし",
+        "logogram": "雑誌",
+        "meaning": "雜誌"
+    },
+    {
+        "phonogram": "しんぶん",
+        "logogram": "新聞",
+        "meaning": "報紙"
+    },
+    {
+        "phonogram": "せんぷうき",
+        "logogram": "扇風機",
+        "meaning": "扇子"
+    },
+    {
+        "phonogram": "かばん",
+        "logogram": "",
+        "meaning": "包"
+    },
+    {
+        "phonogram": "まど",
+        "logogram": "窓",
+        "meaning": "窗戶"
+    },
+    {
+        "phonogram": "えいがかん",
+        "logogram": "映画館",
+        "meaning": "電影院"
+    },
+    {
+        "phonogram": "ぎんこう",
+        "logogram": "銀行",
+        "meaning": "銀行"
+    },
+    {
+        "phonogram": "きょうかしょ",
+        "logogram": "教科書",
+        "meaning": "教科書"
+    },
+    {
+        "phonogram": "じしょ",
+        "logogram": "辞書",
+        "meaning": "字典"
+    }
+]

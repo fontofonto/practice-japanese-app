@@ -1,0 +1,397 @@
+[
+    {
+        "phonogram": "め",
+        "logogram": "目",
+        "meaning": "眼睛"
+    },
+    {
+        "phonogram": "て",
+        "logogram": "手",
+        "meaning": "手"
+    },
+    {
+        "phonogram": "あし",
+        "logogram": "足",
+        "meaning": "腿"
+    },
+    {
+        "phonogram": "くち",
+        "logogram": "口",
+        "meaning": "嘴"
+    },
+    {
+        "phonogram": "みみ",
+        "logogram": "耳",
+        "meaning": "耳朵"
+    },
+    {
+        "phonogram": "わたし",
+        "logogram": "私",
+        "meaning": "一世"
+    },
+    {
+        "phonogram": "あなた",
+        "logogram": "貴方",
+        "meaning": "你"
+    },
+    {
+        "phonogram": "えき",
+        "logogram": "駅",
+        "meaning": "車站"
+    },
+    {
+        "phonogram": "うえ",
+        "logogram": "上",
+        "meaning": "向上"
+    },
+    {
+        "phonogram": "した",
+        "logogram": "下",
+        "meaning": "在下面"
+    },
+    {
+        "phonogram": "いぬ",
+        "logogram": "犬",
+        "meaning": "狗"
+    },
+    {
+        "phonogram": "ねこ",
+        "logogram": "猫",
+        "meaning": "貓"
+    },
+    {
+        "phonogram": "さかな",
+        "logogram": "魚",
+        "meaning": "魚"
+    },
+    {
+        "phonogram": "うし",
+        "logogram": "牛",
+        "meaning": "牛"
+    },
+    {
+        "phonogram": "とら",
+        "logogram": "虎",
+        "meaning": "老虎"
+    },
+    {
+        "phonogram": "かんたん",
+        "logogram": "簡単",
+        "meaning": "簡單的"
+    },
+    {
+        "phonogram": "にほん",
+        "logogram": "日本",
+        "meaning": "日本"
+    },
+    {
+        "phonogram": "てんき",
+        "logogram": "天気",
+        "meaning": "天氣"
+    },
+    {
+        "phonogram": "はんたい",
+        "logogram": "反対",
+        "meaning": "對面的"
+    },
+    {
+        "phonogram": "いけん",
+        "logogram": "意見",
+        "meaning": "觀點"
+    },
+    {
+        "phonogram": "あんない",
+        "logogram": "案内",
+        "meaning": "指導"
+    },
+    {
+        "phonogram": "ほんね",
+        "logogram": "本音",
+        "meaning": "主聲"
+    },
+    {
+        "phonogram": "さいきん",
+        "logogram": "最近",
+        "meaning": "最近"
+    },
+    {
+        "phonogram": "おんな",
+        "logogram": "女",
+        "meaning": "女士"
+    },
+    {
+        "phonogram": "てがみ",
+        "logogram": "手紙",
+        "meaning": "信件"
+    },
+    {
+        "phonogram": "だれ",
+        "logogram": "誰",
+        "meaning": "WHO"
+    },
+    {
+        "phonogram": "じびき",
+        "logogram": "字引",
+        "meaning": "字典"
+    },
+    {
+        "phonogram": "せびろ",
+        "logogram": "背広",
+        "meaning": "套裝"
+    },
+    {
+        "phonogram": "のど",
+        "logogram": "喉",
+        "meaning": "喉"
+    },
+    {
+        "phonogram": "ゆび",
+        "logogram": "指",
+        "meaning": "手指"
+    },
+    {
+        "phonogram": "だいがく",
+        "logogram": "大学",
+        "meaning": "大學"
+    },
+    {
+        "phonogram": "あじ",
+        "logogram": "味",
+        "meaning": "品嚐"
+    },
+    {
+        "phonogram": "うさぎ",
+        "logogram": "兎",
+        "meaning": "兔子"
+    },
+    {
+        "phonogram": "ねずみ",
+        "logogram": "鼠",
+        "meaning": "鼠"
+    },
+    {
+        "phonogram": "かぜ",
+        "logogram": "風",
+        "meaning": "風"
+    },
+    {
+        "phonogram": "ざんねん",
+        "logogram": "残念",
+        "meaning": "遺憾，抱歉"
+    },
+    {
+        "phonogram": "てんぷら",
+        "logogram": "天麩羅",
+        "meaning": "香味"
+    },
+    {
+        "phonogram": "さんぽ",
+        "logogram": "散歩",
+        "meaning": "走"
+    },
+    {
+        "phonogram": "えんぴつ",
+        "logogram": "鉛筆",
+        "meaning": "鉛筆"
+    },
+    {
+        "phonogram": "かんぺき",
+        "logogram": "完璧",
+        "meaning": "完美的"
+    },
+    {
+        "phonogram": "たんぽぽ",
+        "logogram": "",
+        "meaning": "蒲公英"
+    },
+    {
+        "phonogram": "たんぱく",
+        "logogram": "蛋白",
+        "meaning": "蛋白質"
+    },
+    {
+        "phonogram": "まっすぐ",
+        "logogram": "",
+        "meaning": "直的"
+    },
+    {
+        "phonogram": "きって",
+        "logogram": "切手",
+        "meaning": "郵票"
+    },
+    {
+        "phonogram": "こぎって",
+        "logogram": "小切手",
+        "meaning": "查看"
+    },
+    {
+        "phonogram": "ぶっか",
+        "logogram": "物価",
+        "meaning": "價格"
+    },
+    {
+        "phonogram": "ゆっくり",
+        "logogram": "",
+        "meaning": "慢慢地"
+    },
+    {
+        "phonogram": "けっこん",
+        "logogram": "結婚",
+        "meaning": "婚姻"
+    },
+    {
+        "phonogram": "きっぷ",
+        "logogram": "切符",
+        "meaning": "票"
+    },
+    {
+        "phonogram": "いっぱい",
+        "logogram": "一杯",
+        "meaning": "一杯"
+    },
+    {
+        "phonogram": "ざっぴ",
+        "logogram": "雑費",
+        "meaning": "雜項開支"
+    },
+    {
+        "phonogram": "おかあさん",
+        "logogram": "お母さん",
+        "meaning": "媽媽"
+    },
+    {
+        "phonogram": "おばあさん",
+        "logogram": "お婆さん",
+        "meaning": "祖母"
+    },
+    {
+        "phonogram": "おにいさん",
+        "logogram": "お兄さん",
+        "meaning": "兄弟"
+    },
+    {
+        "phonogram": "おじいさん",
+        "logogram": "お爺さん",
+        "meaning": "祖父"
+    },
+    {
+        "phonogram": "すうじ",
+        "logogram": "数字",
+        "meaning": "數字"
+    },
+    {
+        "phonogram": "ふうふ",
+        "logogram": "夫婦",
+        "meaning": "夫妻"
+    },
+    {
+        "phonogram": "おねえさん",
+        "logogram": "お姉さん",
+        "meaning": "姐姐"
+    },
+    {
+        "phonogram": "せんせい",
+        "logogram": "先生",
+        "meaning": "老師"
+    },
+    {
+        "phonogram": "とおり",
+        "logogram": "通り",
+        "meaning": "街道"
+    },
+    {
+        "phonogram": "おとうさん",
+        "logogram": "お父さん",
+        "meaning": "父親"
+    },
+    {
+        "phonogram": "きゃくま",
+        "logogram": "客間",
+        "meaning": "招待"
+    },
+    {
+        "phonogram": "おちゃ",
+        "logogram": "お茶",
+        "meaning": "茶"
+    },
+    {
+        "phonogram": "しゃしん",
+        "logogram": "写真",
+        "meaning": "照片"
+    },
+    {
+        "phonogram": "しゅみ",
+        "logogram": "趣味",
+        "meaning": "愛好"
+    },
+    {
+        "phonogram": "しんじゅ",
+        "logogram": "真珠",
+        "meaning": "珍珠"
+    },
+    {
+        "phonogram": "じゅんび",
+        "logogram": "準備",
+        "meaning": "準備"
+    },
+    {
+        "phonogram": "りょこう",
+        "logogram": "旅行",
+        "meaning": "旅行"
+    },
+    {
+        "phonogram": "しょくじ",
+        "logogram": "食事",
+        "meaning": "一頓飯"
+    },
+    {
+        "phonogram": "ちょきん",
+        "logogram": "貯金",
+        "meaning": "儲蓄"
+    },
+    {
+        "phonogram": "とうきょう",
+        "logogram": "東京",
+        "meaning": "東京"
+    },
+    {
+        "phonogram": "しょうばい",
+        "logogram": "商売",
+        "meaning": "商業"
+    },
+    {
+        "phonogram": "はっぴょう",
+        "logogram": "発表",
+        "meaning": "公告"
+    },
+    {
+        "phonogram": "ちょうさ",
+        "logogram": "調査",
+        "meaning": "研究"
+    },
+    {
+        "phonogram": "ひょうばん",
+        "logogram": "評判",
+        "meaning": "名聲"
+    },
+    {
+        "phonogram": "ざいりょう",
+        "logogram": "材料",
+        "meaning": "材料"
+    },
+    {
+        "phonogram": "しゅうにゅう",
+        "logogram": "収入",
+        "meaning": "收入"
+    },
+    {
+        "phonogram": "きゅうよう",
+        "logogram": "急用",
+        "meaning": "急事"
+    },
+    {
+        "phonogram": "しゅうかんし",
+        "logogram": "週刊誌",
+        "meaning": "每週雜誌"
+    }
+]
