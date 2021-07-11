@@ -1,18 +1,119 @@
 <template>
-  <div>
-    <NuxtLink to="/">Back</NuxtLink>
-    <h1>Quiz {{ slug }}</h1>
-    <h2>{{ $store.state.googleSheetPages[slug - 1].title }}</h2>
-
-    <div class="w-full">
+  <div class="w-screen h-full max-h-fill-available flex flex-col">
+    <div class="navigation fixed top-0 left-0 w-full bg-blue-500 py-2 px-6">
+      <NuxtLink to="/" class="px-1 py-2 inline-flex space-x-2 text-white">
+        <span class="material-icons text-white"> arrow_back </span>
+        <span class="text-white">返回</span>
+      </NuxtLink>
+    </div>
+    <div
+      class="intro-page flex-grow flex justify-center items-center px-4"
+      v-if="mode === 'intro'"
+    >
       <div
-        class="flex"
-        v-for="(word, index) in googleSheetJson"
-        :key="`word${index}`"
+        class="
+          flex flex-col
+          justify-center
+          items-center
+          w-full
+          px-10
+          py-6
+          bg-blue-gray-100
+          rounded-3xl
+        "
       >
-        <span class="w-1/3">{{ word.phonogram }} </span>
-        <span class="w-1/3">{{ word.logogram }} </span>
-        <span class="w-1/3">{{ word.meaning }} </span>
+        <h1
+          class="
+            text-lg text-red-400
+            font-japanese font-bold
+            mb-2
+            whitespace-nowrap
+          "
+        >
+          試験 {{ slug }}
+        </h1>
+        <h2
+          class="
+            text-2xl text-blue-gray-800
+            font-japanese font-semibold
+            mb-12
+            whitespace-nowrap
+          "
+        >
+          {{ $store.state.googleSheetPages[slug - 1].title }}
+        </h2>
+        <button class="button w-full" @click="initializeQuiz">開始</button>
+      </div>
+    </div>
+
+    <div
+      class="quiz-page w-full flex-grow flex flex-col px-4 pt-56px"
+      v-else-if="mode === 'quiz'"
+    >
+      <div class="quiz-detail flex flex-col my-4 p-4 border rounded-2xl">
+        <p class="text-blue-gray-800 font-semibold text-xl">
+          分數： {{ score }} / {{ totalScore }}
+        </p>
+        <div class="indicator w-full flex flex-row space-x-2 mt-2">
+          <div
+            v-for="(question, questionIndex) in questionList"
+            :key="`indicator${questionIndex}`"
+            class="flex-grow h-2 rounded-full border transition"
+            :class="{
+              'bg-green-500 border-none': question.isCorrect === true,
+              'bg-red-500 border-none': question.isCorrect === false,
+            }"
+          ></div>
+        </div>
+      </div>
+      <div
+        v-for="(question, questionIndex) in questionList"
+        :key="`word${questionIndex}`"
+        :class="{ 'flex flex-grow items-center': questionIndex === round }"
+      >
+        <QuestionCard
+          v-if="questionIndex === round"
+          :question="question"
+          :questionIndex="questionIndex"
+          :totalNumberOfQuestions="questionList.length"
+          @answered="answerQuestion"
+          @nextQuestion="nextQuestion"
+        ></QuestionCard>
+      </div>
+    </div>
+
+    <div
+      class="result-page flex-grow flex justify-center items-center px-4"
+      v-else-if="mode === 'result'"
+    >
+      <div
+        class="
+          w-full
+          flex flex-col
+          justify-center
+          items-center
+          px-10
+          py-6
+          bg-gray-100
+          rounded-3xl
+        "
+      >
+        <p
+          class="
+            text-blue-gray-800
+            font-semibold
+            text-xl
+            my-6
+            font-japanese
+            whitespace-nowrap
+          "
+        >
+          分數： {{ score }} / {{ totalScore }}
+        </p>
+        <button class="button w-full my-2" @click="initializeQuiz">
+          再來一次
+        </button>
+        <NuxtLink to="/" class="button w-full my-2">返回目錄</NuxtLink>
       </div>
     </div>
   </div>
@@ -20,22 +121,120 @@
 
 <script>
 export default {
-  data() {
+  head() {
     return {
-      googleSheetJson: {},
+      title: this.$store.state.googleSheetPages[this.slug - 1].title,
     };
   },
   async asyncData({ params }) {
+    // get the dynamic route
     const slug = params.slug; // When calling /abc the slug will be "abc"
     return { slug };
   },
   async fetch() {
+    // fetch the corresponding word bank
     this.googleSheetJson = await fetch("/data/quiz" + this.slug + ".json").then(
       (res) => {
         console.log(res);
         return res.json();
       }
     );
+  },
+  data() {
+    return {
+      googleSheetJson: [],
+      questionList: [],
+      mode: "intro",
+      round: 0,
+      score: 0,
+    };
+  },
+  // watch: {
+  //   googleSheetJson: function (newValue) {
+  //     if (newValue.length > 0) {
+  //       this.generateQuestions();
+  //     }
+  //   },
+  // },
+  computed: {
+    totalScore: function () {
+      return this.questionList.length;
+    },
+  },
+  methods: {
+    initializeQuiz() {
+      // reset the variable
+      this.round = 0;
+      this.score = 0;
+      this.questionList = [];
+
+      // generate questions
+      this.generateQuestions();
+
+      // change mode
+      this.mode = "quiz";
+    },
+    generateQuestions() {
+      const totalNumberOfWords = this.googleSheetJson.length;
+      for (let i = 0; i < 10; i++) {
+        // step 1: random select the word in word bank
+        const wordIndex = Math.round(Math.random() * (totalNumberOfWords - 1));
+        let selectedWord = { ...this.googleSheetJson[wordIndex] };
+
+        // step 2: generate question, choices and answer
+        selectedWord.choices = [];
+        let choiceIndexList = [wordIndex];
+        // randomly pick 3 words which isn't equal to the answer
+        while (selectedWord.choices.length < 3) {
+          const choiceIndex = Math.round(
+            Math.random() * (totalNumberOfWords - 1)
+          );
+          if (
+            !choiceIndexList.includes(choiceIndex) &&
+            this.googleSheetJson[choiceIndex].meaning !== selectedWord.meaning
+          ) {
+            choiceIndexList.push(choiceIndex);
+            selectedWord.choices.push(
+              this.googleSheetJson[choiceIndex].meaning
+            );
+          }
+        }
+        selectedWord.choices.push(selectedWord.meaning);
+        selectedWord.choices = this.$lodash.shuffle(selectedWord.choices);
+
+        // step 3: add flags
+        selectedWord.isAnswered = false;
+        selectedWord.isCorrect = null;
+
+        this.questionList.push(selectedWord);
+      }
+    },
+    answerQuestion(payload) {
+      let questionIndex = payload.questionIndex;
+      let decision = payload.decision;
+
+      // disable answering the question
+      this.questionList[questionIndex].isAnswered = true;
+
+      // check the choice is matching the meaning
+      if (decision === this.questionList[questionIndex].meaning) {
+        this.questionList[questionIndex].isCorrect = true;
+        this.score += 1;
+      } else {
+        this.questionList[questionIndex].isCorrect = false;
+      }
+    },
+    nextQuestion() {
+      if (this.round < this.questionList.length) {
+        this.round += 1;
+      }
+      if (this.round === this.questionList.length) {
+        this.mode = "result";
+      }
+    },
+  },
+  mounted() {
+    // this.generateQuestions();
   },
 };
 </script>

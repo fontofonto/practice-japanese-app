@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div class="w-screen h-screen max-h-fill-available overflow-auto">
     <Nuxt />
   </div>
 </template>
 
 <style lang="postcss">
 html {
+  @apply h-fill-available;
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -17,10 +18,22 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  @apply min-h-screen min-h-fill-available;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+* {
+  @apply text-blue-gray-800;
+}
+
+.button {
+  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-japanese font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
 }
 </style>
