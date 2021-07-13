@@ -1,650 +1,890 @@
 [
     {
-        "phonogram": "スイス",
-        "meaning": "Switzerland"
-    },
-    {
-        "phonogram": "アメリカ",
-        "meaning": "America"
-    },
-    {
-        "phonogram": "リスク",
-        "meaning": "risk"
-    },
-    {
-        "phonogram": "ホテル",
-        "meaning": "hotel"
-    },
-    {
-        "phonogram": "ミルク",
-        "meaning": "milk"
-    },
-    {
-        "phonogram": "ナイフ",
-        "meaning": "knife"
-    },
-    {
-        "phonogram": "カメラ",
-        "meaning": "camera"
-    },
-    {
-        "phonogram": "トイレ",
-        "meaning": "toilet"
-    },
-    {
-        "phonogram": "ネクタイ",
-        "meaning": "necktie"
-    },
-    {
-        "phonogram": "クラス",
-        "meaning": "class"
-    },
-    {
-        "phonogram": "レモン",
-        "meaning": "lemon"
-    },
-    {
-        "phonogram": "インフレ",
-        "meaning": "inflation"
-    },
-    {
-        "phonogram": "フランス",
-        "meaning": "France"
-    },
-    {
-        "phonogram": "コンタクト",
-        "meaning": "contact"
-    },
-    {
-        "phonogram": "エアコン",
-        "meaning": "air condition"
-    },
-    {
-        "phonogram": "アイロン",
-        "meaning": "iron"
-    },
-    {
-        "phonogram": "レストラン",
-        "meaning": "restaurant"
-    },
-    {
-        "phonogram": "サンフランシスコ",
-        "meaning": "San Francisco"
-    },
-    {
-        "phonogram": "バナナ",
-        "meaning": "Banana"
-    },
-    {
-        "phonogram": "テレビ",
-        "meaning": "TV"
-    },
-    {
-        "phonogram": "バス",
-        "meaning": "Bus"
-    },
-    {
-        "phonogram": "ズボン",
-        "meaning": "Pants"
-    },
-    {
-        "phonogram": "ドア",
-        "meaning": "Door"
-    },
-    {
-        "phonogram": "ビル",
-        "meaning": "building"
-    },
-    {
-        "phonogram": "ラジオ",
-        "meaning": "radio"
-    },
-    {
-        "phonogram": "ガラス",
-        "meaning": "glass"
-    },
-    {
-        "phonogram": "ガス",
-        "meaning": "Gas"
-    },
-    {
-        "phonogram": "ドライブ",
-        "meaning": "drive"
-    },
-    {
-        "phonogram": "ボタン",
-        "meaning": "botton"
-    },
-    {
-        "phonogram": "アルバイト",
-        "meaning": "parttime"
-    },
-    {
-        "phonogram": "ビジネス",
-        "meaning": "business"
-    },
-    {
-        "phonogram": "ガソリン",
-        "meaning": "gasoline"
-    },
-    {
-        "phonogram": "アイデア",
-        "meaning": "idea"
-    },
-    {
-        "phonogram": "ピアノ",
-        "meaning": "piano"
-    },
-    {
-        "phonogram": "タイプ",
-        "meaning": "type"
-    },
-    {
-        "phonogram": "パイプ",
-        "meaning": "pipe"
-    },
-    {
-        "phonogram": "サンプル",
-        "meaning": "sample"
-    },
-    {
-        "phonogram": "パン",
-        "meaning": "Bread"
-    },
-    {
-        "phonogram": "ポスト",
-        "meaning": "post"
-    },
-    {
-        "phonogram": "プラス",
-        "meaning": "plus"
-    },
-    {
-        "phonogram": "パパイヤ",
-        "meaning": "papaya"
-    },
-    {
-        "phonogram": "スイッチ",
-        "meaning": "switch"
-    },
-    {
-        "phonogram": "ヘルメット",
-        "meaning": "Helmet"
-    },
-    {
-        "phonogram": "ロボット",
-        "meaning": "robot"
-    },
-    {
-        "phonogram": "トラック",
-        "meaning": "truck"
-    },
-    {
-        "phonogram": "ピクニック",
-        "meaning": "picnic"
-    },
-    {
-        "phonogram": "ネックレス",
-        "meaning": "necklace"
-    },
-    {
-        "phonogram": "チップ",
-        "meaning": "Chip"
-    },
-    {
-        "phonogram": "カップ",
-        "meaning": "cup(for coffee)"
-    },
-    {
-        "phonogram": "コップ",
-        "meaning": "cup(for juice)"
-    },
-    {
-        "phonogram": "スリッパ",
-        "meaning": "slipper"
-    },
-    {
-        "phonogram": "コーヒー",
-        "meaning": "coffee"
-    },
-    {
-        "phonogram": "ケーキ",
-        "meaning": "cake"
-    },
-    {
-        "phonogram": "コンサート",
-        "meaning": "concert"
-    },
-    {
-        "phonogram": "ホームページ",
-        "meaning": "home page"
-    },
-    {
-        "phonogram": "エレベーター",
-        "meaning": "Elevator"
-    },
-    {
-        "phonogram": "スポーツ",
-        "meaning": "Sports"
-    },
-    {
-        "phonogram": "タクシー",
-        "meaning": "taxi"
-    },
-    {
-        "phonogram": "オートバイ",
-        "meaning": "motorcycle"
-    },
-    {
-        "phonogram": "コピー",
-        "meaning": "copy"
-    },
-    {
-        "phonogram": "スーパー",
-        "meaning": "Supermarket"
-    },
-    {
-        "phonogram": "パスポート",
-        "meaning": "passport"
-    },
-    {
-        "phonogram": "レポート",
-        "meaning": "Report"
-    },
-    {
-        "phonogram": "パジャマ",
-        "meaning": "pajamas"
-    },
-    {
-        "phonogram": "チャンス",
-        "meaning": "chance"
-    },
-    {
-        "phonogram": "ワイシャツ",
-        "meaning": "shirt"
-    },
-    {
-        "phonogram": "T-シャツ",
-        "meaning": "T-shirt"
-    },
-    {
-        "phonogram": "マニュアル",
-        "meaning": "manual"
-    },
-    {
-        "phonogram": "ショッピング",
-        "meaning": "shopping"
-    },
-    {
-        "phonogram": "チョッキ",
-        "meaning": "Cock"
-    },
-    {
-        "phonogram": "フィルム",
-        "meaning": "the film"
-    },
-    {
-        "phonogram": "フィリピン",
-        "meaning": "Philippines"
-    },
-    {
-        "phonogram": "パーティー",
-        "meaning": "party"
-    },
-    {
-        "phonogram": "ファッション",
-        "meaning": "fashion"
-    },
-    {
-        "phonogram": "ファクシミリ",
-        "meaning": "facsimile"
-    },
-    {
-        "phonogram": "スパゲティ",
-        "meaning": "Spaghetti"
-    },
-    {
-        "phonogram": "フォーク",
-        "meaning": "fork"
-    },
-    {
-        "phonogram": "チェックイン",
-        "meaning": "check in"
-    },
-    {
-        "phonogram": "ファイル",
-        "meaning": "File"
-    },
-    {
-        "phonogram": "ジュース",
-        "meaning": "juice"
-    },
-    {
-        "phonogram": "ニュース",
-        "meaning": "news"
-    },
-    {
-        "phonogram": "コンピューター",
-        "meaning": "computer"
-    },
-    {
-        "phonogram": "スケジュール",
-        "meaning": "Schedule"
-    },
-    {
-        "phonogram": "インタビュー",
-        "meaning": "interview"
-    },
-    {
-        "phonogram": "ショールーム",
-        "meaning": "showroom"
-    },
-    {
-        "phonogram": "ノート",
-        "meaning": "Note"
-    },
-    {
-        "phonogram": "クーラー",
-        "meaning": "cooler"
-    },
-    {
-        "phonogram": "デパート",
-        "meaning": "Department store"
-    },
-    {
-        "phonogram": "キウイ",
-        "meaning": "Kiwi"
-    },
-    {
-        "phonogram": "ココア",
-        "meaning": "cocoa"
-    },
-    {
-        "phonogram": "エプロン",
-        "meaning": "apron 圍裙"
-    },
-    {
-        "phonogram": "オレンジ",
-        "meaning": "Orange"
-    },
-    {
-        "phonogram": "サーカス",
-        "meaning": "Circus"
-    },
-    {
-        "phonogram": "クッキー",
-        "meaning": "cookie"
-    },
-    {
-        "phonogram": "カラオケ",
-        "meaning": "karaoke"
-    },
-    {
-        "phonogram": "コピー",
-        "meaning": "copy"
-    },
-    {
-        "phonogram": "サングラス",
-        "meaning": "sunglasses"
-    },
-    {
-        "phonogram": "スキー",
-        "meaning": "Ski"
-    },
-    {
-        "phonogram": "シーソー",
-        "meaning": "seesaw"
-    },
-    {
-        "phonogram": "セーター",
-        "meaning": "sweater"
-    },
-    {
-        "phonogram": "キス",
-        "meaning": "kiss"
-    },
-    {
-        "phonogram": "アイスクリーム",
-        "meaning": "ice cream"
-    },
-    {
-        "phonogram": "ギター",
-        "meaning": "guitar"
-    },
-    {
-        "phonogram": "ポテト",
-        "meaning": "potato"
-    },
-    {
-        "phonogram": "スカート",
-        "meaning": "skirt"
-    },
-    {
-        "phonogram": "ドーナツ",
-        "meaning": "donut"
-    },
-    {
-        "phonogram": "チーズ",
-        "meaning": "cheese"
-    },
-    {
-        "phonogram": "ピーナッツ",
-        "meaning": "Peanut"
-    },
-    {
-        "phonogram": "ノック",
-        "meaning": "knock"
-    },
-    {
-        "phonogram": "スニーカー",
-        "meaning": "sneakers"
-    },
-    {
-        "phonogram": "カップヌードル",
-        "meaning": "Cup Noodles"
+        "phonogram": "しゅくじつ",
+        "logogram": "祝日",
+        "meaning": "公眾假期",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "たんじょうび",
+        "logogram": "誕生日",
+        "meaning": "生日",
+        "type": "名詞"
     },
     {
         "phonogram": "テスト",
-        "meaning": "test"
+        "logogram": "",
+        "meaning": "測驗",
+        "type": "名詞"
     },
     {
-        "phonogram": "テニス",
-        "meaning": "tennis"
+        "phonogram": "きまつしけん",
+        "logogram": "期末試験",
+        "meaning": "期末考試",
+        "type": "名詞"
     },
     {
-        "phonogram": "ハンカチ",
-        "meaning": "handkerchief"
+        "phonogram": "ここ",
+        "logogram": "",
+        "meaning": "這裡（說話者）",
+        "type": "場所代名詞"
     },
     {
-        "phonogram": "ホーム",
-        "meaning": "home"
+        "phonogram": "そこ",
+        "logogram": "",
+        "meaning": "那裡（聽話者）",
+        "type": "場所代名詞"
     },
     {
-        "phonogram": "ヒーロー",
-        "meaning": "Hero"
+        "phonogram": "あそこ",
+        "logogram": "",
+        "meaning": "那裡（較遠）",
+        "type": "場所代名詞"
     },
     {
-        "phonogram": "ハム",
-        "meaning": "Ham"
+        "phonogram": "どこ",
+        "logogram": "",
+        "meaning": "哪裡",
+        "type": "名詞"
     },
     {
-        "phonogram": "ミニバス",
-        "meaning": "Minibus"
+        "phonogram": "ごみばこ",
+        "logogram": "ごみ箱",
+        "meaning": "垃圾桶",
+        "type": "名詞"
     },
     {
-        "phonogram": "メロン",
-        "meaning": "melon"
+        "phonogram": "ふきん",
+        "logogram": "付近",
+        "meaning": "附近",
+        "type": "名詞"
     },
     {
-        "phonogram": "マイク",
-        "meaning": "Microphone"
+        "phonogram": "ちゅうしゃじょう",
+        "logogram": "駐車場",
+        "meaning": "停車場",
+        "type": "名詞"
     },
     {
-        "phonogram": "メモ",
-        "meaning": "Note"
+        "phonogram": "ほんや",
+        "logogram": "本屋",
+        "meaning": "書店",
+        "type": "名詞"
     },
     {
-        "phonogram": "クレヨン",
-        "meaning": "crayon"
+        "phonogram": "にほんご",
+        "logogram": "日本語",
+        "meaning": "日文",
+        "type": "名詞"
     },
     {
-        "phonogram": "タイヤ",
-        "meaning": "tire"
+        "phonogram": "りょうりてん",
+        "logogram": "料理店",
+        "meaning": "餐廳",
+        "type": "名詞"
     },
     {
-        "phonogram": "ユニコーン",
-        "meaning": "unicorn"
+        "phonogram": "いえ",
+        "logogram": "家",
+        "meaning": "家",
+        "type": "名詞"
     },
     {
-        "phonogram": "アニメ",
-        "meaning": "Anime"
+        "phonogram": "うち",
+        "logogram": "家",
+        "meaning": "家",
+        "type": "名詞"
     },
     {
-        "phonogram": "トマト",
-        "meaning": "tomato"
+        "phonogram": "いぬ",
+        "logogram": "犬",
+        "meaning": "狗",
+        "type": "名詞"
     },
     {
-        "phonogram": "ロケット",
-        "meaning": "rocket"
+        "phonogram": "ねこ",
+        "logogram": "猫",
+        "meaning": "貓",
+        "type": "名詞"
     },
     {
-        "phonogram": "ライオン",
-        "meaning": "Lion"
+        "phonogram": "かいしゃ",
+        "logogram": "会社",
+        "meaning": "公司",
+        "type": "名詞"
     },
     {
-        "phonogram": "リボン",
-        "meaning": "ribbon"
+        "phonogram": "がいこくじん",
+        "logogram": "外国人",
+        "meaning": "外國人",
+        "type": "名詞"
     },
     {
-        "phonogram": "プール",
-        "meaning": "Pool"
+        "phonogram": "しゃいん",
+        "logogram": "社員",
+        "meaning": "員工",
+        "type": "名詞"
     },
     {
-        "phonogram": "ハワイ",
-        "meaning": "Hawaii"
+        "phonogram": "がっこう",
+        "logogram": "学校",
+        "meaning": "學校",
+        "type": "名詞"
     },
     {
-        "phonogram": "ホンコン",
-        "meaning": "Honkon"
+        "phonogram": "せんせい",
+        "logogram": "先生",
+        "meaning": "老師",
+        "type": "名詞"
     },
     {
-        "phonogram": "リモコン",
-        "meaning": "Remote controller"
+        "phonogram": "となり",
+        "logogram": "隣",
+        "meaning": "旁邊",
+        "type": "名詞"
     },
     {
-        "phonogram": "テント",
-        "meaning": "tent"
+        "phonogram": "すこし",
+        "logogram": "少し",
+        "meaning": "很少",
+        "type": "副詞"
     },
     {
-        "phonogram": "インク",
-        "meaning": "ink"
+        "phonogram": "たくさん",
+        "logogram": "",
+        "meaning": "很多（事物）",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "おおぜい",
+        "logogram": "大勢",
+        "meaning": "很多（人）",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "どのくらい",
+        "logogram": "",
+        "meaning": "幾多",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "みせ",
+        "logogram": "店",
+        "meaning": "店鋪",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "たまご",
+        "logogram": "卵",
+        "meaning": "蛋",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "にく",
+        "logogram": "肉",
+        "meaning": "肉",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "エレベーター",
+        "logogram": "",
+        "meaning": "電梯",
+        "type": "名詞"
     },
     {
         "phonogram": "レモン",
-        "meaning": "lemon"
+        "logogram": "",
+        "meaning": "檸檬",
+        "type": "名詞"
     },
     {
-        "phonogram": "レストラン",
-        "meaning": "Restaurant"
+        "phonogram": "りんご",
+        "logogram": "林檎",
+        "meaning": "蘋果",
+        "type": "名詞"
     },
     {
-        "phonogram": "ワイン",
-        "meaning": "wine"
+        "phonogram": "かぎ",
+        "logogram": "",
+        "meaning": "鑰匙",
+        "type": "名詞"
     },
     {
-        "phonogram": "コンビニ",
-        "meaning": "convenience store"
+        "phonogram": "おんな",
+        "logogram": "女",
+        "meaning": "女性",
+        "type": "名詞"
     },
     {
-        "phonogram": "イギリス",
-        "meaning": "England"
+        "phonogram": "おんなのひと",
+        "logogram": "女の人",
+        "meaning": "女人",
+        "type": "名詞"
     },
     {
-        "phonogram": "パソコン",
-        "meaning": "computer"
+        "phonogram": "おんなのこ",
+        "logogram": "女の子",
+        "meaning": "女孩",
+        "type": "名詞"
     },
     {
-        "phonogram": "ピアス",
-        "meaning": "Earrings"
+        "phonogram": "おとこ",
+        "logogram": "男",
+        "meaning": "男性",
+        "type": "名詞"
     },
     {
-        "phonogram": "ペン",
-        "meaning": "pen"
+        "phonogram": "おとこのひと",
+        "logogram": "男の人",
+        "meaning": "男人",
+        "type": "名詞"
     },
     {
-        "phonogram": "プリン",
-        "meaning": "Pudding"
+        "phonogram": "おとこのこ",
+        "logogram": "男の子",
+        "meaning": "男孩",
+        "type": "名詞"
     },
     {
-        "phonogram": "マッチ",
-        "meaning": "Match"
+        "phonogram": "こども",
+        "logogram": "子供",
+        "meaning": "孩子",
+        "type": "名詞"
     },
     {
-        "phonogram": "サンドイッチ",
-        "meaning": "sandwich"
+        "phonogram": "うけつけ",
+        "logogram": "受付",
+        "meaning": "接待",
+        "type": "名詞"
     },
     {
-        "phonogram": "ボールペン",
-        "meaning": "Ballpoint pen"
+        "phonogram": "はな",
+        "logogram": "花",
+        "meaning": "花",
+        "type": "名詞"
     },
     {
-        "phonogram": "ゲーム",
-        "meaning": "game"
+        "phonogram": "き",
+        "logogram": "木",
+        "meaning": "樹木",
+        "type": "名詞"
     },
     {
-        "phonogram": "サッカー",
-        "meaning": "Soccer"
+        "phonogram": "くるま",
+        "logogram": "車",
+        "meaning": "車",
+        "type": "名詞"
     },
     {
-        "phonogram": "シャツ",
-        "meaning": "shirt"
+        "phonogram": "いろいろな",
+        "logogram": "",
+        "meaning": "各種各樣的",
+        "type": "形容詞"
     },
     {
-        "phonogram": "ケチャップ",
-        "meaning": "ketchup"
+        "phonogram": "もの",
+        "logogram": "物",
+        "meaning": "東西",
+        "type": "名詞"
     },
     {
-        "phonogram": "チョコレート",
-        "meaning": "chocolate"
+        "phonogram": "かい",
+        "logogram": "階",
+        "meaning": "樓層",
+        "type": "名詞"
     },
     {
-        "phonogram": "キャラクター",
-        "meaning": "character"
+        "phonogram": "えいがかん",
+        "logogram": "映画館",
+        "meaning": "電影院",
+        "type": "名詞"
     },
     {
-        "phonogram": "メニュー",
-        "meaning": "menu"
+        "phonogram": "じどうしゃ",
+        "logogram": "自動車",
+        "meaning": "汽車",
+        "type": "名詞"
     },
     {
-        "phonogram": "チャーハン",
-        "meaning": "Fried rice"
+        "phonogram": "れいぞうこ",
+        "logogram": "冷蔵庫",
+        "meaning": "冰箱",
+        "type": "名詞"
     },
     {
-        "phonogram": "チャーシュー",
-        "meaning": "roasted pork fillet"
+        "phonogram": "ひきだし",
+        "logogram": "引き出し",
+        "meaning": "抽屜",
+        "type": "名詞"
     },
     {
-        "phonogram": "スケジュール",
-        "meaning": "Schedule"
+        "phonogram": "ホッチキス",
+        "logogram": "",
+        "meaning": "釘書機",
+        "type": "名詞"
     },
     {
-        "phonogram": "スマートフォン",
-        "meaning": "smartphone"
+        "phonogram": "せいようじん",
+        "logogram": "西洋人",
+        "meaning": "西洋人",
+        "type": "名詞"
     },
     {
-        "phonogram": "ショートヘア",
-        "meaning": "short hair"
+        "phonogram": "かんりにん",
+        "logogram": "管理人",
+        "meaning": "看更",
+        "type": "名詞"
     },
     {
-        "phonogram": "マネージャー",
-        "meaning": "manager"
+        "phonogram": "へや",
+        "logogram": "部屋",
+        "meaning": "房間",
+        "type": "名詞"
     },
     {
-        "phonogram": "バーベキュー",
-        "meaning": "barbecue"
+        "phonogram": "うしろ",
+        "logogram": "後ろ",
+        "meaning": "後面",
+        "type": "名詞"
     },
     {
-        "phonogram": "ボリューム",
-        "meaning": "volume"
+        "phonogram": "かいぎ",
+        "logogram": "会議",
+        "meaning": "會議",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ほうこくしょ",
+        "logogram": "報告書",
+        "meaning": "報告書",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しゅっちょう",
+        "logogram": "出張",
+        "meaning": "出差",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ファイル",
+        "logogram": "",
+        "meaning": "文件",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ねずみ",
+        "logogram": "",
+        "meaning": "老鼠",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ファックス",
+        "logogram": "",
+        "meaning": "傳真",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ふうとう",
+        "logogram": "封筒",
+        "meaning": "信封",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "コンピュータ",
+        "logogram": "",
+        "meaning": "電腦",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きっぷ",
+        "logogram": "切符",
+        "meaning": "票",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "こうしゅうでんわ",
+        "logogram": "公衆電話",
+        "meaning": "公共電話",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "いりぐち",
+        "logogram": "入口",
+        "meaning": "入口",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "このさき",
+        "logogram": "この先",
+        "meaning": "前面（較遠）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "こくばん",
+        "logogram": "黒板",
+        "meaning": "黒板",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "とうきょう",
+        "logogram": "東京",
+        "meaning": "東京",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おおさか",
+        "logogram": "大阪",
+        "meaning": "大阪",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かぞく",
+        "logogram": "家族",
+        "meaning": "家人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "（ご）きょうだい",
+        "logogram": "（御）兄弟",
+        "meaning": "兄弟姊妹",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かいぎしつ",
+        "logogram": "会議室",
+        "meaning": "會議室",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "りゅうがくせい",
+        "logogram": "留学生",
+        "meaning": "留學生",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おかだ",
+        "logogram": "岡田",
+        "meaning": "岡田",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "がいしゅつちゅう",
+        "logogram": "外出中",
+        "meaning": "外出中",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しょるい",
+        "logogram": "書類",
+        "meaning": "文件",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ポスト",
+        "logogram": "",
+        "meaning": "郵箱",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "めがね",
+        "logogram": "眼鏡",
+        "meaning": "眼鏡",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みな",
+        "logogram": "皆",
+        "meaning": "大家/全部",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "みんな",
+        "logogram": "皆",
+        "meaning": "大家/全部",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "いっしょに",
+        "logogram": "一緒に",
+        "meaning": "一起",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "まだ",
+        "logogram": "",
+        "meaning": "仍然/還",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "ずっと",
+        "logogram": "",
+        "meaning": "一直",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "",
+        "logogram": "",
+        "meaning": "",
+        "type": ""
+    },
+    {
+        "phonogram": "まえ",
+        "logogram": "前",
+        "meaning": "前面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "うしろ",
+        "logogram": "後ろ",
+        "meaning": "後面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ひだり",
+        "logogram": "左",
+        "meaning": "左面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みぎ",
+        "logogram": "右",
+        "meaning": "右邊",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "うえ",
+        "logogram": "上",
+        "meaning": "上面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "した",
+        "logogram": "下",
+        "meaning": "下面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "まんなか",
+        "logogram": "真ん中",
+        "meaning": "中間",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "なか",
+        "logogram": "中",
+        "meaning": "裡面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "むこう",
+        "logogram": "向こう",
+        "meaning": "那邊（較遠）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "むこうがわ",
+        "logogram": "向こう側",
+        "meaning": "那邊另一側（較遠）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "むかい",
+        "logogram": "向かい",
+        "meaning": "對面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ななめむかい",
+        "logogram": "斜め向かい",
+        "meaning": "斜對面",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かど",
+        "logogram": "角",
+        "meaning": "角",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "まがりかど",
+        "logogram": "曲がり角",
+        "meaning": "街角",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あいだ",
+        "logogram": "間",
+        "meaning": "之間",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "となり",
+        "logogram": "隣",
+        "meaning": "旁邊（左右）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "そば",
+        "logogram": "",
+        "meaning": "旁邊",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ひがし",
+        "logogram": "東",
+        "meaning": "東",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みなみ",
+        "logogram": "南",
+        "meaning": "南",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "にし",
+        "logogram": "西",
+        "meaning": "西",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きた",
+        "logogram": "北",
+        "meaning": "北",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "いぜん",
+        "logogram": "以前",
+        "meaning": "以前",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "デパート",
+        "logogram": "",
+        "meaning": "百貨公司",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "スーパー",
+        "logogram": "",
+        "meaning": "超級市場",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ちかく",
+        "logogram": "近く",
+        "meaning": "附近",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "そのとき",
+        "logogram": "その時",
+        "meaning": "那時",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "はやし",
+        "logogram": "林",
+        "meaning": "林（日本姓氏）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さいふ",
+        "logogram": "財布",
+        "meaning": "銀包",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おうせつしつ",
+        "logogram": "応接室",
+        "meaning": "接待室",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "むかし",
+        "logogram": "昔",
+        "meaning": "昔日",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ふくおか",
+        "logogram": "福岡",
+        "meaning": "福岡",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しんせき",
+        "logogram": "親戚",
+        "meaning": "親戚",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "よこはま",
+        "logogram": "横浜",
+        "meaning": "橫濱",
+        "type": "名詞"
     }
 ]

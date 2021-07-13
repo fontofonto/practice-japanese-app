@@ -2,6 +2,7 @@ export default {
   // Define the server connection variables for your application inside
   server: {
     host: '0.0.0.0', // default: localhost,
+    port: 3456,
   },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode

@@ -1,92 +1,792 @@
 [
     {
-        "phonogram": "これ",
-        "logogram": "",
-        "meaning": "這"
+        "phonogram": "いちじ",
+        "logogram": "一時",
+        "meaning": "一點"
     },
     {
-        "phonogram": "それ",
-        "logogram": "",
-        "meaning": "它"
+        "phonogram": "にじ",
+        "logogram": "二時",
+        "meaning": "兩點"
     },
     {
-        "phonogram": "あれ",
-        "logogram": "",
-        "meaning": "那"
+        "phonogram": "さんじ",
+        "logogram": "三時",
+        "meaning": "三點"
     },
     {
-        "phonogram": "どれ",
-        "logogram": "",
-        "meaning": "哪一個"
+        "phonogram": "よじ",
+        "logogram": "四時",
+        "meaning": "四點"
     },
     {
-        "phonogram": "つくえ",
-        "logogram": "机",
-        "meaning": "桌子"
+        "phonogram": "ごじ",
+        "logogram": "五時",
+        "meaning": "五點"
     },
     {
-        "phonogram": "けしごむ",
-        "logogram": "消しゴム",
-        "meaning": "橡皮"
+        "phonogram": "ろくじ",
+        "logogram": "六時",
+        "meaning": "六點"
     },
     {
-        "phonogram": "しゅうせいえき",
-        "logogram": "修正液",
-        "meaning": "塗改液"
+        "phonogram": "しちじ",
+        "logogram": "七時",
+        "meaning": "七點"
     },
     {
-        "phonogram": "ごみばこ",
-        "logogram": "ごみ箱",
-        "meaning": "垃圾箱"
+        "phonogram": "はちじ",
+        "logogram": "八時",
+        "meaning": "八點"
     },
     {
-        "phonogram": "ほん",
-        "logogram": "本",
-        "meaning": "書"
+        "phonogram": "くじ",
+        "logogram": "九時",
+        "meaning": "九點"
     },
     {
-        "phonogram": "ざっし",
-        "logogram": "雑誌",
-        "meaning": "雜誌"
+        "phonogram": "じゅうじ",
+        "logogram": "十時",
+        "meaning": "十點"
     },
     {
-        "phonogram": "しんぶん",
-        "logogram": "新聞",
-        "meaning": "報紙"
+        "phonogram": "じゅういちじ",
+        "logogram": "十一時",
+        "meaning": "十一點"
     },
     {
-        "phonogram": "せんぷうき",
-        "logogram": "扇風機",
-        "meaning": "扇子"
+        "phonogram": "じゅうにじ",
+        "logogram": "十二時",
+        "meaning": "十二點"
     },
     {
-        "phonogram": "かばん",
-        "logogram": "",
-        "meaning": "包"
+        "phonogram": "なんじ",
+        "logogram": "何時",
+        "meaning": "幾點"
     },
     {
-        "phonogram": "まど",
-        "logogram": "窓",
-        "meaning": "窗戶"
+        "phonogram": "いっぷん",
+        "logogram": "一分",
+        "meaning": "一分/一分鐘"
     },
     {
-        "phonogram": "えいがかん",
-        "logogram": "映画館",
-        "meaning": "電影院"
+        "phonogram": "にふん",
+        "logogram": "二分",
+        "meaning": "兩分/兩分鐘"
     },
     {
-        "phonogram": "ぎんこう",
-        "logogram": "銀行",
-        "meaning": "銀行"
+        "phonogram": "さんぷん",
+        "logogram": "三分",
+        "meaning": "三分/三分鐘"
     },
     {
-        "phonogram": "きょうかしょ",
-        "logogram": "教科書",
-        "meaning": "教科書"
+        "phonogram": "よんぷん",
+        "logogram": "四分",
+        "meaning": "四分/四分鐘"
     },
     {
-        "phonogram": "じしょ",
-        "logogram": "辞書",
-        "meaning": "字典"
+        "phonogram": "ごふん",
+        "logogram": "五分",
+        "meaning": "五分/五分鐘"
+    },
+    {
+        "phonogram": "ろっぷん",
+        "logogram": "六分",
+        "meaning": "六分/六分鐘"
+    },
+    {
+        "phonogram": "ななふん",
+        "logogram": "七分",
+        "meaning": "七分/七分鐘"
+    },
+    {
+        "phonogram": "しちふん",
+        "logogram": "七分",
+        "meaning": "七分/七分鐘"
+    },
+    {
+        "phonogram": "はっぷん",
+        "logogram": "八分",
+        "meaning": "八分/八分鐘"
+    },
+    {
+        "phonogram": "はちふん",
+        "logogram": "八分",
+        "meaning": "八分/八分鐘"
+    },
+    {
+        "phonogram": "きゅうふん",
+        "logogram": "九分",
+        "meaning": "九分/九分鐘"
+    },
+    {
+        "phonogram": "じゅっぷん",
+        "logogram": "十分",
+        "meaning": "十分/十分鐘"
+    },
+    {
+        "phonogram": "じっぷん",
+        "logogram": "十分",
+        "meaning": "十分/十分鐘"
+    },
+    {
+        "phonogram": "なんぷん",
+        "logogram": "何分",
+        "meaning": "幾分/幾分鐘"
+    },
+    {
+        "phonogram": "じゅうごふん",
+        "logogram": "十五分",
+        "meaning": "十五分/十五分鐘"
+    },
+    {
+        "phonogram": "さんじゅっぷん",
+        "logogram": "三十分",
+        "meaning": "三十分/三十分鐘"
+    },
+    {
+        "phonogram": "さんじっぷん",
+        "logogram": "三十分",
+        "meaning": "三十分/三十分鐘"
+    },
+    {
+        "phonogram": "はん",
+        "logogram": "半",
+        "meaning": "半（搭半）"
+    },
+    {
+        "phonogram": "いちがつ",
+        "logogram": "一月",
+        "meaning": "一月"
+    },
+    {
+        "phonogram": "にがつ",
+        "logogram": "二月",
+        "meaning": "二月"
+    },
+    {
+        "phonogram": "さんがつ",
+        "logogram": "三月",
+        "meaning": "三月"
+    },
+    {
+        "phonogram": "しがつ",
+        "logogram": "四月",
+        "meaning": "四月"
+    },
+    {
+        "phonogram": "ごがつ",
+        "logogram": "五月",
+        "meaning": "五月"
+    },
+    {
+        "phonogram": "ろくがつ",
+        "logogram": "六月",
+        "meaning": "六月"
+    },
+    {
+        "phonogram": "しちがつ",
+        "logogram": "七月",
+        "meaning": "七月"
+    },
+    {
+        "phonogram": "はちがつ",
+        "logogram": "八月",
+        "meaning": "八月"
+    },
+    {
+        "phonogram": "くがつ",
+        "logogram": "九月",
+        "meaning": "九月"
+    },
+    {
+        "phonogram": "じゅうがつ",
+        "logogram": "十月",
+        "meaning": "十月"
+    },
+    {
+        "phonogram": "じゅういちがつ",
+        "logogram": "十一月",
+        "meaning": "十一月"
+    },
+    {
+        "phonogram": "じゅうにがつ",
+        "logogram": "十二月",
+        "meaning": "十二月"
+    },
+    {
+        "phonogram": "なんがつ",
+        "logogram": "何月",
+        "meaning": "幾月"
+    },
+    {
+        "phonogram": "ついたち",
+        "logogram": "一日",
+        "meaning": "一號"
+    },
+    {
+        "phonogram": "ふつか",
+        "logogram": "二日",
+        "meaning": "二號（日子）/兩日（長度）"
+    },
+    {
+        "phonogram": "みっか",
+        "logogram": "三日",
+        "meaning": "三號（日子）/三日（長度）"
+    },
+    {
+        "phonogram": "よっか",
+        "logogram": "四日",
+        "meaning": "四號（日子）/四日（長度）"
+    },
+    {
+        "phonogram": "いつか",
+        "logogram": "五日",
+        "meaning": "五號（日子）/五日（長度）"
+    },
+    {
+        "phonogram": "むいか",
+        "logogram": "六日",
+        "meaning": "六號（日子）/六日（長度）"
+    },
+    {
+        "phonogram": "なのか",
+        "logogram": "七日",
+        "meaning": "七號（日子）/七日（長度）"
+    },
+    {
+        "phonogram": "ようか",
+        "logogram": "八日",
+        "meaning": "八號（日子）/八日（長度）"
+    },
+    {
+        "phonogram": "ここのか",
+        "logogram": "九日",
+        "meaning": "九號（日子）/九日（長度）"
+    },
+    {
+        "phonogram": "とおか",
+        "logogram": "十日",
+        "meaning": "十號（日子）/十日（長度）"
+    },
+    {
+        "phonogram": "じゅういちにち",
+        "logogram": "十一日",
+        "meaning": "十一號"
+    },
+    {
+        "phonogram": "じゅうににち",
+        "logogram": "十二日",
+        "meaning": "十二號"
+    },
+    {
+        "phonogram": "じゅうさんにち",
+        "logogram": "十三日",
+        "meaning": "十三號"
+    },
+    {
+        "phonogram": "じゅうよっか",
+        "logogram": "十四日",
+        "meaning": "十四號"
+    },
+    {
+        "phonogram": "じゅうごにち",
+        "logogram": "十五日",
+        "meaning": "十五號"
+    },
+    {
+        "phonogram": "じゅうろくにち",
+        "logogram": "十六日",
+        "meaning": "十六號"
+    },
+    {
+        "phonogram": "じゅうしちにち",
+        "logogram": "十七日",
+        "meaning": "十七號"
+    },
+    {
+        "phonogram": "じゅうはちにち",
+        "logogram": "十八日",
+        "meaning": "十八號"
+    },
+    {
+        "phonogram": "じゅうくにち",
+        "logogram": "十九日",
+        "meaning": "十九號"
+    },
+    {
+        "phonogram": "はつか",
+        "logogram": "二十日",
+        "meaning": "二十號"
+    },
+    {
+        "phonogram": "にじゅういちにち",
+        "logogram": "二十一日",
+        "meaning": "二十一號"
+    },
+    {
+        "phonogram": "にじゅうににち",
+        "logogram": "二十二日",
+        "meaning": "二十二號"
+    },
+    {
+        "phonogram": "にじゅうさんにち",
+        "logogram": "二十三日",
+        "meaning": "二十三號"
+    },
+    {
+        "phonogram": "にじゅうよっか",
+        "logogram": "二十四日",
+        "meaning": "二十四號"
+    },
+    {
+        "phonogram": "にじゅうごにち",
+        "logogram": "二十五日",
+        "meaning": "二十五號"
+    },
+    {
+        "phonogram": "にじゅうろくにち",
+        "logogram": "二十六日",
+        "meaning": "二十六號"
+    },
+    {
+        "phonogram": "にじゅうしちにち",
+        "logogram": "二十七日",
+        "meaning": "二十七號"
+    },
+    {
+        "phonogram": "にじゅうはちにち",
+        "logogram": "二十八日",
+        "meaning": "二十八號"
+    },
+    {
+        "phonogram": "にじゅうくにち",
+        "logogram": "二十九日",
+        "meaning": "二十九號"
+    },
+    {
+        "phonogram": "さんじゅうにち",
+        "logogram": "三十日",
+        "meaning": "三十號"
+    },
+    {
+        "phonogram": "さんじゅういちにち",
+        "logogram": "三十一日",
+        "meaning": "三十一號"
+    },
+    {
+        "phonogram": "なんにち",
+        "logogram": "何日",
+        "meaning": "幾號/幾多日"
+    },
+    {
+        "phonogram": "いちじかん",
+        "logogram": "一時間",
+        "meaning": "1個鐘"
+    },
+    {
+        "phonogram": "にじかん",
+        "logogram": "二時間",
+        "meaning": "2個鐘"
+    },
+    {
+        "phonogram": "さんじかん",
+        "logogram": "三時間",
+        "meaning": "3個鐘"
+    },
+    {
+        "phonogram": "よじかん",
+        "logogram": "四時間",
+        "meaning": "4個鐘"
+    },
+    {
+        "phonogram": "ごじかん",
+        "logogram": "五時間",
+        "meaning": "5個鐘"
+    },
+    {
+        "phonogram": "ろくじかん",
+        "logogram": "六時間",
+        "meaning": "6個鐘"
+    },
+    {
+        "phonogram": "ななじかん",
+        "logogram": "七時間",
+        "meaning": "7個鐘"
+    },
+    {
+        "phonogram": "しちじかん",
+        "logogram": "七時間",
+        "meaning": "7個鐘"
+    },
+    {
+        "phonogram": "はちじかん",
+        "logogram": "八時間",
+        "meaning": "8個鐘"
+    },
+    {
+        "phonogram": "くじかん",
+        "logogram": "九時間",
+        "meaning": "9個鐘"
+    },
+    {
+        "phonogram": "じゅうじかん",
+        "logogram": "十時間",
+        "meaning": "10個鐘"
+    },
+    {
+        "phonogram": "なんじかん",
+        "logogram": "何時間",
+        "meaning": "幾多小時"
+    },
+    {
+        "phonogram": "いちにち",
+        "logogram": "一日",
+        "meaning": "\b\b一日（長度）"
+    },
+    {
+        "phonogram": "いっしゅうかん",
+        "logogram": "一週間",
+        "meaning": "一個禮拜"
+    },
+    {
+        "phonogram": "にしゅうかん",
+        "logogram": "二週間",
+        "meaning": "兩個禮拜"
+    },
+    {
+        "phonogram": "さんしゅうかん",
+        "logogram": "三週間",
+        "meaning": "三個禮拜"
+    },
+    {
+        "phonogram": "よんしゅうかん",
+        "logogram": "四週間",
+        "meaning": "四個禮拜"
+    },
+    {
+        "phonogram": "ごしゅうかん",
+        "logogram": "五週間",
+        "meaning": "五個禮拜"
+    },
+    {
+        "phonogram": "ろくしゅうかん",
+        "logogram": "六週間",
+        "meaning": "六個禮拜"
+    },
+    {
+        "phonogram": "ななしゅうかん",
+        "logogram": "七週間",
+        "meaning": "七個禮拜"
+    },
+    {
+        "phonogram": "しちしゅうかん",
+        "logogram": "七週間",
+        "meaning": "七個禮拜"
+    },
+    {
+        "phonogram": "はっしゅうかん",
+        "logogram": "八週間",
+        "meaning": "八個禮拜"
+    },
+    {
+        "phonogram": "きゅうしゅうかん",
+        "logogram": "九週間",
+        "meaning": "九個禮拜"
+    },
+    {
+        "phonogram": "じゅうしゅうかん",
+        "logogram": "十週間",
+        "meaning": "十個禮拜"
+    },
+    {
+        "phonogram": "じっしゅうかん",
+        "logogram": "十週間",
+        "meaning": "十個禮拜"
+    },
+    {
+        "phonogram": "なんしゅうかん",
+        "logogram": "何週間",
+        "meaning": "幾多個禮拜"
+    },
+    {
+        "phonogram": "いっかげつ",
+        "logogram": "一か月",
+        "meaning": "一個月"
+    },
+    {
+        "phonogram": "にかげつ",
+        "logogram": "二か月",
+        "meaning": "兩個月"
+    },
+    {
+        "phonogram": "さんかげつ",
+        "logogram": "三か月",
+        "meaning": "三個月"
+    },
+    {
+        "phonogram": "よんかげつ",
+        "logogram": "四か月",
+        "meaning": "四個月"
+    },
+    {
+        "phonogram": "ごかげつ",
+        "logogram": "五か月",
+        "meaning": "五個月"
+    },
+    {
+        "phonogram": "ろっかげつ",
+        "logogram": "六か月",
+        "meaning": "六個月"
+    },
+    {
+        "phonogram": "はんとし",
+        "logogram": "半年",
+        "meaning": "半年"
+    },
+    {
+        "phonogram": "ななかげつ",
+        "logogram": "七か月",
+        "meaning": "七個月"
+    },
+    {
+        "phonogram": "しちかげつ",
+        "logogram": "七か月",
+        "meaning": "七個月"
+    },
+    {
+        "phonogram": "はちかげつ",
+        "logogram": "八か月",
+        "meaning": "八個月"
+    },
+    {
+        "phonogram": "はっかげつ",
+        "logogram": "八か月",
+        "meaning": "八個月"
+    },
+    {
+        "phonogram": "きゅうかげつ",
+        "logogram": "九か月",
+        "meaning": "九個月"
+    },
+    {
+        "phonogram": "じゅうかげつ",
+        "logogram": "十か月",
+        "meaning": "十個月"
+    },
+    {
+        "phonogram": "じっかげつ",
+        "logogram": "十か月",
+        "meaning": "十個月"
+    },
+    {
+        "phonogram": "なんかげつ",
+        "logogram": "何か月",
+        "meaning": "幾多個月"
+    },
+    {
+        "phonogram": "いちねん",
+        "logogram": "一年",
+        "meaning": "一年"
+    },
+    {
+        "phonogram": "にねん",
+        "logogram": "二年",
+        "meaning": "兩年"
+    },
+    {
+        "phonogram": "さんねん",
+        "logogram": "三年",
+        "meaning": "三年"
+    },
+    {
+        "phonogram": "よねん",
+        "logogram": "四年",
+        "meaning": "四年"
+    },
+    {
+        "phonogram": "ごねん",
+        "logogram": "五年",
+        "meaning": "五年"
+    },
+    {
+        "phonogram": "ろくねん",
+        "logogram": "六年",
+        "meaning": "六年"
+    },
+    {
+        "phonogram": "ななねん",
+        "logogram": "七年",
+        "meaning": "七年"
+    },
+    {
+        "phonogram": "しちねん",
+        "logogram": "七年",
+        "meaning": "七年"
+    },
+    {
+        "phonogram": "はちねん",
+        "logogram": "八年",
+        "meaning": "八年"
+    },
+    {
+        "phonogram": "きゅうねん",
+        "logogram": "九年",
+        "meaning": "九年"
+    },
+    {
+        "phonogram": "くねん",
+        "logogram": "九年",
+        "meaning": "九年"
+    },
+    {
+        "phonogram": "じゅうねん",
+        "logogram": "十年",
+        "meaning": "十年"
+    },
+    {
+        "phonogram": "なんねん",
+        "logogram": "何年",
+        "meaning": "幾多年"
+    },
+    {
+        "phonogram": "おととい",
+        "logogram": "一昨日",
+        "meaning": "前日"
+    },
+    {
+        "phonogram": "きのう",
+        "logogram": "昨日",
+        "meaning": "昨日"
+    },
+    {
+        "phonogram": "きょう",
+        "logogram": "今日",
+        "meaning": "今日"
+    },
+    {
+        "phonogram": "あした",
+        "logogram": "明日",
+        "meaning": "明日"
+    },
+    {
+        "phonogram": "あさって",
+        "logogram": "明後日",
+        "meaning": "後日"
+    },
+    {
+        "phonogram": "せんせんしゅう",
+        "logogram": "先々週",
+        "meaning": "上上個星期"
+    },
+    {
+        "phonogram": "せんしゅう",
+        "logogram": "先週",
+        "meaning": "上個星期"
+    },
+    {
+        "phonogram": "こんしゅう",
+        "logogram": "今週",
+        "meaning": "這個星期"
+    },
+    {
+        "phonogram": "らいしゅう",
+        "logogram": "来週",
+        "meaning": "下個星期"
+    },
+    {
+        "phonogram": "さらいしゅう",
+        "logogram": "再来週",
+        "meaning": "下下個星期"
+    },
+    {
+        "phonogram": "せんせんげつ",
+        "logogram": "先々月",
+        "meaning": "上上個月"
+    },
+    {
+        "phonogram": "せんげつ",
+        "logogram": "先月",
+        "meaning": "上月/去月"
+    },
+    {
+        "phonogram": "こんげつ",
+        "logogram": "今月",
+        "meaning": "今個月"
+    },
+    {
+        "phonogram": "らいげつ",
+        "logogram": "来月",
+        "meaning": "下個月"
+    },
+    {
+        "phonogram": "さらいげつ",
+        "logogram": "再来月",
+        "meaning": "下下個月"
+    },
+    {
+        "phonogram": "おととし",
+        "logogram": "一昨年",
+        "meaning": "前年"
+    },
+    {
+        "phonogram": "きょねん",
+        "logogram": "去年",
+        "meaning": "去年"
+    },
+    {
+        "phonogram": "ことし",
+        "logogram": "今年",
+        "meaning": "今年"
+    },
+    {
+        "phonogram": "らいねん",
+        "logogram": "来年",
+        "meaning": "明年"
+    },
+    {
+        "phonogram": "さらいねん",
+        "logogram": "再来年",
+        "meaning": "後年"
+    },
+    {
+        "phonogram": "げつようび",
+        "logogram": "月曜日",
+        "meaning": "星期一"
+    },
+    {
+        "phonogram": "かようび",
+        "logogram": "火曜日",
+        "meaning": "星期二"
+    },
+    {
+        "phonogram": "すいようび",
+        "logogram": "水曜日",
+        "meaning": "星期三"
+    },
+    {
+        "phonogram": "もくようび",
+        "logogram": "木曜日",
+        "meaning": "星期四"
+    },
+    {
+        "phonogram": "きんようび",
+        "logogram": "金曜日",
+        "meaning": "星期五"
+    },
+    {
+        "phonogram": "どようび",
+        "logogram": "土曜日",
+        "meaning": "星期六"
+    },
+    {
+        "phonogram": "にちようび",
+        "logogram": "日曜日",
+        "meaning": "星期日"
+    },
+    {
+        "phonogram": "なんようび",
+        "logogram": "何曜日",
+        "meaning": "星期幾"
     }
 ]

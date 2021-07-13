@@ -18,7 +18,10 @@
       <p class="text-2xl font-japanese font-semibold whitespace-nowrap">
         {{ question.phonogram }}
       </p>
-      <p class="text-2xl font-japanese font-semibold whitespace-nowrap">
+      <p
+        class="text-2xl font-japanese font-semibold whitespace-nowrap"
+        v-if="$store.state.settings.showKanji"
+      >
         {{ question.logogram }}
       </p>
     </div>

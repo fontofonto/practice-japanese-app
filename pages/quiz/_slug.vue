@@ -26,7 +26,7 @@
           class="
             text-lg text-red-400
             font-japanese font-bold
-            mb-2
+            my-2
             whitespace-nowrap
           "
         >
@@ -36,12 +36,21 @@
           class="
             text-2xl text-blue-gray-800
             font-japanese font-semibold
-            mb-12
+            my-2
             whitespace-nowrap
           "
         >
           {{ $store.state.googleSheetPages[slug - 1].title }}
         </h2>
+        <div class="my-4">
+          <input
+            type="checkbox"
+            name="showKanji"
+            id="showKanji"
+            v-model="showKanji"
+          />
+          <label for="showKanji">顯示漢字</label>
+        </div>
         <button class="button w-full" @click="initializeQuiz">開始</button>
       </div>
     </div>
@@ -157,8 +166,19 @@ export default {
   //   },
   // },
   computed: {
-    totalScore: function () {
+    totalScore() {
       return this.questionList.length;
+    },
+    showKanji() {
+      return this.$store.state.settings.showKanji;
+    },
+    showKanji: {
+      get() {
+        return this.$store.state.settings.showKanji;
+      },
+      set(value) {
+        this.$store.commit("toggleShowKanji", value);
+      },
     },
   },
   methods: {

@@ -4,6 +4,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  beforeMount() {
+    this.$store.dispatch("loadSettingsFromLocalStorage");
+  },
+};
+</script>
+
 <style lang="postcss">
 html {
   @apply h-fill-available;
