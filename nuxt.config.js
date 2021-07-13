@@ -16,13 +16,23 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'practice-japanese-app',
+    title: '日文生字溫習',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      { name: "apple-mobile-web-app-title", content: "日文生字溫習" },
+      { name: "application-name", content: "日文生字溫習" },
+      { name: "msapplication-TileColor", content: "#ee3636" },
+      { name: "theme-color", content: "#ffffff" },
     ],
     link: [
+      { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png?v=1.0.0" },
+      { rel: "apple-touch-icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png?v=1.0.0" },
+      { rel: "apple-touch-icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png?v=1.0.0" },
+      { rel: "manifest", href: "/site.webmanifest?v=1.0.0" },
+      { rel: "mask-icon", href: "/safari-pinned-tab.svg?v=1.0.0", color: "#e52828" },
+      { rel: "shortcut icon", href: "/favicon.ico?v=1.0.0" },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
