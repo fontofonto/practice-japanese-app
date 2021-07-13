@@ -20,7 +20,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: '為了溫習日文生字而製作的 Web App。' },
       { name: "apple-mobile-web-app-title", content: "日文生字溫習" },
       { name: "application-name", content: "日文生字溫習" },
       { name: "msapplication-TileColor", content: "#ee3636" },
@@ -30,7 +30,7 @@ export default {
       { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png?v=1.0.0" },
       { rel: "apple-touch-icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png?v=1.0.0" },
       { rel: "apple-touch-icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png?v=1.0.0" },
-      { rel: "manifest", href: "/site.webmanifest?v=1.0.0" },
+      // { rel: "manifest", href: "/site.webmanifest?v=1.0.0" },
       { rel: "mask-icon", href: "/safari-pinned-tab.svg?v=1.0.0", color: "#e52828" },
       { rel: "shortcut icon", href: "/favicon.ico?v=1.0.0" },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -68,7 +68,26 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      name: '日文生字溫習',
+      short_name: '日文溫習',
+      lang: 'zh-HK',
+      description: '為了溫習日文生字而製作的 Web App。',
+      icons: [
+        {
+          "src": "/android-chrome-192x192.png?v=1.0.0",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/android-chrome-512x512.png?v=1.0.0",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      theme_color: "#ffffff",
+      background_color: "#ffffff",
+      display: "standalone",
+      useWebmanifestExtension: false
     }
   },
 
