@@ -16,7 +16,7 @@ export default defineConfig({
             }
         },
         fontFamily: {
-            japanese: ['Noto Serif JP', 'serif']
+            japanese: ['ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', '游明朝', '游明朝体', 'YuMincho', 'Yu Mincho', 'ＭＳ 明朝', 'MS Mincho', 'HiraMinProN-W3', 'TakaoEx明朝', 'TakaoExMincho', 'MotoyaLCedar', 'Droid Sans Japanese', 'serif']
         },
     },
 })
