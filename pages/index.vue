@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4">
+  <div class="px-4 pb-12">
     <div
       class="
         relative

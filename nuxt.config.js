@@ -89,6 +89,11 @@ export default {
       background_color: "#ffffff",
       display: "standalone",
       useWebmanifestExtension: false
+    },
+    workbox: {
+      config: {
+        debug: true
+      }
     }
   },
 

@@ -1,6 +1,7 @@
 export const state = () => ({
     settings: {
         showKanji: false,
+        numberOfQuestions: 10,
     },
     googleSheetId: "1RTGcd08OKuLVU7rqfjr9uBHf9282c5zUiFa3PR6iuSo",
     googleSheetPages: [
@@ -32,6 +33,10 @@ export const state = () => ({
             pageName: "Verb",
             title: "動詞"
         },
+        {
+            pageName: "Adjective",
+            title: "い形容詞"
+        },
     ]
 })
 
@@ -44,6 +49,10 @@ export const mutations = {
     },
     toggleShowKanji(state, payload) {
         state.settings.showKanji = payload
+        localStorage.setItem("settings", JSON.stringify(state.settings))
+    },
+    updateNumberOfQuestions(state, payload) {
+        state.settings.numberOfQuestions = payload
         localStorage.setItem("settings", JSON.stringify(state.settings))
     }
 }

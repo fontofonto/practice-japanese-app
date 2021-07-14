@@ -42,15 +42,30 @@
         >
           {{ $store.state.googleSheetPages[slug - 1].title }}
         </h2>
-        <div class="my-4">
-          <input
-            type="checkbox"
-            name="showKanji"
-            id="showKanji"
-            v-model="showKanji"
-          />
-          <label for="showKanji">顯示漢字</label>
+        <div class="flex flex-row my-4 space-x-4">
+          <div>
+            <input
+              type="checkbox"
+              name="showKanji"
+              id="showKanji"
+              v-model="showKanji"
+            />
+            <label for="showKanji">顯示漢字</label>
+          </div>
+          <div>
+            <label for="numberOfQuestions">題目數量</label>
+            <select
+              v-model="numberOfQuestions"
+              name="numberOfQuestions"
+              id="numberOfQuestions"
+            >
+              <option :value="10">10</option>
+              <option :value="15">15</option>
+              <option :value="20">20</option>
+            </select>
+          </div>
         </div>
+
         <button class="button w-full" @click="initializeQuiz">開始</button>
       </div>
     </div>
@@ -169,15 +184,20 @@ export default {
     totalScore() {
       return this.questionList.length;
     },
-    showKanji() {
-      return this.$store.state.settings.showKanji;
-    },
     showKanji: {
       get() {
         return this.$store.state.settings.showKanji;
       },
       set(value) {
         this.$store.commit("toggleShowKanji", value);
+      },
+    },
+    numberOfQuestions: {
+      get() {
+        return this.$store.state.settings.numberOfQuestions;
+      },
+      set(value) {
+        this.$store.commit("updateNumberOfQuestions", value);
       },
     },
   },
@@ -196,9 +216,15 @@ export default {
     },
     generateQuestions() {
       const totalNumberOfWords = this.googleSheetJson.length;
-      for (let i = 0; i < 10; i++) {
+      let selectWordIndexList = [];
+      while (selectWordIndexList.length < this.numberOfQuestions) {
         // step 1: random select the word in word bank
         const wordIndex = Math.round(Math.random() * (totalNumberOfWords - 1));
+        console.log(wordIndex);
+        if (selectWordIndexList.includes(wordIndex)) {
+          continue;
+        }
+        selectWordIndexList.push(wordIndex);
         let selectedWord = { ...this.googleSheetJson[wordIndex] };
 
         // step 2: generate question, choices and answer

@@ -1,0 +1,236 @@
+[
+    {
+        "phonogram": "あたたかい",
+        "logogram": "暖かい",
+        "meaning": "溫暖的(天氣)",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "すずしい",
+        "logogram": "涼しい",
+        "meaning": "涼爽的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あたたかい",
+        "logogram": "温かい",
+        "meaning": "溫暖的(物件)",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あつい",
+        "logogram": "暑い",
+        "meaning": "炎熱的(天氣)",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "さむい",
+        "logogram": "寒い",
+        "meaning": "寒冷的(天氣)",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あつい",
+        "logogram": "熱い",
+        "meaning": "燙的(物件)/熱心(性格)",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "つめたい",
+        "logogram": "冷たい",
+        "meaning": "冰涼的(物件)/無情的(性格)",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "たかい",
+        "logogram": "高い",
+        "meaning": "高的/昂貴的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "ひくい",
+        "logogram": "低い",
+        "meaning": "低的/矮的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "やすい",
+        "logogram": "安い",
+        "meaning": "便宜的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "いい/よい",
+        "logogram": "",
+        "meaning": "好的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "わるい",
+        "logogram": "悪い",
+        "meaning": "壞的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "むずかしい",
+        "logogram": "難しい",
+        "meaning": "困難的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "やさしい",
+        "logogram": "易しい",
+        "meaning": "簡單的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "やさしい",
+        "logogram": "優しい",
+        "meaning": "溫柔的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "くらい",
+        "logogram": "暗い",
+        "meaning": "黑暗的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あかるい",
+        "logogram": "明るい",
+        "meaning": "明亮的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "せまい",
+        "logogram": "狭い",
+        "meaning": "狹窄的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "ひろい",
+        "logogram": "広い",
+        "meaning": "寬的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "おいしい",
+        "logogram": "",
+        "meaning": "美味的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "まずい",
+        "logogram": "",
+        "meaning": "難吃的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "ちかい",
+        "logogram": "近い",
+        "meaning": "近的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "とおい",
+        "logogram": "遠い",
+        "meaning": "遠的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "おもしろい",
+        "logogram": "面白い",
+        "meaning": "有趣的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "つまらない",
+        "logogram": "",
+        "meaning": "無聊的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "はやい",
+        "logogram": "速い",
+        "meaning": "快的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "はやい",
+        "logogram": "早い",
+        "meaning": "早到的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "おそい",
+        "logogram": "遅い",
+        "meaning": "慢的、晚來的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "からい",
+        "logogram": "辛い",
+        "meaning": "辣的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あまい",
+        "logogram": "甘い",
+        "meaning": "甜的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "すっぱい",
+        "logogram": "酸っぱい",
+        "meaning": "酸的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "にがい",
+        "logogram": "苦い",
+        "meaning": "苦的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "しおからい",
+        "logogram": "塩辛い",
+        "meaning": "咸的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "しょっぱい",
+        "logogram": "",
+        "meaning": "咸的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "おもい",
+        "logogram": "重い",
+        "meaning": "重的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "かるい",
+        "logogram": "軽い",
+        "meaning": "輕的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "いそがしい",
+        "logogram": "忙しい",
+        "meaning": "忙碌的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "つらい",
+        "logogram": "辛い",
+        "meaning": "辛苦的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あぶらっこい",
+        "logogram": "油っこい",
+        "meaning": "油膩的",
+        "type": "い形容詞"
+    }
+]
