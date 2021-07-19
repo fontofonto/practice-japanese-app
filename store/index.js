@@ -7,35 +7,48 @@ export const state = () => ({
     googleSheetPages: [
         {
             pageName: "Chapter 1-5 Words",
-            title: "第1-5課 詞語"
+            title: "第1-5課 詞語",
+            filename: "chapter1-5.json"
         },
         {
             pageName: "Chapter 6-10 Words",
-            title: "第6-10課 詞語"
+            title: "第6-10課 詞語",
+            filename: "chapter6-10.json"
         },
         {
             pageName: "Chapter 11-14 Words",
-            title: "第11-14課 詞語"
+            title: "第11-14課 詞語",
+            filename: "chapter11-14.json"
+        },
+        {
+            pageName: "Chapter 15-18 Words",
+            title: "第15-18課 詞語",
+            filename: "chapter15-18.json"
         },
         {
             pageName: "Number",
-            title: "數字 & 量詞"
+            title: "數字 & 量詞",
+            filename: "number.json"
         },
         {
             pageName: "Date & Time",
-            title: "日期 & 時間"
+            title: "日期 & 時間",
+            filename: "datetime.json"
         },
         {
             pageName: "Family",
-            title: "家人稱謂"
+            title: "家人稱謂",
+            filename: "family.json"
         },
         {
             pageName: "Verb",
-            title: "動詞"
+            title: "動詞",
+            filename: "verb.json"
         },
         {
             pageName: "Adjective",
-            title: "い形容詞"
+            title: "い形容詞",
+            filename: "i-adjective.json"
         },
     ]
 })

@@ -147,7 +147,8 @@
 export default {
   head() {
     return {
-      title: this.$store.state.googleSheetPages[this.slug - 1].title,
+      title:
+        this.$store.state.googleSheetPages[this.slug - 1].title + " | 日文溫習",
     };
   },
   async asyncData({ params }) {
@@ -157,12 +158,11 @@ export default {
   },
   async fetch() {
     // fetch the corresponding word bank
-    this.googleSheetJson = await fetch("/data/quiz" + this.slug + ".json").then(
-      (res) => {
-        console.log(res);
-        return res.json();
-      }
-    );
+    this.googleSheetJson = await fetch(
+      "/data/" + this.$store.state.googleSheetPages[this.slug - 1].filename
+    ).then((res) => {
+      return res.json();
+    });
   },
   data() {
     return {
@@ -173,13 +173,6 @@ export default {
       score: 0,
     };
   },
-  // watch: {
-  //   googleSheetJson: function (newValue) {
-  //     if (newValue.length > 0) {
-  //       this.generateQuestions();
-  //     }
-  //   },
-  // },
   computed: {
     totalScore() {
       return this.questionList.length;
@@ -220,7 +213,6 @@ export default {
       while (selectWordIndexList.length < this.numberOfQuestions) {
         // step 1: random select the word in word bank
         const wordIndex = Math.round(Math.random() * (totalNumberOfWords - 1));
-        console.log(wordIndex);
         if (selectWordIndexList.includes(wordIndex)) {
           continue;
         }

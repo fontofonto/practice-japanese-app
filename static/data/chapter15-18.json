@@ -1,0 +1,410 @@
+[
+    {
+        "phonogram": "はる",
+        "logogram": "春",
+        "meaning": "春天",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "なつ",
+        "logogram": "夏",
+        "meaning": "夏",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あき",
+        "logogram": "秋",
+        "meaning": "秋天",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ふゆ",
+        "logogram": "冬",
+        "meaning": "冬天",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ちゅうかりょうり",
+        "logogram": "中華料理",
+        "meaning": "中華料理",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しせんりょうり",
+        "logogram": "四川料理",
+        "meaning": "四川料理",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "えき",
+        "logogram": "駅",
+        "meaning": "站",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ろめんでんしゃ",
+        "logogram": "路面電車",
+        "meaning": "路面電車",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "とても",
+        "logogram": "",
+        "meaning": "非常",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "おす",
+        "logogram": "お酢",
+        "meaning": "醋",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みせ",
+        "logogram": "店",
+        "meaning": "店",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しなもの",
+        "logogram": "品物",
+        "meaning": "商品",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さいきん",
+        "logogram": "最近",
+        "meaning": "最近",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "にゅうがくしけん",
+        "logogram": "入学試験",
+        "meaning": "入學試",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しごと",
+        "logogram": "仕事",
+        "meaning": "工作",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "とけい",
+        "logogram": "時計",
+        "meaning": "時鐘",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "うでどけい",
+        "logogram": "腕時計",
+        "meaning": "手錶",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あまり＋否定形容詞",
+        "logogram": "",
+        "meaning": "不是太",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "そんなに＋否定形容詞",
+        "logogram": "",
+        "meaning": "不是太",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "たいして＋否定形容詞",
+        "logogram": "",
+        "meaning": "不是太",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "それほど＋否定形容詞",
+        "logogram": "",
+        "meaning": "不是太",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "ぜんぜん＋否定形容詞",
+        "logogram": "全然",
+        "meaning": "全然",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "はな",
+        "logogram": "花",
+        "meaning": "花",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "なし",
+        "logogram": "梨",
+        "meaning": "梨",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くるま",
+        "logogram": "車",
+        "meaning": "車",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かさ",
+        "logogram": "傘",
+        "meaning": "傘",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "てんき",
+        "logogram": "天気",
+        "meaning": "天氣",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "こうえん",
+        "logogram": "公園",
+        "meaning": "公園",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "レストラン",
+        "logogram": "",
+        "meaning": "餐廳",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ほんこん",
+        "logogram": "香港",
+        "meaning": "香港",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しょうぼうしゃ",
+        "logogram": "消防車",
+        "meaning": "消防車",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "バナナ",
+        "logogram": "",
+        "meaning": "香蕉",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "パンツ",
+        "logogram": "",
+        "meaning": "長褲",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かげ",
+        "logogram": "影",
+        "meaning": "影子",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ゆきだるま",
+        "logogram": "雪だるま",
+        "meaning": "雪人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あか",
+        "logogram": "赤",
+        "meaning": "紅色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きいろ",
+        "logogram": "黄色",
+        "meaning": "黃色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あお",
+        "logogram": "青",
+        "meaning": "藍色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しろ",
+        "logogram": "白",
+        "meaning": "白色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くろ",
+        "logogram": "黒",
+        "meaning": "黑色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ちゃいろ",
+        "logogram": "茶色",
+        "meaning": "茶色/啡色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みどり",
+        "logogram": "緑",
+        "meaning": "綠色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "むらさき",
+        "logogram": "紫",
+        "meaning": "紫色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ピンク",
+        "logogram": "",
+        "meaning": "粉紅色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "グレー",
+        "logogram": "",
+        "meaning": "灰色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "オレンジ",
+        "logogram": "",
+        "meaning": "橙色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "なにいろ/なんしょく",
+        "logogram": "何色",
+        "meaning": "甚麼顏色",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ちかく",
+        "logogram": "近く",
+        "meaning": "近處(近い名詞化)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おおく",
+        "logogram": "多く",
+        "meaning": "大部分、大多數(多い名詞化)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "とおく",
+        "logogram": "遠く",
+        "meaning": "遠處(遠い名詞化)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ふるく",
+        "logogram": "古く",
+        "meaning": "以前時期(古い名詞化)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "にちようひん",
+        "logogram": "日用品",
+        "meaning": "日用品",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "えんとつ",
+        "logogram": "煙突",
+        "meaning": "煙囪",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "はなし",
+        "logogram": "話",
+        "meaning": "傅說、故事、話題",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みる",
+        "logogram": "見る",
+        "meaning": "觀看、查看",
+        "type": "他動詞"
+    },
+    {
+        "phonogram": "みえる",
+        "logogram": "見える",
+        "meaning": "展示",
+        "type": "他動詞"
+    },
+    {
+        "phonogram": "みせる",
+        "logogram": "見せる",
+        "meaning": "能夠看見",
+        "type": "自動詞"
+    },
+    {
+        "phonogram": "ゆうえんち",
+        "logogram": "遊園地",
+        "meaning": "遊樂園",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ひるごはん",
+        "logogram": "昼ご飯",
+        "meaning": "午餐",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ちず",
+        "logogram": "地図",
+        "meaning": "地圖",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "はつおん",
+        "logogram": "発音",
+        "meaning": "發音",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "にもつ",
+        "logogram": "荷物",
+        "meaning": "行李",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "どんな＋[名詞]",
+        "logogram": "",
+        "meaning": "甚麼類型[名詞]",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "レモン",
+        "logogram": "",
+        "meaning": "檸檬",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おかし",
+        "logogram": "お菓子",
+        "meaning": "糖果",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くすり",
+        "logogram": "薬",
+        "meaning": "藥物",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しお",
+        "logogram": "塩",
+        "meaning": "鹽",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "とうがらし",
+        "logogram": "唐辛子",
+        "meaning": "辣椒",
+        "type": "名詞"
+    }
+]

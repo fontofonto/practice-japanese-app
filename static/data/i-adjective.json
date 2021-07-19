@@ -68,7 +68,7 @@
     {
         "phonogram": "わるい",
         "logogram": "悪い",
-        "meaning": "壞的",
+        "meaning": "不好的/壞的",
         "type": "い形容詞"
     },
     {
@@ -231,6 +231,66 @@
         "phonogram": "あぶらっこい",
         "logogram": "油っこい",
         "meaning": "油膩的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "くろい",
+        "logogram": "黒い",
+        "meaning": "黑色的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "しろい",
+        "logogram": "白い",
+        "meaning": "白色的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あかい",
+        "logogram": "赤い",
+        "meaning": "紅色的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "あおい",
+        "logogram": "青い",
+        "meaning": "藍色的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "きいろい",
+        "logogram": "黄色い",
+        "meaning": "黃色的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "おおきい",
+        "logogram": "大きい",
+        "meaning": "大的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "ちいさい",
+        "logogram": "小さい",
+        "meaning": "小的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "ちゃいろい",
+        "logogram": "茶色い",
+        "meaning": "茶/啡色的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "つよい",
+        "logogram": "強い",
+        "meaning": "強壯的、激烈的、擅長的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "たのしい",
+        "logogram": "楽しい",
+        "meaning": "愉快的",
         "type": "い形容詞"
     }
 ]
