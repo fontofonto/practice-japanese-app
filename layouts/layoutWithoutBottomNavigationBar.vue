@@ -1,7 +1,6 @@
 <template>
   <div class="w-screen h-screen max-h-fill-available overflow-auto">
-    <Nuxt class="mb-11" />
-    <BottomNavigationBar />
+    <Nuxt />
   </div>
 </template>
 

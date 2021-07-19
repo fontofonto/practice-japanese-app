@@ -1,7 +1,7 @@
 export default {
   // Define the server connection variables for your application inside
   server: {
-    host: 'localhost', // default: localhost,
+    host: '0.0.0.0', // default: localhost,
     port: 3456,
   },
 

@@ -12,18 +12,18 @@
         px-4
         py-12
         rounded-2xl
-        bg-red-500
+        bg-yellow-300
       "
     >
       <p
         class="
           text-4xl
           font-japanese font-semibold
-          text-white
+          text-blue-gray-500
           whitespace-nowrap
         "
       >
-        日文生字測試
+        日文生字溫習
       </p>
     </div>
 
@@ -32,7 +32,7 @@
       :key="page.pageName"
     >
       <NuxtLink
-        :to="'/quiz/' + (index + 1)"
+        :to="'/review/' + (index + 1)"
         class="button w-full my-2 font-japanese"
         >{{ page.title }}</NuxtLink
       >
@@ -47,7 +47,4 @@ export default {
 </script>
 
 <style lang="postcss">
-.button {
-  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-japanese font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
-}
 </style>
