@@ -82,14 +82,15 @@ export default {
         debug: true
       },
       preCaching: [
-        "/data/quiz1.json",
-        "/data/quiz2.json",
-        "/data/quiz3.json",
-        "/data/quiz4.json",
-        "/data/quiz5.json",
-        "/data/quiz6.json",
-        "/data/quiz7.json",
-        "/data/quiz8.json",
+        "/data/chapter1-5.json",
+        "/data/chapter6-10.json",
+        "/data/chapter11-14.json",
+        "/data/chapter15-18.json",
+        "/data/number.json",
+        "/data/datetime.json",
+        "/data/family.json",
+        "/data/verb.json",
+        "/data/i-adjective.json"
       ]
     }
   },
