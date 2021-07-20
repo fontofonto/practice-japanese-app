@@ -145,6 +145,7 @@
 
 <script>
 export default {
+  layout: "layoutWithoutBottomNavigationBar",
   head() {
     return {
       title:
