@@ -28,16 +28,22 @@ export default {
       { name: "theme-color", content: "#ffffff" },
     ],
     link: [
-      { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png?v=1.0.0" },
-      { rel: "apple-touch-icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png?v=1.0.0" },
-      { rel: "apple-touch-icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png?v=1.0.0" },
-      { rel: "mask-icon", href: "/safari-pinned-tab.svg?v=1.0.0", color: "#e52828" },
-      { rel: "shortcut icon", href: "/favicon.ico?v=1.0.0" },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=1.0.0' },
+      { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png?v=1.1.0" },
+      { rel: "apple-touch-icon", type: "image/png", sizes: "32x32", href: "/favicon/favicon-32x32.png?v=1.1.0" },
+      { rel: "apple-touch-icon", type: "image/png", sizes: "16x16", href: "/favicon/favicon-16x16.png?v=1.1.0" },
+      { rel: "mask-icon", href: "/favicon/safari-pinned-tab.svg?v=1.1.0", color: "#e52828" },
+      { rel: "shortcut icon", href: "/favicon/favicon.ico?v=1.1.0" },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico?v=1.1.0' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
-      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;600&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-640x1136.png', media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-750x1294.png', media: '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-1242x2148.png', media: '(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-1125x2436.png', media: '(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-1536x2048.png', media: '(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-1668x2224.png', media: '(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)' },
+      { rel: 'apple-touch-startup-image', href: '/img/splash/splash-2048x2732.png', media: '(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)' },
     ]
   },
 
@@ -66,6 +72,7 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: true,
     manifest: {
       name: '日文生字溫習',
       short_name: '日文溫習',
