@@ -8,7 +8,7 @@
     {
         "phonogram": "なつ",
         "logogram": "夏",
-        "meaning": "夏",
+        "meaning": "夏天",
         "type": "名詞"
     },
     {
@@ -38,7 +38,7 @@
     {
         "phonogram": "えき",
         "logogram": "駅",
-        "meaning": "站",
+        "meaning": "車站",
         "type": "名詞"
     },
     {
@@ -62,7 +62,7 @@
     {
         "phonogram": "みせ",
         "logogram": "店",
-        "meaning": "店",
+        "meaning": "店鋪",
         "type": "名詞"
     },
     {
@@ -104,31 +104,31 @@
     {
         "phonogram": "あまり＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太",
+        "meaning": "不是太＋否定形容詞",
         "type": "副詞"
     },
     {
         "phonogram": "そんなに＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太",
+        "meaning": "不是太＋否定形容詞",
         "type": "副詞"
     },
     {
         "phonogram": "たいして＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太",
+        "meaning": "不是太＋否定形容詞",
         "type": "副詞"
     },
     {
         "phonogram": "それほど＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太",
+        "meaning": "不是太＋否定形容詞",
         "type": "副詞"
     },
     {
         "phonogram": "ぜんぜん＋否定形容詞",
-        "logogram": "全然",
-        "meaning": "全然",
+        "logogram": "全然＋否定形容詞",
+        "meaning": "全然＋否定形容詞",
         "type": "副詞"
     },
     {
