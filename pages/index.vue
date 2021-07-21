@@ -1,53 +1,50 @@
 <template>
   <div class="px-4 pb-12">
-    <div
-      class="
-        relative
-        w-full
-        flex flex-col
-        justify-center
-        items-center
-        text-center
-        my-4
-        px-4
-        py-12
-        rounded-2xl
-        bg-red-500
-      "
-    >
+    <div class="relative w-full flex flex-col my-4 pt-12">
       <p
-        class="
-          text-4xl
-          font-japanese font-semibold
-          text-white
-          whitespace-nowrap
-        "
+        class="text-4xl font-semibold text-blue-gray-800 whitespace-nowrap"
+        :class="[japaneseFontFamily]"
       >
-        日文生字測試
+        生字測試
       </p>
     </div>
 
-    <div
-      v-for="(page, index) in $store.state.googleSheetPages"
-      :key="page.pageName"
-    >
-      <NuxtLink
-        :to="'/quiz/' + (index + 1)"
-        class="button w-full my-2 font-japanese"
-        >{{ page.title }}</NuxtLink
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+      <div
+        v-for="(page, index) in $store.state.googleSheetPages"
+        :key="page.pageName"
       >
+        <NuxtLink
+          :to="'/quiz/' + (index + 1)"
+          class="button w-full"
+          :class="[japaneseFontFamily]"
+          >{{ page.title }}</NuxtLink
+        >
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  computed: {
+    japaneseFontFamily() {
+      switch (this.$store.state.settings.preferredJapaneseFontFamily) {
+        case "sans":
+          return "font-sans";
+        case "serif":
+          return "font-serif";
+        default:
+          return "font-sans";
+      }
+    },
+  },
   mounted() {},
 };
 </script>
 
 <style lang="postcss">
 .button {
-  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-japanese font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
+  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
 }
 </style>

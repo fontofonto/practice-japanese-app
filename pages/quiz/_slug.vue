@@ -1,9 +1,13 @@
 <template>
   <div class="w-screen h-full max-h-fill-available flex flex-col">
-    <div class="navigation fixed top-0 left-0 w-full bg-blue-500 py-2 px-6">
-      <NuxtLink to="/" class="px-1 py-2 inline-flex space-x-2 text-white">
-        <span class="material-icons text-white"> arrow_back </span>
-        <span class="text-white">返回</span>
+    <div class="navigation fixed top-0 left-0 w-full py-2 px-6">
+      <NuxtLink :to="$router.go(-1)" class="px-1 py-2 inline-flex space-x-2">
+        <IconBackArrow class="fill-blue-gray-700" />
+        <span
+          class="text-blue-gray-700 font-semibold"
+          :class="[japaneseFontFamily]"
+          >返回</span
+        >
       </NuxtLink>
     </div>
     <div
@@ -23,22 +27,19 @@
         "
       >
         <h1
-          class="
-            text-lg text-red-400
-            font-japanese font-bold
-            my-2
-            whitespace-nowrap
-          "
+          class="text-lg text-red-400 font-bold my-2 whitespace-nowrap"
+          :class="[japaneseFontFamily]"
         >
           試験 {{ slug }}
         </h1>
         <h2
           class="
             text-2xl text-blue-gray-800
-            font-japanese font-semibold
+            font-semibold
             my-2
             whitespace-nowrap
           "
+          :class="[japaneseFontFamily]"
         >
           {{ $store.state.googleSheetPages[slug - 1].title }}
         </h2>
@@ -128,9 +129,9 @@
             font-semibold
             text-xl
             my-6
-            font-japanese
             whitespace-nowrap
           "
+          :class="[japaneseFontFamily]"
         >
           分數： {{ score }} / {{ totalScore }}
         </p>
@@ -175,6 +176,16 @@ export default {
     };
   },
   computed: {
+    japaneseFontFamily() {
+      switch (this.$store.state.settings.preferredJapaneseFontFamily) {
+        case "sans":
+          return "font-sans";
+        case "serif":
+          return "font-serif";
+        default:
+          return "font-sans";
+      }
+    },
     totalScore() {
       return this.questionList.length;
     },

@@ -8,7 +8,7 @@
       overflow-auto overflow-x-hidden
     "
   >
-    <Nuxt class="mb-12" />
+    <Nuxt class="mb-16" />
     <BottomNavigationBar />
     <transition name="show-panel">
       <UpdatePanel
@@ -52,8 +52,9 @@ export default {
 <style lang="postcss">
 html {
   @apply h-fill-available;
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "游明朝", "游明朝体",
+    YuMincho, "Yu Mincho", "ＭＳ 明朝", "MS Mincho", HiraMinProN-W3,
+    "TakaoEx明朝", TakaoExMincho, "MotoyaLCedar", "Droid Sans Japanese", serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -79,7 +80,7 @@ body {
 }
 
 .button {
-  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-japanese font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
+  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
 }
 </style>
 

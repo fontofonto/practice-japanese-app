@@ -1,12 +1,13 @@
 <template>
   <div class="w-screen h-full max-h-fill-available flex flex-col">
-    <div class="navigation fixed top-0 left-0 w-full bg-blue-500 py-2 px-6">
-      <button
-        @click="$router.go(-1)"
-        class="px-1 py-2 inline-flex space-x-2 text-white"
-      >
-        <span class="material-icons text-white"> arrow_back </span>
-        <span class="text-white">返回</span>
+    <div class="navigation fixed top-0 left-0 w-full py-2 px-6 bg-white">
+      <button @click="$router.go(-1)" class="px-1 py-2 inline-flex space-x-2">
+        <IconBackArrow class="fill-blue-gray-700" />
+        <span
+          class="text-blue-gray-700 font-semibold"
+          :class="[japaneseFontFamily]"
+          >返回</span
+        >
       </button>
     </div>
     <div class="intro-page flex-grow flex flex-col items-center py-14">
@@ -18,26 +19,23 @@
           w-full
           px-10
           py-6
-          bg-blue-gray-100
+          border-b border-bg-blue-gray-200
         "
       >
         <h1
-          class="
-            text-lg text-red-400
-            font-japanese font-bold
-            my-2
-            whitespace-nowrap
-          "
+          class="text-lg text-red-400 font-bold my-2 whitespace-nowrap"
+          :class="[japaneseFontFamily]"
         >
           單字表 {{ slug }}
         </h1>
         <h2
           class="
             text-2xl text-blue-gray-800
-            font-japanese font-semibold
+            font-semibold
             my-2
             whitespace-nowrap
           "
+          :class="[japaneseFontFamily]"
         >
           {{ $store.state.googleSheetPages[slug - 1].title }}
         </h2>
@@ -48,10 +46,10 @@
         class="flex flex-row w-full py-2 space-x-1 text-base"
         :class="{ 'bg-blue-gray-100': index % 2 }"
       >
-        <div class="w-5/12 font-japanese font-semibold pl-4">
+        <div class="w-5/12 font-semibold pl-4" :class="[japaneseFontFamily]">
           {{ word.phonogram }}
         </div>
-        <div class="w-4/12 font-japanese font-semibold">
+        <div class="w-4/12 font-semibold" :class="[japaneseFontFamily]">
           {{ word.logogram }}
         </div>
         <div class="w-3/12 pr-4">
@@ -89,6 +87,18 @@ export default {
     return {
       googleSheetJson: [],
     };
+  },
+  computed: {
+    japaneseFontFamily() {
+      switch (this.$store.state.settings.preferredJapaneseFontFamily) {
+        case "sans":
+          return "font-sans";
+        case "serif":
+          return "font-serif";
+        default:
+          return "font-sans";
+      }
+    },
   },
 };
 </script>

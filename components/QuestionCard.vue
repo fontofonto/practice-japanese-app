@@ -15,11 +15,15 @@
         bg-blue-gray-100
       "
     >
-      <p class="text-2xl font-japanese font-semibold whitespace-nowrap">
+      <p
+        class="text-2xl font-semibold whitespace-nowrap"
+        :class="[japaneseFontFamily]"
+      >
         {{ question.phonogram }}
       </p>
       <p
-        class="text-2xl font-japanese font-semibold whitespace-nowrap"
+        class="text-2xl font-semibold whitespace-nowrap"
+        :class="[japaneseFontFamily]"
         v-if="$store.state.settings.showKanji"
       >
         {{ question.logogram }}
@@ -74,6 +78,16 @@ export default {
   computed: {
     isLastQuestion: function () {
       return this.questionIndex === this.totalNumberOfQuestions - 1;
+    },
+    japaneseFontFamily() {
+      switch (this.$store.state.settings.preferredJapaneseFontFamily) {
+        case "sans":
+          return "font-sans";
+        case "serif":
+          return "font-serif";
+        default:
+          return "font-sans";
+      }
     },
   },
   data: () => ({

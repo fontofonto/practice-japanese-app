@@ -13,10 +13,12 @@ export default defineConfig({
             },
             maxHeight: {
                 "fill-available": "-webkit-fill-available"
-            }
+            },
+
         },
         fontFamily: {
-            japanese: ['ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', '游明朝', '游明朝体', 'YuMincho', 'Yu Mincho', 'ＭＳ 明朝', 'MS Mincho', 'HiraMinProN-W3', 'TakaoEx明朝', 'TakaoExMincho', 'MotoyaLCedar', 'Droid Sans Japanese', 'serif']
+            sans: ["\'ヒラギノ角ゴ ProN\'", "\'Hiragino Kaku Gothic ProN\'", "\'游ゴシック\'", "\'游ゴシック体\'", "YuGothic", "\'Yu Gothic\'", "\'メイリオ\'", "Meiryo", "\'ＭＳ ゴシック\'", "\'MS Gothic\'", "HiraKakuProN-W3", "\'TakaoExゴシック\'", "TakaoExGothic", "\'MotoyaLCedar\'", "\'Droid Sans Japanese\'", "sans-serif"],
+            serif: ["\'ヒラギノ明朝 ProN\'", "\'Hiragino Mincho ProN\'", "\'游明朝\'", "\'游明朝体\'", "YuMincho", "\'Yu Mincho\'", "\'ＭＳ 明朝\'", "\'MS Mincho\'", "HiraMinProN-W3", "\'TakaoEx明朝\'", "TakaoExMincho", "\'MotoyaLCedar\'", "\'Droid Sans Japanese\'", "serif"]
         },
     },
 })

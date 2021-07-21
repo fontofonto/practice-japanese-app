@@ -2,6 +2,7 @@ export const state = () => ({
     settings: {
         showKanji: false,
         numberOfQuestions: 10,
+        preferredJapaneseFontFamily: 'serif',
     },
     googleSheetId: "1RTGcd08OKuLVU7rqfjr9uBHf9282c5zUiFa3PR6iuSo",
     googleSheetPages: [
@@ -67,7 +68,11 @@ export const mutations = {
     updateNumberOfQuestions(state, payload) {
         state.settings.numberOfQuestions = payload
         localStorage.setItem("settings", JSON.stringify(state.settings))
-    }
+    },
+    updatePreferredJapaneseFontFamily(state, payload) {
+        state.settings.preferredJapaneseFontFamily = payload
+        localStorage.setItem("settings", JSON.stringify(state.settings))
+    },
 }
 
 export const actions = {

@@ -13,13 +13,19 @@
         label="溫習"
         to="/review"
       ></BottomNavigationBarItem>
+      <BottomNavigationBarItem
+        class="settings"
+        icon="IconSettings"
+        label="設定"
+        to="/settings"
+      ></BottomNavigationBarItem>
     </div>
   </div>
 </template>
 
 <style lang="postcss" scoped>
 .bottom-navigation-bar-wrapper {
-  @apply fixed z-10000 bottom-0 left-0 w-full p-4;
+  @apply fixed z-10000 bottom-0 left-0 w-full px-4 pb-6;
 }
 .bottom-navigation-bar {
   @apply relative w-full h-16 px-6 bg-white rounded-4xl shadow-2xl;
