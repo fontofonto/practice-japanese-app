@@ -72,7 +72,9 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
-    icon: true,
+    icon: {
+      fileName: 'app-icon.png',
+    },
     manifest: {
       name: '日文生字溫習',
       short_name: '日文溫習',
@@ -89,6 +91,13 @@ export default {
         debug: true
       },
       preCaching: [
+        "/img/splash/splash-640x1136.png",
+        "/img/splash/splash-750x1294.png",
+        "/img/splash/splash-1125x2436.png",
+        "/img/splash/splash-1242x2148.png",
+        "/img/splash/splash-1536x2048.png",
+        "/img/splash/splash-1668x2224.png",
+        "/img/splash/splash-2048x2732.png",
         "/data/chapter1-5.json",
         "/data/chapter6-10.json",
         "/data/chapter11-14.json",

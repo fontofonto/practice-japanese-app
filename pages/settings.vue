@@ -59,7 +59,7 @@
       </div>
       <div class="settings-list-item">
         <p class="font-semibold" :class="[japaneseFontFamily]">版本</p>
-        <p :class="[japaneseFontFamily]">1.1.0</p>
+        <p :class="[japaneseFontFamily]">1.1.1</p>
       </div>
     </div>
   </div>
