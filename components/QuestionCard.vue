@@ -21,20 +21,33 @@
       >
         {{ question.phonogram }}
       </p>
-      <p
-        class="text-2xl font-semibold whitespace-nowrap"
-        :class="[japaneseFontFamily]"
-        v-if="$store.state.settings.showKanji"
+      <div
+        class="flex flex-row items-center"
+        :class="{ 'pl-8': !$store.state.settings.showKanji }"
+        v-if="question.logogram"
       >
-        {{ question.logogram }}
-      </p>
+        <p
+          class="text-2xl font-semibold whitespace-nowrap"
+          :class="[japaneseFontFamily, showKanji ? 'visible' : 'invisible']"
+        >
+          {{ question.logogram }}
+        </p>
+        <button
+          class="ml-2 fill-blue-gray-800"
+          @click="isLookingForLogogram = !isLookingForLogogram"
+          v-if="!$store.state.settings.showKanji"
+        >
+          <IconVisibilityOn v-if="isLookingForLogogram" />
+          <IconVisibilityOff v-else />
+        </button>
+      </div>
     </div>
 
     <div class="choices grid grid-cols-2 grid-rows-2 gap-2 my-4">
       <button
         v-for="(choice, choiceIndex) in question.choices"
         :key="`question${questionIndex}answer${choiceIndex}`"
-        class="border rounded-2xl p-2 text-center font-medium"
+        class="border rounded-2xl p-2 text-center font-semibold"
         @click="makeChoice(choice)"
         :class="{
           'bg-green-500 text-white':
@@ -89,9 +102,18 @@ export default {
           return "font-sans";
       }
     },
+    showKanji() {
+      if (this.question.logogram) {
+        if (this.$store.state.settings.showKanji || this.isLookingForLogogram) {
+          return true;
+        }
+      }
+      return false;
+    },
   },
   data: () => ({
     decision: null,
+    isLookingForLogogram: false,
   }),
   methods: {
     makeChoice(choice) {

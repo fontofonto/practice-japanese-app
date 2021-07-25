@@ -36,7 +36,7 @@ export default {
 
 <style lang="postcss" scoped>
 .bottom-navigation-bar-item {
-  @apply flex flex-col justify-center items-center flex-1 py-2 transition text-blue-gray-500;
+  @apply w-full max-w-80px flex flex-col justify-center items-center flex-1 py-2 transition text-blue-gray-500;
 }
 .bottom-navigation-bar-item .icon {
   @apply fill-current;

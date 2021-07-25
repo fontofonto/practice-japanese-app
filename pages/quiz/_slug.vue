@@ -43,7 +43,7 @@
         >
           {{ $store.state.googleSheetPages[slug - 1].title }}
         </h2>
-        <div class="flex flex-row my-4 space-x-4">
+        <div class="flex flex-row items-center my-4 space-x-4">
           <div>
             <input
               type="checkbox"
@@ -135,7 +135,39 @@
         >
           分數： {{ score }} / {{ totalScore }}
         </p>
-        <button class="button w-full my-2" @click="initializeQuiz">
+        <!-- <div class="w-full flex flex-col">
+          <div
+            class="flex flex-row"
+            v-for="(question, questionIndex) in questionList"
+            :key="`result${questionIndex}`"
+          >
+            <div
+              class="w-1/3"
+              :class="[
+                question.isCorrect ? ' !text-green-500' : '!text-red-500',
+              ]"
+            >
+              {{ question.phonogram }}
+            </div>
+            <div
+              class="w-1/3"
+              :class="[
+                question.isCorrect ? ' !text-green-500' : '!text-red-500',
+              ]"
+            >
+              {{ question.logogram }}
+            </div>
+            <div
+              class="w-1/3"
+              :class="[
+                question.isCorrect ? ' !text-green-500' : '!text-red-500',
+              ]"
+            >
+              {{ question.meaning }}
+            </div>
+          </div>
+        </div> -->
+        <button class="button w-full my-2" @click="mode = 'intro'">
           再來一次
         </button>
         <NuxtLink to="/" class="button w-full my-2">返回目錄</NuxtLink>

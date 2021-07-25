@@ -1,5 +1,11 @@
 [
     {
+        "phonogram": "けいようし",
+        "logogram": "形容詞",
+        "meaning": "形容詞",
+        "type": "名詞"
+    },
+    {
         "phonogram": "はる",
         "logogram": "春",
         "meaning": "春天",
@@ -62,7 +68,7 @@
     {
         "phonogram": "みせ",
         "logogram": "店",
-        "meaning": "店鋪",
+        "meaning": "店",
         "type": "名詞"
     },
     {
@@ -104,31 +110,31 @@
     {
         "phonogram": "あまり＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太＋否定形容詞",
+        "meaning": "不是太＋(否定形容詞)",
         "type": "副詞"
     },
     {
         "phonogram": "そんなに＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太＋否定形容詞",
+        "meaning": "不是太＋(否定形容詞)",
         "type": "副詞"
     },
     {
         "phonogram": "たいして＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太＋否定形容詞",
+        "meaning": "不是太＋(否定形容詞)",
         "type": "副詞"
     },
     {
         "phonogram": "それほど＋否定形容詞",
         "logogram": "",
-        "meaning": "不是太＋否定形容詞",
+        "meaning": "不是太＋(否定形容詞)",
         "type": "副詞"
     },
     {
         "phonogram": "ぜんぜん＋否定形容詞",
-        "logogram": "全然＋否定形容詞",
-        "meaning": "全然＋否定形容詞",
+        "logogram": "全然",
+        "meaning": "全然＋(否定形容詞)",
         "type": "副詞"
     },
     {
@@ -186,6 +192,12 @@
         "type": "名詞"
     },
     {
+        "phonogram": "しょうぼうし",
+        "logogram": "消防士",
+        "meaning": "消防員",
+        "type": "名詞"
+    },
+    {
         "phonogram": "バナナ",
         "logogram": "",
         "meaning": "香蕉",
@@ -207,6 +219,12 @@
         "phonogram": "ゆきだるま",
         "logogram": "雪だるま",
         "meaning": "雪人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "スノーマン",
+        "logogram": "",
+        "meaning": "雪人(Snowman)",
         "type": "名詞"
     },
     {
@@ -386,6 +404,12 @@
     {
         "phonogram": "おかし",
         "logogram": "お菓子",
+        "meaning": "甜食(糖果、朱古力、糕餅)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あめ",
+        "logogram": "飴",
         "meaning": "糖果",
         "type": "名詞"
     },
@@ -405,6 +429,114 @@
         "phonogram": "とうがらし",
         "logogram": "唐辛子",
         "meaning": "辣椒",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さくばん",
+        "logogram": "昨晩",
+        "meaning": "昨晩",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さくや",
+        "logogram": "昨夜",
+        "meaning": "昨夜",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "たいふう",
+        "logogram": "台風",
+        "meaning": "颱風",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ひがい",
+        "logogram": "被害",
+        "meaning": "損害、損傷、損失",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "よそうがい",
+        "logogram": "予想外",
+        "meaning": "預料之外",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あめ",
+        "logogram": "雨",
+        "meaning": "雨",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "いつも",
+        "logogram": "",
+        "meaning": "經常、次數高",
+        "type": "表達"
+    },
+    {
+        "phonogram": "びじん",
+        "logogram": "美人",
+        "meaning": "美人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おまつり",
+        "logogram": "お祭り",
+        "meaning": "祭典",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くうき",
+        "logogram": "空気",
+        "meaning": "空氣",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ぞう",
+        "logogram": "象",
+        "meaning": "象",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みみ",
+        "logogram": "耳",
+        "meaning": "耳",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あし",
+        "logogram": "足",
+        "meaning": "腳",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "はな",
+        "logogram": "鼻",
+        "meaning": "鼻",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "たべもの",
+        "logogram": "食べ物",
+        "meaning": "食物",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かぶき",
+        "logogram": "歌舞伎",
+        "meaning": "歌舞伎",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "コンサート",
+        "logogram": "",
+        "meaning": "音樂會(Concert)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "やきゅう",
+        "logogram": "野球",
+        "meaning": "棒球",
         "type": "名詞"
     }
 ]

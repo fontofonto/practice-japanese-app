@@ -55,11 +55,12 @@
           name="showKanji"
           id="showKanji"
           v-model="showKanji"
+          class="w-6 h-6"
         />
       </div>
       <div class="settings-list-item">
         <p class="font-semibold" :class="[japaneseFontFamily]">版本</p>
-        <p :class="[japaneseFontFamily]">1.1.1</p>
+        <p :class="[japaneseFontFamily]">{{ $store.state.version }}</p>
       </div>
     </div>
   </div>

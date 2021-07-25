@@ -1,5 +1,101 @@
 [
     {
+        "phonogram": "いろいろな",
+        "logogram": "",
+        "meaning": "各種各樣的",
+        "type": "な形容詞"
+    },
+    {
+        "phonogram": "おかだ",
+        "logogram": "岡田",
+        "meaning": "岡田",
+        "type": "人名"
+    },
+    {
+        "phonogram": "はやし",
+        "logogram": "林",
+        "meaning": "林（日本姓氏）",
+        "type": "人名"
+    },
+    {
+        "phonogram": "ここ",
+        "logogram": "",
+        "meaning": "這裡（說話者）",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "そこ",
+        "logogram": "",
+        "meaning": "那裡（聽話者）",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "あそこ",
+        "logogram": "",
+        "meaning": "那裡（較遠）",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "どこ",
+        "logogram": "",
+        "meaning": "哪裡",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "すこし",
+        "logogram": "少し",
+        "meaning": "很少",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "たくさん",
+        "logogram": "",
+        "meaning": "很多（事物）",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "おおぜい",
+        "logogram": "大勢",
+        "meaning": "很多（人）",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "どのくらい",
+        "logogram": "",
+        "meaning": "幾多",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "みな",
+        "logogram": "皆",
+        "meaning": "大家/全部",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "みんな",
+        "logogram": "皆",
+        "meaning": "大家/全部",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "いっしょに",
+        "logogram": "一緒に",
+        "meaning": "一起",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "まだ",
+        "logogram": "",
+        "meaning": "仍然/還",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "ずっと",
+        "logogram": "",
+        "meaning": "一直",
+        "type": "副詞"
+    },
+    {
         "phonogram": "しゅくじつ",
         "logogram": "祝日",
         "meaning": "公眾假期",
@@ -21,30 +117,6 @@
         "phonogram": "きまつしけん",
         "logogram": "期末試験",
         "meaning": "期末考試",
-        "type": "名詞"
-    },
-    {
-        "phonogram": "ここ",
-        "logogram": "",
-        "meaning": "這裡（說話者）",
-        "type": "場所代名詞"
-    },
-    {
-        "phonogram": "そこ",
-        "logogram": "",
-        "meaning": "那裡（聽話者）",
-        "type": "場所代名詞"
-    },
-    {
-        "phonogram": "あそこ",
-        "logogram": "",
-        "meaning": "那裡（較遠）",
-        "type": "場所代名詞"
-    },
-    {
-        "phonogram": "どこ",
-        "logogram": "",
-        "meaning": "哪裡",
         "type": "名詞"
     },
     {
@@ -84,13 +156,7 @@
         "type": "名詞"
     },
     {
-        "phonogram": "いえ",
-        "logogram": "家",
-        "meaning": "家",
-        "type": "名詞"
-    },
-    {
-        "phonogram": "うち",
+        "phonogram": "いえ／うち",
         "logogram": "家",
         "meaning": "家",
         "type": "名詞"
@@ -142,30 +208,6 @@
         "logogram": "隣",
         "meaning": "旁邊",
         "type": "名詞"
-    },
-    {
-        "phonogram": "すこし",
-        "logogram": "少し",
-        "meaning": "很少",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "たくさん",
-        "logogram": "",
-        "meaning": "很多（事物）",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "おおぜい",
-        "logogram": "大勢",
-        "meaning": "很多（人）",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "どのくらい",
-        "logogram": "",
-        "meaning": "幾多",
-        "type": "副詞"
     },
     {
         "phonogram": "みせ",
@@ -276,12 +318,6 @@
         "type": "名詞"
     },
     {
-        "phonogram": "いろいろな",
-        "logogram": "",
-        "meaning": "各種各樣的",
-        "type": "形容詞"
-    },
-    {
         "phonogram": "もの",
         "logogram": "物",
         "meaning": "東西",
@@ -296,7 +332,7 @@
     {
         "phonogram": "えいがかん",
         "logogram": "映画館",
-        "meaning": "電影院",
+        "meaning": "戲院",
         "type": "名詞"
     },
     {
@@ -320,7 +356,7 @@
     {
         "phonogram": "ホッチキス",
         "logogram": "",
-        "meaning": "釘書機",
+        "meaning": "釘書機(Hotchkiss)",
         "type": "名詞"
     },
     {
@@ -426,18 +462,6 @@
         "type": "名詞"
     },
     {
-        "phonogram": "とうきょう",
-        "logogram": "東京",
-        "meaning": "東京",
-        "type": "名詞"
-    },
-    {
-        "phonogram": "おおさか",
-        "logogram": "大阪",
-        "meaning": "大阪",
-        "type": "名詞"
-    },
-    {
         "phonogram": "かぞく",
         "logogram": "家族",
         "meaning": "家人",
@@ -459,12 +483,6 @@
         "phonogram": "りゅうがくせい",
         "logogram": "留学生",
         "meaning": "留學生",
-        "type": "名詞"
-    },
-    {
-        "phonogram": "おかだ",
-        "logogram": "岡田",
-        "meaning": "岡田",
         "type": "名詞"
     },
     {
@@ -490,36 +508,6 @@
         "logogram": "眼鏡",
         "meaning": "眼鏡",
         "type": "名詞"
-    },
-    {
-        "phonogram": "みな",
-        "logogram": "皆",
-        "meaning": "大家/全部",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "みんな",
-        "logogram": "皆",
-        "meaning": "大家/全部",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "いっしょに",
-        "logogram": "一緒に",
-        "meaning": "一起",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "まだ",
-        "logogram": "",
-        "meaning": "仍然/還",
-        "type": "副詞"
-    },
-    {
-        "phonogram": "ずっと",
-        "logogram": "",
-        "meaning": "一直",
-        "type": "副詞"
     },
     {
         "phonogram": "まえ",
@@ -626,25 +614,25 @@
     {
         "phonogram": "ひがし",
         "logogram": "東",
-        "meaning": "東",
+        "meaning": "東面",
         "type": "名詞"
     },
     {
         "phonogram": "みなみ",
         "logogram": "南",
-        "meaning": "南",
+        "meaning": "南面",
         "type": "名詞"
     },
     {
         "phonogram": "にし",
         "logogram": "西",
-        "meaning": "西",
+        "meaning": "西面",
         "type": "名詞"
     },
     {
         "phonogram": "きた",
         "logogram": "北",
-        "meaning": "北",
+        "meaning": "北面",
         "type": "名詞"
     },
     {
@@ -678,12 +666,6 @@
         "type": "名詞"
     },
     {
-        "phonogram": "はやし",
-        "logogram": "林",
-        "meaning": "林（日本姓氏）",
-        "type": "名詞"
-    },
-    {
         "phonogram": "さいふ",
         "logogram": "財布",
         "meaning": "銀包",
@@ -702,21 +684,33 @@
         "type": "名詞"
     },
     {
-        "phonogram": "ふくおか",
-        "logogram": "福岡",
-        "meaning": "福岡",
-        "type": "名詞"
-    },
-    {
         "phonogram": "しんせき",
         "logogram": "親戚",
         "meaning": "親戚",
         "type": "名詞"
     },
     {
+        "phonogram": "とうきょう",
+        "logogram": "東京",
+        "meaning": "東京",
+        "type": "地名"
+    },
+    {
+        "phonogram": "おおさか",
+        "logogram": "大阪",
+        "meaning": "大阪",
+        "type": "地名"
+    },
+    {
+        "phonogram": "ふくおか",
+        "logogram": "福岡",
+        "meaning": "福岡",
+        "type": "地名"
+    },
+    {
         "phonogram": "よこはま",
         "logogram": "横浜",
         "meaning": "橫濱",
-        "type": "名詞"
+        "type": "地名"
     }
 ]

@@ -68,7 +68,7 @@
     {
         "phonogram": "わるい",
         "logogram": "悪い",
-        "meaning": "不好的/壞的",
+        "meaning": "不好的、壞的",
         "type": "い形容詞"
     },
     {
@@ -291,6 +291,36 @@
         "phonogram": "たのしい",
         "logogram": "楽しい",
         "meaning": "愉快的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "はげしい",
+        "logogram": "激しい",
+        "meaning": "激烈的、程度高的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "すくない",
+        "logogram": "少ない",
+        "meaning": "少的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "おおい",
+        "logogram": "多い",
+        "meaning": "多的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "うるさい",
+        "logogram": "煩い",
+        "meaning": "吵鬧的",
+        "type": "い形容詞"
+    },
+    {
+        "phonogram": "うつくしい",
+        "logogram": "美しい",
+        "meaning": "美麗的",
         "type": "い形容詞"
     }
 ]

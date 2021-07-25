@@ -1,457 +1,548 @@
 [
     {
-        "phonogram": "これ",
-        "logogram": "",
-        "meaning": "這"
-    },
-    {
-        "phonogram": "それ",
-        "logogram": "",
-        "meaning": "它"
-    },
-    {
-        "phonogram": "あれ",
-        "logogram": "",
-        "meaning": "那"
-    },
-    {
-        "phonogram": "どれ",
-        "logogram": "",
-        "meaning": "哪一個"
-    },
-    {
-        "phonogram": "つくえ",
-        "logogram": "机",
-        "meaning": "桌子"
-    },
-    {
-        "phonogram": "けしごむ",
-        "logogram": "消しゴム",
-        "meaning": "橡皮"
-    },
-    {
-        "phonogram": "しゅうせいえき",
-        "logogram": "修正液",
-        "meaning": "塗改液"
-    },
-    {
-        "phonogram": "ごみばこ",
-        "logogram": "ごみ箱",
-        "meaning": "垃圾箱"
-    },
-    {
-        "phonogram": "ほん",
-        "logogram": "本",
-        "meaning": "書"
-    },
-    {
-        "phonogram": "ざっし",
-        "logogram": "雑誌",
-        "meaning": "雜誌"
-    },
-    {
-        "phonogram": "しんぶん",
-        "logogram": "新聞",
-        "meaning": "報紙"
-    },
-    {
-        "phonogram": "せんぷうき",
-        "logogram": "扇風機",
-        "meaning": "風扇"
-    },
-    {
-        "phonogram": "かばん",
-        "logogram": "鞄",
-        "meaning": "袋子、手提包"
-    },
-    {
-        "phonogram": "まど",
-        "logogram": "窓",
-        "meaning": "窗戶"
-    },
-    {
-        "phonogram": "えいがかん",
-        "logogram": "映画館",
-        "meaning": "戲院"
-    },
-    {
-        "phonogram": "ぎんこう",
-        "logogram": "銀行",
-        "meaning": "銀行"
-    },
-    {
-        "phonogram": "きょうかしょ",
-        "logogram": "教科書",
-        "meaning": "教科書"
-    },
-    {
-        "phonogram": "じしょ",
-        "logogram": "辞書",
-        "meaning": "字典"
-    },
-    {
-        "phonogram": "どちら",
-        "logogram": "",
-        "meaning": "兩個之中哪一個"
-    },
-    {
-        "phonogram": "なん/なに",
-        "logogram": "何",
-        "meaning": "什麼"
-    },
-    {
-        "phonogram": "この",
-        "logogram": "",
-        "meaning": "這個的（離發言者較近）"
-    },
-    {
-        "phonogram": "その",
-        "logogram": "",
-        "meaning": "那個的（離聽話者較近）"
-    },
-    {
-        "phonogram": "あの",
-        "logogram": "",
-        "meaning": "那個的（較遠）"
-    },
-    {
-        "phonogram": "どの",
-        "logogram": "",
-        "meaning": "哪一個"
-    },
-    {
-        "phonogram": "わたし",
-        "logogram": "私",
-        "meaning": "我"
-    },
-    {
-        "phonogram": "あなた",
-        "logogram": "",
-        "meaning": "你"
-    },
-    {
-        "phonogram": "でんたく",
-        "logogram": "電卓",
-        "meaning": "計數機"
-    },
-    {
         "phonogram": "いのうえ",
         "logogram": "井上",
-        "meaning": "井上"
-    },
-    {
-        "phonogram": "にほんじん",
-        "logogram": "日本人",
-        "meaning": "日本人"
-    },
-    {
-        "phonogram": "ちゅうごくじん",
-        "logogram": "中国人",
-        "meaning": "中國人"
+        "meaning": "井上",
+        "type": "人名"
     },
     {
         "phonogram": "なかがわ",
         "logogram": "中川",
-        "meaning": "中川"
-    },
-    {
-        "phonogram": "ともだち",
-        "logogram": "友達",
-        "meaning": "朋友"
-    },
-    {
-        "phonogram": "みやした",
-        "logogram": "宮下",
-        "meaning": "宮下"
-    },
-    {
-        "phonogram": "かれ",
-        "logogram": "彼",
-        "meaning": "他"
-    },
-    {
-        "phonogram": "かのじょ",
-        "logogram": "彼女",
-        "meaning": "她"
-    },
-    {
-        "phonogram": "このひと",
-        "logogram": "この人",
-        "meaning": "這個人（離發言者較近）"
-    },
-    {
-        "phonogram": "そのひと",
-        "logogram": "その人",
-        "meaning": "那個人（離聽話者較近）"
-    },
-    {
-        "phonogram": "あのひと",
-        "logogram": "あの人",
-        "meaning": "那個人（較遠）"
-    },
-    {
-        "phonogram": "どのひと",
-        "logogram": "どの人",
-        "meaning": "哪個人"
-    },
-    {
-        "phonogram": "だれ",
-        "logogram": "誰",
-        "meaning": "誰"
-    },
-    {
-        "phonogram": "このかた",
-        "logogram": "この方",
-        "meaning": "這個人（離發言者較近、丁寧）"
-    },
-    {
-        "phonogram": "そのかた",
-        "logogram": "その方",
-        "meaning": "那個人（離聽話者較近、丁寧）"
-    },
-    {
-        "phonogram": "あのかた",
-        "logogram": "あの方",
-        "meaning": "那個人（較遠、丁寧）"
-    },
-    {
-        "phonogram": "どのかた",
-        "logogram": "どの方",
-        "meaning": "哪個人（丁寧）"
-    },
-    {
-        "phonogram": "どなた",
-        "logogram": "",
-        "meaning": "誰（丁寧）"
-    },
-    {
-        "phonogram": "いくら",
-        "logogram": "",
-        "meaning": "多少錢"
-    },
-    {
-        "phonogram": "えん",
-        "logogram": "円",
-        "meaning": "円"
-    },
-    {
-        "phonogram": "ドル",
-        "logogram": "",
-        "meaning": "美元"
-    },
-    {
-        "phonogram": "セント",
-        "logogram": "",
-        "meaning": "美仙"
-    },
-    {
-        "phonogram": "ネクタイ",
-        "logogram": "",
-        "meaning": "領帶"
-    },
-    {
-        "phonogram": "くつした",
-        "logogram": "靴下",
-        "meaning": "襪"
-    },
-    {
-        "phonogram": "ワイシャツ",
-        "logogram": "",
-        "meaning": "襯衫"
-    },
-    {
-        "phonogram": "じゅぎょうりょう",
-        "logogram": "授業料",
-        "meaning": "學費"
-    },
-    {
-        "phonogram": "おたく",
-        "logogram": "お宅",
-        "meaning": "閣下的家"
-    },
-    {
-        "phonogram": "やちん",
-        "logogram": "家賃",
-        "meaning": "租金"
-    },
-    {
-        "phonogram": "げっきゅう",
-        "logogram": "月給",
-        "meaning": "月收入"
-    },
-    {
-        "phonogram": "じんこう",
-        "logogram": "人口",
-        "meaning": "人口"
-    },
-    {
-        "phonogram": "おてあらい",
-        "logogram": "お手洗い",
-        "meaning": "洗手間"
+        "meaning": "中川",
+        "type": "人名"
     },
     {
         "phonogram": "ちん",
         "logogram": "陳",
-        "meaning": "陳(姓)"
-    },
-    {
-        "phonogram": "シー．アイ．エフ",
-        "logogram": "",
-        "meaning": "CIF（貿易詞語）"
-    },
-    {
-        "phonogram": "エフ．オー．ビー",
-        "logogram": "",
-        "meaning": "FOB（貿易詞語）"
-    },
-    {
-        "phonogram": "かかく",
-        "logogram": "価格",
-        "meaning": "價格"
-    },
-    {
-        "phonogram": "スミス",
-        "logogram": "",
-        "meaning": "Smiths"
-    },
-    {
-        "phonogram": "イギリスじん",
-        "logogram": "イギリス人",
-        "meaning": "英國人"
-    },
-    {
-        "phonogram": "アメリカじん",
-        "logogram": "アメリカ人",
-        "meaning": "美國人"
-    },
-    {
-        "phonogram": "きのう",
-        "logogram": "昨日",
-        "meaning": "昨天"
-    },
-    {
-        "phonogram": "きょう",
-        "logogram": "今日",
-        "meaning": "今天"
-    },
-    {
-        "phonogram": "あした",
-        "logogram": "明日",
-        "meaning": "明天"
+        "meaning": "陳(姓氏)",
+        "type": "人名"
     },
     {
         "phonogram": "まえさわ",
         "logogram": "前沢",
-        "meaning": "前沢"
+        "meaning": "前沢",
+        "type": "人名"
+    },
+    {
+        "phonogram": "これ",
+        "logogram": "",
+        "meaning": "這個(離說話者較近)",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "それ",
+        "logogram": "",
+        "meaning": "那個(離聽話者較近)",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "あれ",
+        "logogram": "",
+        "meaning": "那個(較遠)",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "どれ",
+        "logogram": "",
+        "meaning": "哪個",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "どちら",
+        "logogram": "",
+        "meaning": "哪一個(兩種選擇)",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "わたし",
+        "logogram": "私",
+        "meaning": "我",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "あなた",
+        "logogram": "",
+        "meaning": "你",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "かれ",
+        "logogram": "彼",
+        "meaning": "他",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "かのじょ",
+        "logogram": "彼女",
+        "meaning": "她",
+        "type": "代名詞"
+    },
+    {
+        "phonogram": "つくえ",
+        "logogram": "机",
+        "meaning": "桌子",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "けしごむ",
+        "logogram": "消しゴム",
+        "meaning": "擦膠",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しゅうせいえき",
+        "logogram": "修正液",
+        "meaning": "塗改液",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ごみばこ",
+        "logogram": "ごみ箱",
+        "meaning": "垃圾箱",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ほん",
+        "logogram": "本",
+        "meaning": "書",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ざっし",
+        "logogram": "雑誌",
+        "meaning": "雜誌",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しんぶん",
+        "logogram": "新聞",
+        "meaning": "報紙",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "せんぷうき",
+        "logogram": "扇風機",
+        "meaning": "電風扇",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かばん",
+        "logogram": "鞄",
+        "meaning": "手袋、背囊",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "まど",
+        "logogram": "窓",
+        "meaning": "窗戶",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "えいがかん",
+        "logogram": "映画館",
+        "meaning": "戲院",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ぎんこう",
+        "logogram": "銀行",
+        "meaning": "銀行",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きょうかしょ",
+        "logogram": "教科書",
+        "meaning": "教科書",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "じしょ",
+        "logogram": "辞書",
+        "meaning": "字典",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "でんたく",
+        "logogram": "電卓",
+        "meaning": "計數機",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "にほんじん",
+        "logogram": "日本人",
+        "meaning": "日本人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ちゅうごくじん",
+        "logogram": "中国人",
+        "meaning": "中國人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ともだち",
+        "logogram": "友達",
+        "meaning": "朋友",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みやした",
+        "logogram": "宮下",
+        "meaning": "宮下",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "このひと",
+        "logogram": "この人",
+        "meaning": "這個人(離發言者較近)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "そのひと",
+        "logogram": "その人",
+        "meaning": "那個人(離聽話者較近)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あのひと",
+        "logogram": "あの人",
+        "meaning": "那個人（較遠）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "どのひと",
+        "logogram": "どの人",
+        "meaning": "哪個人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "だれ",
+        "logogram": "誰",
+        "meaning": "誰",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "このかた",
+        "logogram": "この方",
+        "meaning": "這個人(離發言者較近、丁寧)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "そのかた",
+        "logogram": "その方",
+        "meaning": "那個人(離聽話者較近、丁寧)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あのかた",
+        "logogram": "あの方",
+        "meaning": "那個人(較遠、丁寧）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "どのかた",
+        "logogram": "どの方",
+        "meaning": "哪個人(丁寧）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "どなた",
+        "logogram": "",
+        "meaning": "誰（丁寧）",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "えん",
+        "logogram": "円",
+        "meaning": "円",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ドル",
+        "logogram": "",
+        "meaning": "美元",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "セント",
+        "logogram": "",
+        "meaning": "美仙",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ネクタイ",
+        "logogram": "",
+        "meaning": "領帶",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くつした",
+        "logogram": "靴下",
+        "meaning": "襪",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ワイシャツ",
+        "logogram": "",
+        "meaning": "裇衫",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "じゅぎょうりょう",
+        "logogram": "授業料",
+        "meaning": "學費",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おたく",
+        "logogram": "お宅",
+        "meaning": "您的家",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "やちん",
+        "logogram": "家賃",
+        "meaning": "租金",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "げっきゅう",
+        "logogram": "月給",
+        "meaning": "月薪",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "じんこう",
+        "logogram": "人口",
+        "meaning": "人口",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おてあらい",
+        "logogram": "お手洗い",
+        "meaning": "洗手間",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "シー．アイ．エフ",
+        "logogram": "",
+        "meaning": "CIF (貿易詞語)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "エフ．オー．ビー",
+        "logogram": "",
+        "meaning": "FOB (貿易詞語)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かかく",
+        "logogram": "価格",
+        "meaning": "價錢",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "スミス",
+        "logogram": "",
+        "meaning": "Smiths",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "イギリスじん",
+        "logogram": "イギリス人",
+        "meaning": "英國人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "アメリカじん",
+        "logogram": "アメリカ人",
+        "meaning": "美國人",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きのう",
+        "logogram": "昨日",
+        "meaning": "昨天",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きょう",
+        "logogram": "今日",
+        "meaning": "今天",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あした",
+        "logogram": "明日",
+        "meaning": "明天",
+        "type": "名詞"
     },
     {
         "phonogram": "ぶちょう",
         "logogram": "部長",
-        "meaning": "部長"
+        "meaning": "部長",
+        "type": "名詞"
     },
     {
         "phonogram": "だいり",
         "logogram": "代理",
-        "meaning": "代理"
+        "meaning": "代理",
+        "type": "名詞"
     },
     {
         "phonogram": "いま",
         "logogram": "今",
-        "meaning": "現在"
+        "meaning": "現在",
+        "type": "名詞"
     },
     {
         "phonogram": "ごぜん",
         "logogram": "午前",
-        "meaning": "上午"
+        "meaning": "上午",
+        "type": "名詞"
     },
     {
         "phonogram": "ごご",
         "logogram": "午後",
-        "meaning": "下午"
+        "meaning": "下午",
+        "type": "名詞"
     },
     {
-        "phonogram": "すぎ",
-        "logogram": "過ぎ",
-        "meaning": "過了...分鐘"
+        "phonogram": "[時間]+すぎ",
+        "logogram": "[時間]+過ぎ",
+        "meaning": "過了[時間]",
+        "type": "名詞"
     },
     {
         "phonogram": "まえ",
         "logogram": "前",
-        "meaning": "前"
+        "meaning": "前",
+        "type": "名詞"
     },
     {
         "phonogram": "しゅっぱつ",
         "logogram": "出発",
-        "meaning": "出發/離開"
+        "meaning": "出發/離開",
+        "type": "名詞"
     },
     {
         "phonogram": "あさ",
         "logogram": "朝",
-        "meaning": "早上"
+        "meaning": "早上",
+        "type": "名詞"
     },
     {
         "phonogram": "きんむ",
         "logogram": "勤務",
-        "meaning": "工作"
+        "meaning": "工作",
+        "type": "名詞"
     },
     {
         "phonogram": "ひるやすみ",
         "logogram": "昼休み",
-        "meaning": "午飯時間"
+        "meaning": "午飯時間",
+        "type": "名詞"
     },
     {
         "phonogram": "ちかてつ",
         "logogram": "地下鉄",
-        "meaning": "地鐵"
+        "meaning": "地鐵",
+        "type": "名詞"
     },
     {
         "phonogram": "しはつ",
         "logogram": "始発",
-        "meaning": "頭班車"
+        "meaning": "頭班車",
+        "type": "名詞"
     },
     {
         "phonogram": "セントラル",
         "logogram": "",
-        "meaning": "Central 中環"
+        "meaning": "Central 中環",
+        "type": "名詞"
     },
     {
         "phonogram": "さいしゅう",
         "logogram": "最終",
-        "meaning": "最終的"
+        "meaning": "尾班車",
+        "type": "名詞"
     },
     {
         "phonogram": "よる",
         "logogram": "夜",
-        "meaning": "夜晚（日落到日出這段黑暗的時間）"
+        "meaning": "夜晚 (日落到日出這段黑暗的時間)",
+        "type": "名詞"
     },
     {
         "phonogram": "ばん",
         "logogram": "晩",
-        "meaning": "晚上（日落之後到深夜之間的時間）"
+        "meaning": "晚上 (日落之後到深夜之間的時間)",
+        "type": "名詞"
     },
     {
         "phonogram": "めいじ",
         "logogram": "明治",
-        "meaning": "明治"
+        "meaning": "明治",
+        "type": "名詞"
     },
     {
         "phonogram": "たいしょう",
         "logogram": "大正",
-        "meaning": "大正"
+        "meaning": "大正",
+        "type": "名詞"
     },
     {
         "phonogram": "しょうわ",
         "logogram": "昭和",
-        "meaning": "昭和"
+        "meaning": "昭和",
+        "type": "名詞"
     },
     {
         "phonogram": "へいせい",
         "logogram": "平成",
-        "meaning": "平成"
+        "meaning": "平成",
+        "type": "名詞"
     },
     {
         "phonogram": "れいわ",
         "logogram": "令和",
-        "meaning": "令和"
+        "meaning": "令和",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "なん/なに",
+        "logogram": "何",
+        "meaning": "什麼",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "この",
+        "logogram": "",
+        "meaning": "這個的(離發言者較近)",
+        "type": "名詞前形容詞"
+    },
+    {
+        "phonogram": "その",
+        "logogram": "",
+        "meaning": "那個的(離聽話者較近)",
+        "type": "名詞前形容詞"
+    },
+    {
+        "phonogram": "あの",
+        "logogram": "",
+        "meaning": "那個的(較遠)",
+        "type": "名詞前形容詞"
+    },
+    {
+        "phonogram": "どの",
+        "logogram": "",
+        "meaning": "哪個的",
+        "type": "名詞前形容詞"
+    },
+    {
+        "phonogram": "いくら",
+        "logogram": "",
+        "meaning": "多少錢",
+        "type": "名詞"
     }
 ]

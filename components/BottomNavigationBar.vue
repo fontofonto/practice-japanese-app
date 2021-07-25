@@ -4,14 +4,20 @@
       <BottomNavigationBarItem
         class="quiz"
         icon="IconQuiz"
-        label="測試"
+        label="試験"
         to="/"
       ></BottomNavigationBarItem>
       <BottomNavigationBarItem
         class="review"
         icon="IconReview"
-        label="溫習"
+        label="復習"
         to="/review"
+      ></BottomNavigationBarItem>
+      <BottomNavigationBarItem
+        class="jisho"
+        icon="IconSearch"
+        label="辞書"
+        to="/dict"
       ></BottomNavigationBarItem>
       <BottomNavigationBarItem
         class="settings"
@@ -28,7 +34,7 @@
   @apply fixed z-10000 bottom-0 left-0 w-full px-4 pb-6;
 }
 .bottom-navigation-bar {
-  @apply relative w-full h-16 px-6 bg-white rounded-4xl shadow-2xl;
+  @apply relative max-w-368px mx-auto h-16 px-6 bg-white rounded-4xl shadow-2xl;
   @apply flex flex-row justify-center;
 }
 </style>

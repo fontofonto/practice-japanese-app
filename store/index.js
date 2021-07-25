@@ -1,4 +1,5 @@
 export const state = () => ({
+    version: "1.2.0",
     settings: {
         showKanji: false,
         numberOfQuestions: 10,
@@ -17,14 +18,14 @@ export const state = () => ({
             filename: "chapter6-10.json"
         },
         {
-            pageName: "Chapter 11-14 Words",
-            title: "第11-14課 詞語",
-            filename: "chapter11-14.json"
+            pageName: "Chapter 11-15 Words",
+            title: "第11-15課 詞語",
+            filename: "chapter11-15.json"
         },
         {
-            pageName: "Chapter 15-18 Words",
-            title: "第15-18課 詞語",
-            filename: "chapter15-18.json"
+            pageName: "Chapter 16-19 Words",
+            title: "第16-19課 詞語",
+            filename: "chapter16-19.json"
         },
         {
             pageName: "Number",
