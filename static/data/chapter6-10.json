@@ -14,25 +14,25 @@
     {
         "phonogram": "はやし",
         "logogram": "林",
-        "meaning": "林（日本姓氏）",
+        "meaning": "林(日本姓氏)",
         "type": "人名"
     },
     {
         "phonogram": "ここ",
         "logogram": "",
-        "meaning": "這裡（說話者）",
+        "meaning": "這裡(說話者)",
         "type": "代名詞"
     },
     {
         "phonogram": "そこ",
         "logogram": "",
-        "meaning": "那裡（聽話者）",
+        "meaning": "那裡(聽話者)",
         "type": "代名詞"
     },
     {
         "phonogram": "あそこ",
         "logogram": "",
-        "meaning": "那裡（較遠）",
+        "meaning": "那裡(較遠)",
         "type": "代名詞"
     },
     {
@@ -50,13 +50,13 @@
     {
         "phonogram": "たくさん",
         "logogram": "",
-        "meaning": "很多（事物）",
+        "meaning": "很多(事物)",
         "type": "副詞"
     },
     {
         "phonogram": "おおぜい",
         "logogram": "大勢",
-        "meaning": "很多（人）",
+        "meaning": "很多(人)",
         "type": "副詞"
     },
     {
@@ -452,7 +452,7 @@
     {
         "phonogram": "このさき",
         "logogram": "この先",
-        "meaning": "前面（較遠）",
+        "meaning": "前面(較遠)",
         "type": "名詞"
     },
     {
@@ -468,8 +468,8 @@
         "type": "名詞"
     },
     {
-        "phonogram": "（ご）きょうだい",
-        "logogram": "（御）兄弟",
+        "phonogram": "(ご)きょうだい",
+        "logogram": "(御)兄弟",
         "meaning": "兄弟姊妹",
         "type": "名詞"
     },
@@ -560,13 +560,13 @@
     {
         "phonogram": "むこう",
         "logogram": "向こう",
-        "meaning": "那邊（較遠）",
+        "meaning": "那邊(較遠)",
         "type": "名詞"
     },
     {
         "phonogram": "むこうがわ",
         "logogram": "向こう側",
-        "meaning": "那邊另一側（較遠）",
+        "meaning": "那邊另一側(較遠)",
         "type": "名詞"
     },
     {
@@ -602,7 +602,7 @@
     {
         "phonogram": "となり",
         "logogram": "隣",
-        "meaning": "旁邊（左右）",
+        "meaning": "旁邊(左右)",
         "type": "名詞"
     },
     {

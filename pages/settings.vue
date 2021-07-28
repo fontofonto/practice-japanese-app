@@ -60,7 +60,15 @@
       </div>
       <div class="settings-list-item">
         <p class="font-semibold" :class="[japaneseFontFamily]">版本</p>
-        <p :class="[japaneseFontFamily]">{{ $store.state.version }}</p>
+        <div class="flex flex-col items-end">
+          <p :class="[japaneseFontFamily]">{{ $store.state.version }}</p>
+          <div>
+            <ul class="list-disc text-sm mt-2" :class="[japaneseFontFamily]">
+              <li>新增了文法頁面，現在可以複習文法了。</li>
+              <li>新增了「形容詞構文・い形容詞」內容。</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -112,6 +120,6 @@ export default {
   @apply flex flex-row justify-between py-4;
 }
 .button {
-  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100 whitespace-nowrap;
+  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold text-center rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
 }
 </style>

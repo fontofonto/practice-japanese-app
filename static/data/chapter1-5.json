@@ -206,7 +206,7 @@
     {
         "phonogram": "あのひと",
         "logogram": "あの人",
-        "meaning": "那個人（較遠）",
+        "meaning": "那個人(較遠)",
         "type": "名詞"
     },
     {
@@ -236,19 +236,19 @@
     {
         "phonogram": "あのかた",
         "logogram": "あの方",
-        "meaning": "那個人(較遠、丁寧）",
+        "meaning": "那個人(較遠、丁寧)",
         "type": "名詞"
     },
     {
         "phonogram": "どのかた",
         "logogram": "どの方",
-        "meaning": "哪個人(丁寧）",
+        "meaning": "哪個人(丁寧)",
         "type": "名詞"
     },
     {
         "phonogram": "どなた",
         "logogram": "",
-        "meaning": "誰（丁寧）",
+        "meaning": "誰(丁寧)",
         "type": "名詞"
     },
     {

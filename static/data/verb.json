@@ -72,7 +72,7 @@
     {
         "logogram": "かかる",
         "phonogram": "かかる",
-        "meaning": "花費、需要（時間、金錢）",
+        "meaning": "花費、需要(時間、金錢)",
         "type": "五段",
         "transitive": "自"
     },
@@ -149,7 +149,7 @@
     {
         "logogram": "吸う",
         "phonogram": "すう",
-        "meaning": "吸（煙）",
+        "meaning": "吸(煙)",
         "type": "五段",
         "transitive": "他"
     },
@@ -170,7 +170,7 @@
     {
         "logogram": "する",
         "phonogram": "する",
-        "meaning": "做（事情）",
+        "meaning": "做(事情)",
         "type": "サ変",
         "transitive": "自/他"
     },
@@ -205,7 +205,7 @@
     {
         "logogram": "弾く",
         "phonogram": "ひく",
-        "meaning": "彈（琴）",
+        "meaning": "彈(琴)",
         "type": "五段",
         "transitive": "他"
     },

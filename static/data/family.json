@@ -8,7 +8,7 @@
     {
         "phonogram": "ごかぞく",
         "logogram": "ご家族",
-        "meaning": "家人（尊稱）",
+        "meaning": "家人(丁寧)",
         "type": "名詞"
     },
     {
@@ -20,31 +20,31 @@
     {
         "phonogram": "ごきょうだい",
         "logogram": "ご兄弟",
-        "meaning": "兄弟姊妹（尊稱）",
+        "meaning": "兄弟姊妹(丁寧)",
         "type": "名詞"
     },
     {
         "phonogram": "そふ",
         "logogram": "祖父",
-        "meaning": "爺爺公公",
+        "meaning": "爺爺/公公",
         "type": "名詞"
     },
     {
         "phonogram": "そぼ",
         "logogram": "祖母",
-        "meaning": "嬤嬤婆婆",
+        "meaning": "嬤嬤/婆婆",
         "type": "名詞"
     },
     {
         "phonogram": "おじいさん",
         "logogram": "お爺さん",
-        "meaning": "爺爺公公（尊稱）",
+        "meaning": "爺爺/公公(丁寧)",
         "type": "名詞"
     },
     {
         "phonogram": "おばあさん",
         "logogram": "お婆さん",
-        "meaning": "嬤嬤婆婆（尊稱）",
+        "meaning": "嬤嬤/婆婆(丁寧)",
         "type": "名詞"
     },
     {
@@ -56,7 +56,7 @@
     {
         "phonogram": "おとうさん",
         "logogram": "お父さん",
-        "meaning": "父親（尊稱）",
+        "meaning": "父親(丁寧)",
         "type": "名詞"
     },
     {
@@ -68,7 +68,7 @@
     {
         "phonogram": "おにいさん",
         "logogram": "お兄さん",
-        "meaning": "哥哥（尊稱）",
+        "meaning": "哥哥(丁寧)",
         "type": "名詞"
     },
     {
@@ -80,31 +80,31 @@
     {
         "phonogram": "おとうとさん",
         "logogram": "弟さん",
-        "meaning": "弟弟（尊稱）",
+        "meaning": "弟弟(丁寧)",
         "type": "名詞"
     },
     {
         "phonogram": "おじ",
         "logogram": "",
-        "meaning": "叔叔舅父",
+        "meaning": "叔叔/舅父",
         "type": "名詞"
     },
     {
         "phonogram": "おじさん",
         "logogram": "",
-        "meaning": "叔叔舅父（尊稱）",
+        "meaning": "叔叔/舅父(丁寧)",
         "type": "名詞"
     },
     {
         "phonogram": "おば",
         "logogram": "",
-        "meaning": "姨姨姑母",
+        "meaning": "姨姨/姑母",
         "type": "名詞"
     },
     {
         "phonogram": "おばさん",
         "logogram": "",
-        "meaning": "姨姨姑母（尊稱）",
+        "meaning": "姨姨/姑母(丁寧)",
         "type": "名詞"
     },
     {
@@ -116,7 +116,7 @@
     {
         "phonogram": "おくさん",
         "logogram": "奧さん",
-        "meaning": "老婆（尊稱）",
+        "meaning": "老婆(丁寧)",
         "type": "名詞"
     },
     {
@@ -128,7 +128,7 @@
     {
         "phonogram": "ごしゅじん",
         "logogram": "ご主人",
-        "meaning": "老公（尊稱）",
+        "meaning": "老公(丁寧)",
         "type": "名詞"
     },
     {
@@ -140,7 +140,7 @@
     {
         "phonogram": "おかあさん",
         "logogram": "お母さん",
-        "meaning": "母親（尊稱）",
+        "meaning": "母親(丁寧)",
         "type": "名詞"
     },
     {
@@ -150,9 +150,9 @@
         "type": "名詞"
     },
     {
-        "phonogram": "お姉さん",
+        "phonogram": "おねえさん",
         "logogram": "お姉さん",
-        "meaning": "姐姐（尊稱）",
+        "meaning": "姐姐(丁寧)",
         "type": "名詞"
     },
     {
@@ -164,7 +164,7 @@
     {
         "phonogram": "いもうとさん",
         "logogram": "妹さん",
-        "meaning": "妹妹（尊稱）",
+        "meaning": "妹妹(丁寧)",
         "type": "名詞"
     }
 ]

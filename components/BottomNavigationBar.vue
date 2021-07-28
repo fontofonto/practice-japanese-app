@@ -14,6 +14,12 @@
         to="/review"
       ></BottomNavigationBarItem>
       <BottomNavigationBarItem
+        class="settings"
+        icon="IconChecklistRtl"
+        label="文法"
+        to="/grammar"
+      ></BottomNavigationBarItem>
+      <BottomNavigationBarItem
         class="jisho"
         icon="IconSearch"
         label="辞書"
