@@ -44,19 +44,16 @@
         </select>
       </div>
       <div class="settings-list-item border-b border-b-blue-gray-100">
-        <label
-          class="font-semibold"
-          :class="[japaneseFontFamily]"
-          for="showKanji"
-          >顯示漢字</label
-        >
-        <input
-          type="checkbox"
-          name="showKanji"
-          id="showKanji"
-          v-model="showKanji"
-          class="w-6 h-6"
-        />
+        <p class="font-semibold" :class="[japaneseFontFamily]">顯示漢字</p>
+        <label for="showKanji" class="toggle-button">
+          <input
+            type="checkbox"
+            name="showKanji"
+            id="showKanji"
+            v-model="showKanji"
+          />
+          <div class="background-fill"></div>
+        </label>
       </div>
       <div class="settings-list-item">
         <p class="font-semibold" :class="[japaneseFontFamily]">版本</p>
@@ -115,11 +112,29 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 .settings-list-item {
   @apply flex flex-row justify-between py-4;
 }
 .button {
   @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold text-center rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
+}
+
+.toggle-button {
+  @apply relative flex w-50px h-26px rounded-full overflow-hidden bg-blue-gray-200;
+}
+.toggle-button input[type="checkbox"] {
+  @apply absolute z-10 w-6 h-6 m-1px rounded-full bg-white shadow transform translate-x-0 transition-transform ease-in-out;
+  appearance: none;
+}
+.toggle-button input[type="checkbox"]:checked {
+  @apply translate-x-full;
+}
+.toggle-button input[type="checkbox"] + .background-fill {
+  @apply w-full h-full rounded-full bg-green-500 opacity-0 transition-opacity;
+  box-shadow: inset 0 2px 4px rgba(15, 23, 42, 0.2);
+}
+.toggle-button input[type="checkbox"]:checked + .background-fill {
+  @apply opacity-100;
 }
 </style>

@@ -32,5 +32,17 @@ export default {
       },
     ],
   }),
+  computed: {
+    japaneseFontFamily() {
+      switch (this.$store.state.settings.preferredJapaneseFontFamily) {
+        case "sans":
+          return "font-sans";
+        case "serif":
+          return "font-serif";
+        default:
+          return "font-sans";
+      }
+    },
+  },
 };
 </script>

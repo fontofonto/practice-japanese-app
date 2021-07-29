@@ -21,7 +21,11 @@
     >
       <article class="prose">
         <h1>{{ doc.title }}</h1>
-        <nuxt-content :document="doc" class="pb-14" />
+        <nuxt-content
+          :document="doc"
+          class="pb-14"
+          :class="[japaneseFontFamily]"
+        />
       </article>
     </div>
   </div>
@@ -35,8 +39,20 @@ export default {
 
     return { doc };
   },
+  computed: {
+    japaneseFontFamily() {
+      switch (this.$store.state.settings.preferredJapaneseFontFamily) {
+        case "sans":
+          return "font-sans";
+        case "serif":
+          return "font-serif";
+        default:
+          return "font-sans";
+      }
+    },
+  },
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 </style>
