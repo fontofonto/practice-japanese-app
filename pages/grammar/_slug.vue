@@ -19,8 +19,8 @@
         content
       "
     >
-      <article class="prose">
-        <h1>{{ doc.title }}</h1>
+      <article class="content-container prose">
+        <h1 :class="[japaneseFontFamily]">{{ doc.title }}</h1>
         <nuxt-content
           :document="doc"
           class="pb-14"
@@ -55,4 +55,22 @@ export default {
 </script>
 
 <style lang="postcss">
+.nuxt-content {
+  @apply text-blue-gray-800;
+}
+.nuxt-content h1,
+.content-container h1 {
+  @apply border-b-8 border-red-200 inline;
+}
+.nuxt-content blockquote {
+  @apply bg-blue-gray-50 p-1 m-4;
+}
+.nuxt-content blockquote * {
+  @apply not-italic;
+}
+.nuxt-content blockquote p:before,
+.nuxt-content blockquote p:after {
+  content: "";
+  display: none;
+}
 </style>

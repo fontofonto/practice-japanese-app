@@ -27,6 +27,10 @@ export default {
   data: () => ({
     pages: [
       {
+        title: "動詞類型",
+        documentName: "verb",
+      },
+      {
         title: "形容詞構文・い形容詞",
         documentName: "i-adjective-tenses",
       },

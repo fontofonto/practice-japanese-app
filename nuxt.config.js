@@ -60,6 +60,9 @@ export default {
   modules: [
     '@nuxt/content'
   ],
+  content: {
+    liveEdit: false
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 html {
   @apply h-fill-available;
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "游明朝", "游明朝体",
@@ -36,10 +36,6 @@ body {
 *::after {
   box-sizing: border-box;
   margin: 0;
-}
-
-* {
-  @apply text-blue-gray-800;
 }
 
 .button {

@@ -1,17 +1,5 @@
 <template>
-  <div
-    class="
-      flex flex-col
-      items-center
-      px-1
-      py-2
-      m-0.5
-      rounded-lg
-      text-sm
-      font-semibold
-    "
-    :class="[japaneseFontFamily, theme]"
-  >
+  <div class="pill" :class="[japaneseFontFamily, theme]">
     <slot></slot>
     <div v-if="description" class="text-xs text-gray-800 opacity-60">
       {{ description }}
@@ -65,3 +53,8 @@ export default {
   },
 };
 </script>
+<style lang="postcss" scoped>
+.pill {
+  @apply flex flex-col items-center px-1 py-2 m-0.5 rounded-lg text-sm font-semibold;
+}
+</style>

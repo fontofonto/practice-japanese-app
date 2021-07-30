@@ -10,7 +10,13 @@
     </div>
 
     <div class="flex flex-col">
-      <div class="settings-list-item border-b border-b-blue-gray-100">
+      <div
+        class="setting-list-header has-divider"
+        :class="[japaneseFontFamily]"
+      >
+        主題
+      </div>
+      <div class="settings-list-item has-divider">
         <label
           class="font-semibold"
           :class="[japaneseFontFamily]"
@@ -26,7 +32,13 @@
           <option :value="'sans'">黑體</option>
         </select>
       </div>
-      <div class="settings-list-item border-b border-b-blue-gray-100">
+      <div
+        class="setting-list-header has-divider"
+        :class="[japaneseFontFamily]"
+      >
+        試験設定
+      </div>
+      <div class="settings-list-item has-divider">
         <label
           class="font-semibold"
           :class="[japaneseFontFamily]"
@@ -43,7 +55,7 @@
           <option :value="20">20</option>
         </select>
       </div>
-      <div class="settings-list-item border-b border-b-blue-gray-100">
+      <div class="settings-list-item has-divider">
         <p class="font-semibold" :class="[japaneseFontFamily]">顯示漢字</p>
         <label for="showKanji" class="toggle-button">
           <input
@@ -55,6 +67,12 @@
           <div class="background-fill"></div>
         </label>
       </div>
+      <div
+        class="setting-list-header has-divider"
+        :class="[japaneseFontFamily]"
+      >
+        其他
+      </div>
       <div class="settings-list-item">
         <p class="font-semibold" :class="[japaneseFontFamily]">版本</p>
         <div class="flex flex-col items-end">
@@ -63,6 +81,7 @@
             <ul class="list-disc text-sm mt-2" :class="[japaneseFontFamily]">
               <li>新增了文法頁面，現在可以複習文法了。</li>
               <li>新增了「形容詞構文・い形容詞」內容。</li>
+              <li>新增了「動詞類型」內容。</li>
             </ul>
           </div>
         </div>
@@ -113,8 +132,14 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
+.setting-list-header {
+  @apply text-blue-gray-400 text-sm pt-4 pb-2 mt-2;
+}
 .settings-list-item {
   @apply flex flex-row justify-between py-4;
+}
+.has-divider {
+  @apply border-b border-b-blue-gray-100;
 }
 .button {
   @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold text-center rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
