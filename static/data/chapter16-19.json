@@ -538,5 +538,53 @@
         "logogram": "野球",
         "meaning": "棒球",
         "type": "名詞"
+    },
+    {
+        "phonogram": "さっき",
+        "logogram": "",
+        "meaning": "不久前/剛才",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しあい",
+        "logogram": "試合",
+        "meaning": "比賽",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "こうえんかい",
+        "logogram": "講演会",
+        "meaning": "講座",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "じしん",
+        "logogram": "地震",
+        "meaning": "地震",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "せ",
+        "logogram": "背",
+        "meaning": "背部/身高",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "は",
+        "logogram": "歯",
+        "meaning": "牙齒",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "からだ",
+        "logogram": "体",
+        "meaning": "身體",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "うさぎ",
+        "logogram": "兎",
+        "meaning": "兔子",
+        "type": "名詞"
     }
 ]

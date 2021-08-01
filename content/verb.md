@@ -105,16 +105,15 @@ title: 動詞類型
 > #### 特別例子：有些動詞在字面上看來像一段動詞，其實是五段動詞
 > 
 > <grammar-pill-group>
->   <grammar-pill description="看">帰る（かえる）</grammar-pill>
->   <grammar-pill description="似">切る（きる）</grammar-pill>
->   <grammar-pill description="起床">入る（はいる）</grammar-pill>
->   <grammar-pill description="相信">減る（へる）</grammar-pill>
->   <grammar-pill description="用">知る（しる）</grammar-pill>
->   <grammar-pill description="睡覺">要る（いる）</grammar-pill>
->   <grammar-pill description="得到">走る（はしる）</grammar-pill>
->   <grammar-pill description="吃">しゃべる</grammar-pill>
->   <grammar-pill description="收集">散る（ちる）</grammar-pill>
->   <grammar-pill description="委託">任せる（まかせる）</grammar-pill>
+>   <grammar-pill description="回去">帰る（かえる）</grammar-pill>
+>   <grammar-pill description="切、剪">切る（きる）</grammar-pill>
+>   <grammar-pill description="進入">入る（はいる）</grammar-pill>
+>   <grammar-pill description="減少">減る（へる）</grammar-pill>
+>   <grammar-pill description="知道">知る（しる）</grammar-pill>
+>   <grammar-pill description="要">要る（いる）</grammar-pill>
+>   <grammar-pill description="走、跑">走る（はしる）</grammar-pill>
+>   <grammar-pill description="說">しゃべる</grammar-pill>
+>   <grammar-pill description="謝、落">散る（ちる）</grammar-pill>
 > </grammar-pill-group>    
 
 ---
@@ -148,8 +147,10 @@ title: 動詞類型
 
 指「する」一詞，是整體變化動詞。由於變化中和「さ行」幾個字母有關，所以叫「サ変動詞」。
 
-- 結婚する
-- 勉強する
+<grammar-pill-group legend="例子">
+    <grammar-pill description="結婚">結婚する</grammar-pill>
+    <grammar-pill description="學習">勉強する</grammar-pill>
+</grammar-pill-group>
 
 ### 辭書形轉ます形
 

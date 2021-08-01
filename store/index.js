@@ -1,5 +1,5 @@
 export const state = () => ({
-    version: "1.3.2",
+    version: "1.3.3",
     settings: {
         showKanji: false,
         numberOfQuestions: 10,
@@ -28,6 +28,11 @@ export const state = () => ({
             filename: "chapter16-19.json"
         },
         {
+            pageName: "Chapter 20-23 Words",
+            title: "第20-23課 詞語",
+            filename: "chapter20-23.json"
+        },
+        {
             pageName: "Number",
             title: "數字 & 量詞",
             filename: "number.json"
@@ -51,6 +56,11 @@ export const state = () => ({
             pageName: "Adjective",
             title: "い形容詞",
             filename: "i-adjective.json"
+        },
+        {
+            pageName: "Adjective",
+            title: "な形容詞",
+            filename: "na-adjective.json"
         },
     ]
 })

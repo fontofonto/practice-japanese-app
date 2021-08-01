@@ -1,0 +1,170 @@
+[
+    {
+        "phonogram": "つくりかた",
+        "logogram": "作り方",
+        "meaning": "做法/食譜",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "つくる",
+        "logogram": "作る",
+        "meaning": "造/準備(食物)",
+        "type": "他動詞"
+    },
+    {
+        "phonogram": "ほんこんとう",
+        "logogram": "香港島",
+        "meaning": "香港島",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きゅうりゅう半島",
+        "logogram": "九龍半島",
+        "meaning": "九龍半島",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "けしき",
+        "logogram": "景色",
+        "meaning": "風景",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "やけい",
+        "logogram": "夜景",
+        "meaning": "夜景",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "こうつう",
+        "logogram": "交通",
+        "meaning": "交通",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "あのへん",
+        "logogram": "あの辺",
+        "meaning": "那一帶範圍",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "えいご",
+        "logogram": "英語",
+        "meaning": "英文",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しっぱい",
+        "logogram": "失敗",
+        "meaning": "失敗",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "じじつ",
+        "logogram": "事実",
+        "meaning": "事實",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かてい",
+        "logogram": "家庭",
+        "meaning": "家庭",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "もう〜",
+        "logogram": "",
+        "meaning": "已經/再",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "じつに～",
+        "logogram": "実に～",
+        "meaning": "實在",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "ひじょうに～",
+        "logogram": "非常に～",
+        "meaning": "非常",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "とくに～",
+        "logogram": "特に～",
+        "meaning": "尤其是",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "どちら～",
+        "logogram": "",
+        "meaning": "哪一個(二選一)",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "ひるま",
+        "logogram": "昼間",
+        "meaning": "日間",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "すいえい",
+        "logogram": "水泳",
+        "meaning": "游泳",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "コンビニ",
+        "logogram": "",
+        "meaning": "便利店",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さんすう",
+        "logogram": "算数",
+        "meaning": "數學",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "カレーライス",
+        "logogram": "",
+        "meaning": "咖哩飯",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "デジカメ/デジタルカメラ",
+        "logogram": "",
+        "meaning": "數碼相機",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "サウナ",
+        "logogram": "",
+        "meaning": "桑拿 saunas",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "きゅうりょう",
+        "logogram": "給料",
+        "meaning": "薪水",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "サービス",
+        "logogram": "",
+        "meaning": "服務 service",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "だいどころ",
+        "logogram": "台所",
+        "meaning": "廚房",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ラーメンや",
+        "logogram": "ラーメン屋",
+        "meaning": "拉麵店",
+        "type": "名詞"
+    }
+]
