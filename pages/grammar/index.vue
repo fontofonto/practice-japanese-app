@@ -34,6 +34,10 @@ export default {
         title: "形容詞構文・い形容詞",
         documentName: "i-adjective-tenses",
       },
+      {
+        title: "形容詞構文・な形容詞",
+        documentName: "na-adjective-tenses",
+      },
     ],
   }),
   computed: {

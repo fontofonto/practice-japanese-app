@@ -53,12 +53,12 @@ export const state = () => ({
             filename: "verb.json"
         },
         {
-            pageName: "Adjective",
+            pageName: "I Adjective",
             title: "い形容詞",
             filename: "i-adjective.json"
         },
         {
-            pageName: "Adjective",
+            pageName: "Na Adjective",
             title: "な形容詞",
             filename: "na-adjective.json"
         },
