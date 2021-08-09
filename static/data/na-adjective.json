@@ -47,12 +47,22 @@
     {
         "phonogram": "とくい",
         "logogram": "得意",
-        "meaning": "擅長的"
+        "meaning": "擅長的，感覺良好(主觀)"
     },
     {
         "phonogram": "にがて",
         "logogram": "苦手",
-        "meaning": "不擅長的/表現差的"
+        "meaning": "不擅長的，感覺差(主觀)"
+    },
+    {
+        "phonogram": "へた",
+        "logogram": "下手",
+        "meaning": "不擅長的(客觀)"
+    },
+    {
+        "phonogram": "じょうず",
+        "logogram": "上手",
+        "meaning": "擅長的(客觀)"
     },
     {
         "phonogram": "ざんねん",
@@ -97,7 +107,7 @@
     {
         "phonogram": "カラフル",
         "logogram": "",
-        "meaning": "七彩的 Colorful"
+        "meaning": "多彩的 Colorful"
     },
     {
         "phonogram": "ロマンチック/ロマンティック",
@@ -112,6 +122,21 @@
     {
         "phonogram": "はで",
         "logogram": "派手",
-        "meaning": "標奇立意的"
+        "meaning": "新潮的/標奇立意的"
+    },
+    {
+        "phonogram": "かいてき",
+        "logogram": "快適",
+        "meaning": "舒服的"
+    },
+    {
+        "phonogram": "へん",
+        "logogram": "変",
+        "meaning": "怪異的"
+    },
+    {
+        "phonogram": "ひま",
+        "logogram": "暇",
+        "meaning": "空閒的"
     }
 ]

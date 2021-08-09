@@ -79,9 +79,7 @@
           <p :class="[japaneseFontFamily]">{{ $store.state.version }}</p>
           <div>
             <ul class="list-disc text-sm mt-2" :class="[japaneseFontFamily]">
-              <li>新增了文法頁面，現在可以複習文法了。</li>
-              <li>更新了「動詞類型」內容。</li>
-              <li>新增了第 20 課詞語和な形容詞內容。</li>
+              <li>新增了第 21 課詞語和な形容詞內容。</li>
             </ul>
           </div>
         </div>

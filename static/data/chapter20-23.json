@@ -2,13 +2,13 @@
     {
         "phonogram": "つくりかた",
         "logogram": "作り方",
-        "meaning": "做法/食譜",
+        "meaning": "製造方法/食譜",
         "type": "名詞"
     },
     {
         "phonogram": "つくる",
         "logogram": "作る",
-        "meaning": "造/準備(食物)",
+        "meaning": "造/煮(食物)",
         "type": "他動詞"
     },
     {
@@ -18,7 +18,7 @@
         "type": "名詞"
     },
     {
-        "phonogram": "きゅうりゅう半島",
+        "phonogram": "きゅうりゅうはんとう",
         "logogram": "九龍半島",
         "meaning": "九龍半島",
         "type": "名詞"
@@ -165,6 +165,114 @@
         "phonogram": "ラーメンや",
         "logogram": "ラーメン屋",
         "meaning": "拉麵店",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ようふく",
+        "logogram": "洋服",
+        "meaning": "西式衣服",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "もんだい",
+        "logogram": "問題",
+        "meaning": "問題(Problem)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しつもん",
+        "logogram": "質問",
+        "meaning": "問題(Question)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "いけん",
+        "logogram": "意見",
+        "meaning": "意見",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しょうてんがい",
+        "logogram": "商店街",
+        "meaning": "商店街",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "まち",
+        "logogram": "街/町",
+        "meaning": "街/鎮",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "このあたり",
+        "logogram": "この辺り",
+        "meaning": "這一帶區域",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ぶぶん",
+        "logogram": "部分",
+        "meaning": "部分",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かかく",
+        "logogram": "価格",
+        "meaning": "價格",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ひんしつ",
+        "logogram": "品質",
+        "meaning": "品質",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おしえかた",
+        "logogram": "教え方",
+        "meaning": "教學方法",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "はなしかた",
+        "logogram": "話し方",
+        "meaning": "說話方式",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "いきかた",
+        "logogram": "生き方",
+        "meaning": "生存方法",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "しかた",
+        "logogram": "",
+        "meaning": "做法",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かきかた",
+        "logogram": "書き方",
+        "meaning": "寫作方法",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "かんきょう",
+        "logogram": "環境",
+        "meaning": "環境",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "パソコン",
+        "logogram": "",
+        "meaning": "電腦",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "てちょう",
+        "logogram": "手帳",
+        "meaning": "筆記本",
         "type": "名詞"
     }
 ]
