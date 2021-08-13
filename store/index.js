@@ -1,9 +1,11 @@
 export const state = () => ({
-    version: "1.3.4",
+    version: "1.4.0",
+    isSettingsLoaded: false,
     settings: {
         showKanji: false,
         numberOfQuestions: 10,
         preferredJapaneseFontFamily: 'serif',
+        preferredUITheme: 'auto',
     },
     googleSheetId: "1RTGcd08OKuLVU7rqfjr9uBHf9282c5zUiFa3PR6iuSo",
     googleSheetPages: [
@@ -70,10 +72,11 @@ export const getters = {
 
 export const mutations = {
     loadSettings(state, payload) {
-        state.settings = payload
+        if (!state.isSettingsLoaded) state.settings = payload
+        state.isSettingsLoaded = true
     },
     toggleShowKanji(state, payload) {
-        state.settings.showKanji = payload
+        state.settings.showKanji = !state.settings.showKanji
         localStorage.setItem("settings", JSON.stringify(state.settings))
     },
     updateNumberOfQuestions(state, payload) {
@@ -84,13 +87,41 @@ export const mutations = {
         state.settings.preferredJapaneseFontFamily = payload
         localStorage.setItem("settings", JSON.stringify(state.settings))
     },
+    updatePreferredUITheme(state, payload) {
+        state.settings.preferredUITheme = payload
+        localStorage.setItem("settings", JSON.stringify(state.settings))
+    }
 }
 
 export const actions = {
-    loadSettingsFromLocalStorage({ commit }) {
+    loadSettingsFromLocalStorage({ commit, dispatch }) {
         let settings = JSON.parse(localStorage.getItem("settings"))
         if (settings !== null) {
             commit("loadSettings", settings)
+        }
+
+        dispatch("setUITheme", settings.preferredUITheme || "auto")
+    },
+    setUITheme({ state, commit }, newTheme) {
+        if (newTheme && newTheme !== state.settings.preferredUITheme) {
+            commit("updatePreferredUITheme", newTheme)
+        }
+        let theme
+        newTheme ? theme = newTheme : theme = state.settings.preferredUITheme
+        if (theme === "auto") {
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.remove("light");
+                document.documentElement.classList.add("dark");
+            } else {
+                document.documentElement.classList.remove("dark");
+                document.documentElement.classList.add("light");
+            }
+        } else if (theme === "dark") {
+            document.documentElement.classList.remove("light");
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+            document.documentElement.classList.add("light");
         }
     }
 }

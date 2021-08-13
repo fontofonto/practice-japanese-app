@@ -1,12 +1,7 @@
 <template>
   <div class="px-4 pb-12">
     <div class="relative w-full flex flex-col my-4 pt-12">
-      <p
-        class="text-4xl font-semibold text-blue-gray-800 whitespace-nowrap"
-        :class="[japaneseFontFamily]"
-      >
-        生字測試
-      </p>
+      <p class="page-title" :class="[japaneseFontFamily]">生字測試</p>
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
@@ -42,9 +37,3 @@ export default {
   mounted() {},
 };
 </script>
-
-<style lang="postcss">
-.button {
-  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
-}
-</style>

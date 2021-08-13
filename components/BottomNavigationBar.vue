@@ -43,4 +43,7 @@
   @apply relative max-w-368px mx-auto h-16 px-6 bg-white rounded-4xl shadow-2xl;
   @apply flex flex-row justify-center;
 }
+.dark .bottom-navigation-bar {
+  @apply bg-blue-gray-700;
+}
 </style>

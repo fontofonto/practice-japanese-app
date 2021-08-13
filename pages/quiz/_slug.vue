@@ -1,57 +1,25 @@
 <template>
-  <div class="w-screen h-full max-h-fill-available flex flex-col">
-    <div class="navigation fixed top-0 left-0 w-full py-2 px-6">
-      <button @click="$router.go(-1)" class="px-1 py-2 inline-flex space-x-2">
-        <IconBackArrow class="fill-blue-gray-700" />
-        <span
-          class="text-blue-gray-700 font-semibold"
-          :class="[japaneseFontFamily]"
-          >返回</span
-        >
+  <div class="page">
+    <div class="navigation">
+      <button @click="$router.go(-1)">
+        <IconBackArrow class="icon" />
+        <span class="text" :class="[japaneseFontFamily]">返回</span>
       </button>
     </div>
-    <div
-      class="intro-page flex-grow flex justify-center items-center px-4"
-      v-if="mode === 'intro'"
-    >
-      <div
-        class="
-          flex flex-col
-          justify-center
-          items-center
-          w-full
-          px-10
-          py-6
-          bg-blue-gray-100
-          rounded-3xl
-        "
-      >
-        <h1
-          class="text-lg text-red-400 font-bold my-2 whitespace-nowrap"
-          :class="[japaneseFontFamily]"
-        >
-          試験 {{ slug }}
-        </h1>
-        <h2
-          class="
-            text-2xl text-blue-gray-800
-            font-semibold
-            my-2
-            whitespace-nowrap
-          "
-          :class="[japaneseFontFamily]"
-        >
+    <div class="intro-page" v-if="mode === 'intro'">
+      <div class="intro-card">
+        <h1 class="label" :class="[japaneseFontFamily]">試験 {{ slug }}</h1>
+        <h2 class="quiz-title" :class="[japaneseFontFamily]">
           {{ $store.state.googleSheetPages[slug - 1].title }}
         </h2>
-        <div class="flex flex-row items-center my-4 space-x-4">
-          <div>
-            <input
-              type="checkbox"
-              name="showKanji"
-              id="showKanji"
-              v-model="showKanji"
+        <div class="controls">
+          <div class="flex flex-row space-x-2">
+            <span>顯示漢字</span>
+            <ToggleSwitch
+              name="kanji"
+              :value="showKanji"
+              @change="$store.commit('toggleShowKanji')"
             />
-            <label for="showKanji">顯示漢字</label>
           </div>
           <div>
             <label for="numberOfQuestions">題目數量</label>
@@ -71,22 +39,17 @@
       </div>
     </div>
 
-    <div
-      class="quiz-page w-full flex-grow flex flex-col px-4 pt-56px"
-      v-else-if="mode === 'quiz'"
-    >
-      <div class="quiz-detail flex flex-col my-4 p-4 border rounded-2xl">
-        <p class="text-blue-gray-800 font-semibold text-xl">
-          分數： {{ score }} / {{ totalScore }}
-        </p>
-        <div class="indicator w-full flex flex-row space-x-2 mt-2">
+    <div class="quiz-page" v-else-if="mode === 'quiz'">
+      <div class="quiz-detail">
+        <p>分數： {{ score }} / {{ totalScore }}</p>
+        <div class="indicators">
           <div
             v-for="(question, questionIndex) in questionList"
             :key="`indicator${questionIndex}`"
-            class="flex-grow h-2 rounded-full border transition"
+            class="indicator"
             :class="{
-              'bg-green-500 border-none': question.isCorrect === true,
-              'bg-red-500 border-none': question.isCorrect === false,
+              'is-correct': question.isCorrect === true,
+              'is-incorrect': question.isCorrect === false,
             }"
           ></div>
         </div>
@@ -107,32 +70,9 @@
       </div>
     </div>
 
-    <div
-      class="result-page flex-grow flex justify-center items-center px-4"
-      v-else-if="mode === 'result'"
-    >
-      <div
-        class="
-          w-full
-          flex flex-col
-          justify-center
-          items-center
-          px-10
-          py-6
-          bg-gray-100
-          rounded-3xl
-        "
-      >
-        <p
-          class="
-            text-blue-gray-800
-            font-semibold
-            text-xl
-            my-6
-            whitespace-nowrap
-          "
-          :class="[japaneseFontFamily]"
-        >
+    <div class="result-page" v-else-if="mode === 'result'">
+      <div class="result-card">
+        <p class="score" :class="[japaneseFontFamily]">
           分數： {{ score }} / {{ totalScore }}
         </p>
         <!-- <div class="w-full flex flex-col">
@@ -221,13 +161,8 @@ export default {
     totalScore() {
       return this.questionList.length;
     },
-    showKanji: {
-      get() {
-        return this.$store.state.settings.showKanji;
-      },
-      set(value) {
-        this.$store.commit("toggleShowKanji", value);
-      },
+    showKanji() {
+      return this.$store.state.settings.showKanji;
     },
     numberOfQuestions: {
       get() {
@@ -320,3 +255,127 @@ export default {
   },
 };
 </script>
+
+<style lang="postcss" scoped>
+.page {
+  @apply w-screen h-full max-h-fill-available flex flex-col;
+}
+.navigation {
+  @apply fixed top-0 left-0 w-full py-2 px-6;
+  button {
+    @apply px-1 py-2 inline-flex space-x-2;
+    .icon {
+      @apply fill-blue-gray-700;
+    }
+    span {
+      @apply text-blue-gray-700 font-semibold;
+    }
+  }
+}
+.dark .navigation {
+  button {
+    .icon {
+      @apply fill-blue-gray-300;
+    }
+    span {
+      @apply text-blue-gray-300;
+    }
+  }
+}
+
+.intro-page {
+  @apply flex-grow flex justify-center items-center px-4;
+  .intro-card {
+    @apply flex flex-col justify-center items-center w-full px-10 py-6 bg-blue-gray-100 rounded-3xl;
+    .label {
+      @apply text-lg text-red-400 font-bold my-2 whitespace-nowrap;
+    }
+    .quiz-title {
+      @apply text-2xl text-blue-gray-800 font-semibold my-2 whitespace-nowrap;
+    }
+    .controls {
+      @apply flex flex-row items-center my-4 space-x-10;
+      select {
+        @apply text-blue-gray-800 bg-blue-gray-200 py-1 px-2 rounded appearance-none;
+      }
+    }
+  }
+}
+.dark .intro-page {
+  .intro-card {
+    @apply bg-blue-gray-700;
+    .label {
+      @apply text-red-400;
+    }
+    .quiz-title {
+      @apply text-blue-gray-300;
+    }
+    .controls {
+      @apply text-blue-gray-300;
+      select {
+        @apply text-blue-gray-300 bg-blue-gray-900;
+      }
+    }
+  }
+}
+
+.quiz-page {
+  @apply w-full flex-grow flex flex-col px-4 pt-56px;
+  .quiz-detail {
+    @apply flex flex-col my-4 p-4 border rounded-2xl;
+    p {
+      @apply text-blue-gray-800 font-semibold text-xl;
+    }
+    .indicators {
+      @apply w-full flex flex-row space-x-2 mt-2;
+      .indicator {
+        @apply flex-grow h-2 rounded-full border transition;
+        &.is-correct {
+          @apply bg-green-500 border-none;
+        }
+        &.is-incorrect {
+          @apply bg-red-500 border-none;
+        }
+      }
+    }
+  }
+}
+
+.dark .quiz-page {
+  .quiz-detail {
+    @apply border-blue-gray-700;
+    p {
+      @apply text-blue-gray-300;
+    }
+    .indicators {
+      .indicator {
+        @apply bg-blue-gray-600 border-none;
+        &.is-correct {
+          @apply bg-green-400 border-none;
+        }
+        &.is-incorrect {
+          @apply bg-red-400 border-none;
+        }
+      }
+    }
+  }
+}
+
+.result-page {
+  @apply flex-grow flex justify-center items-center px-4;
+  .result-card {
+    @apply w-full flex flex-col justify-center items-center px-10 py-6 bg-blue-gray-100 rounded-3xl;
+    .score {
+      @apply text-blue-gray-800 font-semibold text-xl my-6 whitespace-nowrap;
+    }
+  }
+}
+.dark .result-page {
+  .result-card {
+    @apply bg-blue-gray-700;
+    .score {
+      @apply text-blue-gray-300;
+    }
+  }
+}
+</style>

@@ -38,4 +38,12 @@ export default {
 .legend {
   @apply absolute -top-3 left-2 text-sm px-2 bg-white font-semibold;
 }
+.dark {
+  .pill-group {
+    @apply border-blue-gray-600;
+  }
+  .legend {
+    @apply bg-blue-gray-800;
+  }
+}
 </style>

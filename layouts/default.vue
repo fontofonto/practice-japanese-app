@@ -1,13 +1,5 @@
 <template>
-  <div
-    class="
-      relative
-      w-screen
-      h-screen
-      max-h-fill-available
-      overflow-auto overflow-x-hidden
-    "
-  >
+  <div class="page-layout">
     <Nuxt class="mb-16" />
     <BottomNavigationBar />
     <transition name="show-panel">
@@ -39,19 +31,30 @@ export default {
         });
       }
     },
+    updateUITheme(e) {
+      this.$store.dispatch("setUITheme");
+    },
   },
   beforeMount() {
     this.$store.dispatch("loadSettingsFromLocalStorage");
   },
   mounted() {
     this.checkUpdate();
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", this.updateUITheme);
+  },
+  destroyed() {
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .removeEventListener("change", this.updateUITheme);
   },
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 html {
-  @apply h-fill-available text-blue-gray-800;
+  @apply h-fill-available text-blue-gray-800 bg-white;
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "游明朝", "游明朝体",
     YuMincho, "Yu Mincho", "ＭＳ 明朝", "MS Mincho", HiraMinProN-W3,
     "TakaoEx明朝", TakaoExMincho, "MotoyaLCedar", "Droid Sans Japanese", serif;
@@ -62,6 +65,9 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+html.dark {
+  @apply text-blue-gray-200 bg-blue-gray-800;
 }
 
 body {
@@ -77,6 +83,23 @@ body {
 
 .button {
   @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
+}
+.dark .button {
+  @apply bg-blue-400 text-blue-gray-800;
+}
+
+.page-layout {
+  @apply relative w-screen h-screen max-h-fill-available overflow-x-hidden overflow-y-auto;
+}
+.dark .page-layout {
+  @apply bg-blue-gray-800;
+}
+
+.page-title {
+  @apply text-4xl font-semibold text-blue-gray-800 whitespace-nowrap;
+}
+.dark .page-title {
+  @apply text-blue-gray-300;
 }
 </style>
 

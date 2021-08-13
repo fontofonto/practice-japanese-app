@@ -1,12 +1,7 @@
 <template>
   <div class="px-4 pb-12">
     <div class="relative w-full flex flex-col my-4 pt-12">
-      <p
-        class="text-4xl font-semibold text-blue-gray-800 whitespace-nowrap"
-        :class="[japaneseFontFamily]"
-      >
-        文法溫習
-      </p>
+      <p class="page-title" :class="[japaneseFontFamily]">文法溫習</p>
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
@@ -54,3 +49,18 @@ export default {
   },
 };
 </script>
+
+<style lang="postcss" scoped>
+.button {
+  @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
+}
+.dark .button {
+  @apply bg-blue-400 text-blue-gray-900;
+}
+.page-title {
+  @apply text-4xl font-semibold text-blue-gray-800 whitespace-nowrap;
+}
+.dark .page-title {
+  @apply text-blue-gray-300;
+}
+</style>

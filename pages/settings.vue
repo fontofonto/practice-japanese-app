@@ -1,12 +1,7 @@
 <template>
   <div class="px-4 pb-12">
     <div class="relative w-full flex flex-col my-4 pt-12">
-      <p
-        class="text-4xl font-semibold text-blue-gray-800 whitespace-nowrap"
-        :class="[japaneseFontFamily]"
-      >
-        設定
-      </p>
+      <p class="page-title" :class="[japaneseFontFamily]">設定</p>
     </div>
 
     <div class="flex flex-col">
@@ -14,7 +9,7 @@
         class="setting-list-header has-divider"
         :class="[japaneseFontFamily]"
       >
-        主題
+        應用程式設定
       </div>
       <div class="settings-list-item has-divider">
         <label
@@ -30,6 +25,23 @@
         >
           <option :value="'serif'">明體</option>
           <option :value="'sans'">黑體</option>
+        </select>
+      </div>
+      <div class="settings-list-item has-divider">
+        <label
+          class="font-semibold"
+          :class="[japaneseFontFamily]"
+          for="preferredUITheme"
+          >介面顏色</label
+        >
+        <select
+          v-model="preferredUITheme"
+          name="preferredUITheme"
+          id="preferredUITheme"
+        >
+          <option :value="'auto'">跟隨系統</option>
+          <option :value="'light'">白色</option>
+          <option :value="'dark'">黑色</option>
         </select>
       </div>
       <div
@@ -57,15 +69,11 @@
       </div>
       <div class="settings-list-item has-divider">
         <p class="font-semibold" :class="[japaneseFontFamily]">顯示漢字</p>
-        <label for="showKanji" class="toggle-button">
-          <input
-            type="checkbox"
-            name="showKanji"
-            id="showKanji"
-            v-model="showKanji"
-          />
-          <div class="background-fill"></div>
-        </label>
+        <ToggleSwitch
+          name="kanji"
+          :value="showKanji"
+          @change="toggleShowKanji"
+        />
       </div>
       <div
         class="setting-list-header has-divider"
@@ -73,16 +81,16 @@
       >
         其他
       </div>
-      <div class="settings-list-item">
+      <div class="settings-list-item has-divider">
         <p class="font-semibold" :class="[japaneseFontFamily]">版本</p>
-        <div class="flex flex-col items-end">
-          <p :class="[japaneseFontFamily]">{{ $store.state.version }}</p>
-          <div>
-            <ul class="list-disc text-sm mt-2" :class="[japaneseFontFamily]">
-              <li>新增了第 21 課詞語和な形容詞內容。</li>
-            </ul>
-          </div>
-        </div>
+        <p :class="[japaneseFontFamily]">{{ $store.state.version }}</p>
+      </div>
+      <div class="settings-list-item">
+        <p class="font-semibold" :class="[japaneseFontFamily]">更新內容</p>
+        <ul class="list-disc text-sm mt-2" :class="[japaneseFontFamily]">
+          <li>新增了第 21 課詞語和な形容詞內容。</li>
+          <li>新增黑色主題介面。</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -90,6 +98,7 @@
 
 <script>
 export default {
+  data: () => ({}),
   computed: {
     japaneseFontFamily() {
       switch (this.$store.state.settings.preferredJapaneseFontFamily) {
@@ -101,6 +110,9 @@ export default {
           return "font-sans";
       }
     },
+    showKanji() {
+      return this.$store.state.settings.showKanji;
+    },
     preferredJapaneseFontFamily: {
       get() {
         return this.$store.state.settings.preferredJapaneseFontFamily;
@@ -109,12 +121,12 @@ export default {
         this.$store.commit("updatePreferredJapaneseFontFamily", value);
       },
     },
-    showKanji: {
+    preferredUITheme: {
       get() {
-        return this.$store.state.settings.showKanji;
+        return this.$store.state.settings.preferredUITheme;
       },
-      set(value) {
-        this.$store.commit("toggleShowKanji", value);
+      set(newTheme) {
+        this.$store.dispatch("setUITheme", newTheme);
       },
     },
     numberOfQuestions: {
@@ -126,6 +138,11 @@ export default {
       },
     },
   },
+  methods: {
+    toggleShowKanji() {
+      this.$store.commit("toggleShowKanji");
+    },
+  },
 };
 </script>
 
@@ -134,30 +151,22 @@ export default {
   @apply text-blue-gray-400 text-sm pt-4 pb-2 mt-2;
 }
 .settings-list-item {
-  @apply flex flex-row justify-between py-4;
+  @apply flex flex-row justify-between items-center py-4;
 }
 .has-divider {
   @apply border-b border-b-blue-gray-100;
+}
+.dark .has-divider {
+  @apply border-b border-b-blue-gray-600;
 }
 .button {
   @apply inline-flex justify-center items-center p-4 bg-blue-500 text-white font-semibold text-center rounded-2xl hover:(bg-blue-400) active:(bg-blue-600) transition duration-100;
 }
 
-.toggle-button {
-  @apply relative flex w-50px h-26px rounded-full overflow-hidden bg-blue-gray-200;
+select {
+  @apply text-blue-gray-800 bg-blue-gray-100 py-1 px-2 rounded appearance-none;
 }
-.toggle-button input[type="checkbox"] {
-  @apply absolute z-10 w-6 h-6 m-1px rounded-full bg-white shadow transform translate-x-0 transition-transform ease-in-out;
-  appearance: none;
-}
-.toggle-button input[type="checkbox"]:checked {
-  @apply translate-x-full;
-}
-.toggle-button input[type="checkbox"] + .background-fill {
-  @apply w-full h-full rounded-full bg-green-500 opacity-0 transition-opacity;
-  box-shadow: inset 0 2px 4px rgba(15, 23, 42, 0.2);
-}
-.toggle-button input[type="checkbox"]:checked + .background-fill {
-  @apply opacity-100;
+.dark select {
+  @apply text-blue-gray-300 bg-blue-gray-900;
 }
 </style>
