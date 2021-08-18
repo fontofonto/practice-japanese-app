@@ -72,12 +72,12 @@
     {
         "phonogram": "たいせつ",
         "logogram": "大切",
-        "meaning": "寶貴的/無價的"
+        "meaning": "寶貴的/無價的(主觀)"
     },
     {
         "phonogram": "じゅうよう",
         "logogram": "重要",
-        "meaning": "重要的/必要的"
+        "meaning": "重要的/必要的(客觀)"
     },
     {
         "phonogram": "せいだい",
@@ -138,5 +138,55 @@
         "phonogram": "ひま",
         "logogram": "暇",
         "meaning": "空閒的"
+    },
+    {
+        "phonogram": "けっこう",
+        "logogram": "",
+        "meaning": "足夠好的/Okay"
+    },
+    {
+        "phonogram": "ふくざつ",
+        "logogram": "複雑",
+        "meaning": "複雜的"
+    },
+    {
+        "phonogram": "じみ",
+        "logogram": "地味",
+        "meaning": "樸素的/簡單的"
+    },
+    {
+        "phonogram": "こうかてき",
+        "logogram": "効果的",
+        "meaning": "有效的"
+    },
+    {
+        "phonogram": "きちょう",
+        "logogram": "貴重",
+        "meaning": "寶貴的/有價值的(客觀)"
+    },
+    {
+        "phonogram": "らく",
+        "logogram": "楽",
+        "meaning": "輕鬆的"
+    },
+    {
+        "phonogram": "すき",
+        "logogram": "好き",
+        "meaning": "喜歡的"
+    },
+    {
+        "phonogram": "せっきょくてき",
+        "logogram": "積極的",
+        "meaning": "積極的"
+    },
+    {
+        "phonogram": "ひつよう",
+        "logogram": "必要",
+        "meaning": "必須的/不可或缺的"
+    },
+    {
+        "phonogram": "ふしぎ",
+        "logogram": "不思議",
+        "meaning": "不可思議/精彩的"
     }
 ]

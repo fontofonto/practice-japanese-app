@@ -104,7 +104,7 @@
     {
         "phonogram": "ひるま",
         "logogram": "昼間",
-        "meaning": "日間",
+        "meaning": "日間(午前9時～午後4時)",
         "type": "名詞"
     },
     {
@@ -273,6 +273,156 @@
         "phonogram": "てちょう",
         "logogram": "手帳",
         "meaning": "筆記本",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "のみもの",
+        "logogram": "飲み物",
+        "meaning": "飲料",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ジャズ",
+        "logogram": "",
+        "meaning": "爵士樂 jazz",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "どうぶつ",
+        "logogram": "動物",
+        "meaning": "動物",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ふじさん",
+        "logogram": "富士山",
+        "meaning": "富士山",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "やま",
+        "logogram": "山",
+        "meaning": "山",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くに",
+        "logogram": "国",
+        "meaning": "國家",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さむらい",
+        "logogram": "侍",
+        "meaning": "武士",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ボタン",
+        "logogram": "",
+        "meaning": "鈕/按鈕",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "もっと～",
+        "logogram": "",
+        "meaning": "更多地",
+        "type": "副詞"
+    },
+    {
+        "phonogram": "スピーチ",
+        "logogram": "",
+        "meaning": "演講 speech",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ゆうがた",
+        "logogram": "夕方",
+        "meaning": "黃昏(午後4～6時)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "けいかん",
+        "logogram": "警官",
+        "meaning": "警察",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "よてい",
+        "logogram": "予定",
+        "meaning": "計劃安排、日程",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "なまえ",
+        "logogram": "名前",
+        "meaning": "名稱、名字",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ハンドバッグ",
+        "logogram": "",
+        "meaning": "手袋",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "さいふ",
+        "logogram": "財布",
+        "meaning": "錢包",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "せびろ",
+        "logogram": "背広",
+        "meaning": "西裝(舊字)",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "スーツ",
+        "logogram": "",
+        "meaning": "西裝",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "みずうみ",
+        "logogram": "湖",
+        "meaning": "湖",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ほうほう",
+        "logogram": "方法",
+        "meaning": "方法",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "けいけん",
+        "logogram": "経験",
+        "meaning": "經驗",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "こんかい",
+        "logogram": "今回",
+        "meaning": "今次",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "おんがく",
+        "logogram": "音楽",
+        "meaning": "音樂",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "くだもの",
+        "logogram": "果物",
+        "meaning": "水果",
+        "type": "名詞"
+    },
+    {
+        "phonogram": "ゆめ",
+        "logogram": "夢",
+        "meaning": "夢/夢想",
         "type": "名詞"
     }
 ]

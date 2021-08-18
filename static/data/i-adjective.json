@@ -293,5 +293,20 @@
         "phonogram": "いたい",
         "logogram": "痛い",
         "meaning": "痛的"
+    },
+    {
+        "phonogram": "うまい",
+        "logogram": "",
+        "meaning": "好的/美味的(男性用語)"
+    },
+    {
+        "phonogram": "まるい",
+        "logogram": "丸い",
+        "meaning": "圓形的"
+    },
+    {
+        "phonogram": "しかくい",
+        "logogram": "四角い",
+        "meaning": "正方形的"
     }
 ]
