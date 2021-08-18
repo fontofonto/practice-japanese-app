@@ -96,11 +96,14 @@ export const mutations = {
 export const actions = {
     loadSettingsFromLocalStorage({ commit, dispatch }) {
         let settings = JSON.parse(localStorage.getItem("settings"))
-        if (settings !== null) {
+        if (settings) {
             commit("loadSettings", settings)
+            dispatch("setUITheme", settings.preferredUITheme)
+        } else {
+            dispatch("setUITheme", "auto")
         }
 
-        dispatch("setUITheme", settings.preferredUITheme || "auto")
+
     },
     setUITheme({ state, commit }, newTheme) {
         if (newTheme && newTheme !== state.settings.preferredUITheme) {
