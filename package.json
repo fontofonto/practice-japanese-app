@@ -12,6 +12,7 @@
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
+    "csvtojson": "^2.0.10",
     "lodash": "^4.17.21",
     "nuxt": "^2.15.3"
   },

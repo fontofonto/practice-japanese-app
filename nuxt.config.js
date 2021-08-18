@@ -84,18 +84,11 @@ export default {
       config: {
         debug: true
       },
-      preCaching: [
-        "/data/chapter1-5.json",
-        "/data/chapter6-10.json",
-        "/data/chapter11-15.json",
-        "/data/chapter16-19.json",
-        "/data/chapter20-23.json",
-        "/data/number.json",
-        "/data/datetime.json",
-        "/data/family.json",
-        "/data/verb.json",
-        "/data/i-adjective.json",
-        "/data/na-adjective.json"
+      offlineStrategy: "StaleWhileRevalidate",
+      runtimeCaching: [
+        {
+          urlPattern: 'https://docs.google.com/spreadsheets/d/e/.*',
+        }
       ]
     }
   },

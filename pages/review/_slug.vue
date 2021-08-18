@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import csv from "csvtojson";
+
 export default {
   layout: "layoutWithoutBottomNavigationBar",
   head() {
@@ -52,11 +54,14 @@ export default {
   },
   async fetch() {
     // fetch the corresponding word bank
-    this.googleSheetJson = await fetch(
-      "/data/" + this.$store.state.googleSheetPages[this.slug - 1].filename
-    ).then((res) => {
-      return res.json();
-    });
+    const csvPath =
+      this.$store.state.googleSheetPages[this.slug - 1].googleSheetPath;
+    const csvHelper = csv();
+    const googleSheetCsv = await fetch(csvPath).then((response) =>
+      response.text()
+    );
+    this.googleSheetJson = await csvHelper.fromString(googleSheetCsv);
+    console.log(this.googleSheetJson);
   },
   data() {
     return {
