@@ -88,8 +88,7 @@
       <div class="settings-list-item">
         <p class="font-semibold" :class="[japaneseFontFamily]">更新內容</p>
         <ul class="list-disc text-sm mt-2" :class="[japaneseFontFamily]">
-          <li>新增了第 21 課詞語和な形容詞內容。</li>
-          <li>新增黑色主題介面。</li>
+          <li>新增了第 22 課詞語、な形容詞和い形容詞內容。</li>
         </ul>
       </div>
     </div>
