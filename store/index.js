@@ -1,5 +1,5 @@
 export const state = () => ({
-    version: "1.4.1",
+    version: "1.4.2",
     isSettingsLoaded: false,
     settings: {
         showKanji: false,

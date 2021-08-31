@@ -1,428 +1,824 @@
 [
     {
-        "phonogram": "つくりかた",
-        "logogram": "作り方",
-        "meaning": "製造方法/食譜",
-        "type": "名詞"
+      "phonogram": "つくりかた",
+      "logogram": "作り方",
+      "meaning": "製造方法/食譜",
+      "type": "名詞"
     },
     {
-        "phonogram": "つくる",
-        "logogram": "作る",
-        "meaning": "造/煮(食物)",
-        "type": "他動詞"
+      "phonogram": "つくる",
+      "logogram": "作る",
+      "meaning": "造/煮(食物)",
+      "type": "他動詞"
     },
     {
-        "phonogram": "ほんこんとう",
-        "logogram": "香港島",
-        "meaning": "香港島",
-        "type": "名詞"
+      "phonogram": "ほんこんとう",
+      "logogram": "香港島",
+      "meaning": "香港島",
+      "type": "名詞"
     },
     {
-        "phonogram": "きゅうりゅうはんとう",
-        "logogram": "九龍半島",
-        "meaning": "九龍半島",
-        "type": "名詞"
+      "phonogram": "きゅうりゅうはんとう",
+      "logogram": "九龍半島",
+      "meaning": "九龍半島",
+      "type": "名詞"
     },
     {
-        "phonogram": "けしき",
-        "logogram": "景色",
-        "meaning": "風景",
-        "type": "名詞"
+      "phonogram": "けしき",
+      "logogram": "景色",
+      "meaning": "風景",
+      "type": "名詞"
     },
     {
-        "phonogram": "やけい",
-        "logogram": "夜景",
-        "meaning": "夜景",
-        "type": "名詞"
+      "phonogram": "やけい",
+      "logogram": "夜景",
+      "meaning": "夜景",
+      "type": "名詞"
     },
     {
-        "phonogram": "こうつう",
-        "logogram": "交通",
-        "meaning": "交通",
-        "type": "名詞"
+      "phonogram": "こうつう",
+      "logogram": "交通",
+      "meaning": "交通",
+      "type": "名詞"
     },
     {
-        "phonogram": "あのへん",
-        "logogram": "あの辺",
-        "meaning": "那一帶範圍",
-        "type": "名詞"
+      "phonogram": "あのへん",
+      "logogram": "あの辺",
+      "meaning": "那一帶範圍",
+      "type": "名詞"
     },
     {
-        "phonogram": "えいご",
-        "logogram": "英語",
-        "meaning": "英文",
-        "type": "名詞"
+      "phonogram": "えいご",
+      "logogram": "英語",
+      "meaning": "英文",
+      "type": "名詞"
     },
     {
-        "phonogram": "しっぱい",
-        "logogram": "失敗",
-        "meaning": "失敗",
-        "type": "名詞"
+      "phonogram": "しっぱい",
+      "logogram": "失敗",
+      "meaning": "失敗",
+      "type": "名詞"
     },
     {
-        "phonogram": "じじつ",
-        "logogram": "事実",
-        "meaning": "事實",
-        "type": "名詞"
+      "phonogram": "じじつ",
+      "logogram": "事実",
+      "meaning": "事實",
+      "type": "名詞"
     },
     {
-        "phonogram": "かてい",
-        "logogram": "家庭",
-        "meaning": "家庭",
-        "type": "名詞"
+      "phonogram": "かてい",
+      "logogram": "家庭",
+      "meaning": "家庭",
+      "type": "名詞"
     },
     {
-        "phonogram": "もう〜",
-        "logogram": "",
-        "meaning": "已經/再",
-        "type": "副詞"
+      "phonogram": "もう〜",
+      "logogram": "",
+      "meaning": "已經/再",
+      "type": "副詞"
     },
     {
-        "phonogram": "じつに～",
-        "logogram": "実に～",
-        "meaning": "實在",
-        "type": "副詞"
+      "phonogram": "じつに～",
+      "logogram": "実に～",
+      "meaning": "實在",
+      "type": "副詞"
     },
     {
-        "phonogram": "ひじょうに～",
-        "logogram": "非常に～",
-        "meaning": "非常",
-        "type": "副詞"
+      "phonogram": "ひじょうに～",
+      "logogram": "非常に～",
+      "meaning": "非常",
+      "type": "副詞"
     },
     {
-        "phonogram": "とくに～",
-        "logogram": "特に～",
-        "meaning": "尤其是",
-        "type": "副詞"
+      "phonogram": "とくに～",
+      "logogram": "特に～",
+      "meaning": "尤其是",
+      "type": "副詞"
     },
     {
-        "phonogram": "どちら～",
-        "logogram": "",
-        "meaning": "哪一個(二選一)",
-        "type": "副詞"
+      "phonogram": "どちら～",
+      "logogram": "",
+      "meaning": "哪一個(二選一)",
+      "type": "副詞"
     },
     {
-        "phonogram": "ひるま",
-        "logogram": "昼間",
-        "meaning": "日間(午前9時～午後4時)",
-        "type": "名詞"
+      "phonogram": "ひるま",
+      "logogram": "昼間",
+      "meaning": "日間(午前9時～午後4時)",
+      "type": "名詞"
     },
     {
-        "phonogram": "すいえい",
-        "logogram": "水泳",
-        "meaning": "游泳",
-        "type": "名詞"
+      "phonogram": "すいえい",
+      "logogram": "水泳",
+      "meaning": "游泳",
+      "type": "名詞"
     },
     {
-        "phonogram": "コンビニ",
-        "logogram": "",
-        "meaning": "便利店",
-        "type": "名詞"
+      "phonogram": "コンビニ",
+      "logogram": "",
+      "meaning": "便利店",
+      "type": "名詞"
     },
     {
-        "phonogram": "さんすう",
-        "logogram": "算数",
-        "meaning": "數學",
-        "type": "名詞"
+      "phonogram": "さんすう",
+      "logogram": "算数",
+      "meaning": "數學",
+      "type": "名詞"
     },
     {
-        "phonogram": "カレーライス",
-        "logogram": "",
-        "meaning": "咖哩飯",
-        "type": "名詞"
+      "phonogram": "カレーライス",
+      "logogram": "",
+      "meaning": "咖哩飯",
+      "type": "名詞"
     },
     {
-        "phonogram": "デジカメ/デジタルカメラ",
-        "logogram": "",
-        "meaning": "數碼相機",
-        "type": "名詞"
+      "phonogram": "デジカメ/デジタルカメラ",
+      "logogram": "",
+      "meaning": "數碼相機",
+      "type": "名詞"
     },
     {
-        "phonogram": "サウナ",
-        "logogram": "",
-        "meaning": "桑拿 saunas",
-        "type": "名詞"
+      "phonogram": "サウナ",
+      "logogram": "",
+      "meaning": "桑拿 saunas",
+      "type": "名詞"
     },
     {
-        "phonogram": "きゅうりょう",
-        "logogram": "給料",
-        "meaning": "薪水",
-        "type": "名詞"
+      "phonogram": "きゅうりょう",
+      "logogram": "給料",
+      "meaning": "薪水",
+      "type": "名詞"
     },
     {
-        "phonogram": "サービス",
-        "logogram": "",
-        "meaning": "服務 service",
-        "type": "名詞"
+      "phonogram": "サービス",
+      "logogram": "",
+      "meaning": "服務 service",
+      "type": "名詞"
     },
     {
-        "phonogram": "だいどころ",
-        "logogram": "台所",
-        "meaning": "廚房",
-        "type": "名詞"
+      "phonogram": "ラーメンや",
+      "logogram": "ラーメン屋",
+      "meaning": "拉麵店",
+      "type": "名詞"
     },
     {
-        "phonogram": "ラーメンや",
-        "logogram": "ラーメン屋",
-        "meaning": "拉麵店",
-        "type": "名詞"
+      "phonogram": "ようふく",
+      "logogram": "洋服",
+      "meaning": "西式衣服",
+      "type": "名詞"
     },
     {
-        "phonogram": "ようふく",
-        "logogram": "洋服",
-        "meaning": "西式衣服",
-        "type": "名詞"
+      "phonogram": "もんだい",
+      "logogram": "問題",
+      "meaning": "問題(Problem)",
+      "type": "名詞"
     },
     {
-        "phonogram": "もんだい",
-        "logogram": "問題",
-        "meaning": "問題(Problem)",
-        "type": "名詞"
+      "phonogram": "しつもん",
+      "logogram": "質問",
+      "meaning": "問題(Question)",
+      "type": "名詞"
     },
     {
-        "phonogram": "しつもん",
-        "logogram": "質問",
-        "meaning": "問題(Question)",
-        "type": "名詞"
+      "phonogram": "いけん",
+      "logogram": "意見",
+      "meaning": "意見",
+      "type": "名詞"
     },
     {
-        "phonogram": "いけん",
-        "logogram": "意見",
-        "meaning": "意見",
-        "type": "名詞"
+      "phonogram": "しょうてんがい",
+      "logogram": "商店街",
+      "meaning": "商店街",
+      "type": "名詞"
     },
     {
-        "phonogram": "しょうてんがい",
-        "logogram": "商店街",
-        "meaning": "商店街",
-        "type": "名詞"
+      "phonogram": "まち",
+      "logogram": "街/町",
+      "meaning": "街/鎮",
+      "type": "名詞"
     },
     {
-        "phonogram": "まち",
-        "logogram": "街/町",
-        "meaning": "街/鎮",
-        "type": "名詞"
+      "phonogram": "このあたり",
+      "logogram": "この辺り",
+      "meaning": "這一帶區域",
+      "type": "名詞"
     },
     {
-        "phonogram": "このあたり",
-        "logogram": "この辺り",
-        "meaning": "這一帶區域",
-        "type": "名詞"
+      "phonogram": "ぶぶん",
+      "logogram": "部分",
+      "meaning": "部分",
+      "type": "名詞"
     },
     {
-        "phonogram": "ぶぶん",
-        "logogram": "部分",
-        "meaning": "部分",
-        "type": "名詞"
+      "phonogram": "かかく",
+      "logogram": "価格",
+      "meaning": "價格",
+      "type": "名詞"
     },
     {
-        "phonogram": "かかく",
-        "logogram": "価格",
-        "meaning": "價格",
-        "type": "名詞"
+      "phonogram": "ひんしつ",
+      "logogram": "品質",
+      "meaning": "品質",
+      "type": "名詞"
     },
     {
-        "phonogram": "ひんしつ",
-        "logogram": "品質",
-        "meaning": "品質",
-        "type": "名詞"
+      "phonogram": "おしえかた",
+      "logogram": "教え方",
+      "meaning": "教學方法",
+      "type": "名詞"
     },
     {
-        "phonogram": "おしえかた",
-        "logogram": "教え方",
-        "meaning": "教學方法",
-        "type": "名詞"
+      "phonogram": "はなしかた",
+      "logogram": "話し方",
+      "meaning": "說話方式",
+      "type": "名詞"
     },
     {
-        "phonogram": "はなしかた",
-        "logogram": "話し方",
-        "meaning": "說話方式",
-        "type": "名詞"
+      "phonogram": "いきかた",
+      "logogram": "生き方",
+      "meaning": "生存方法",
+      "type": "名詞"
     },
     {
-        "phonogram": "いきかた",
-        "logogram": "生き方",
-        "meaning": "生存方法",
-        "type": "名詞"
+      "phonogram": "しかた",
+      "logogram": "",
+      "meaning": "做法",
+      "type": "名詞"
     },
     {
-        "phonogram": "しかた",
-        "logogram": "",
-        "meaning": "做法",
-        "type": "名詞"
+      "phonogram": "かきかた",
+      "logogram": "書き方",
+      "meaning": "寫作方法",
+      "type": "名詞"
     },
     {
-        "phonogram": "かきかた",
-        "logogram": "書き方",
-        "meaning": "寫作方法",
-        "type": "名詞"
+      "phonogram": "かんきょう",
+      "logogram": "環境",
+      "meaning": "環境",
+      "type": "名詞"
     },
     {
-        "phonogram": "かんきょう",
-        "logogram": "環境",
-        "meaning": "環境",
-        "type": "名詞"
+      "phonogram": "パソコン",
+      "logogram": "",
+      "meaning": "電腦",
+      "type": "名詞"
     },
     {
-        "phonogram": "パソコン",
-        "logogram": "",
-        "meaning": "電腦",
-        "type": "名詞"
+      "phonogram": "てちょう",
+      "logogram": "手帳",
+      "meaning": "筆記本",
+      "type": "名詞"
     },
     {
-        "phonogram": "てちょう",
-        "logogram": "手帳",
-        "meaning": "筆記本",
-        "type": "名詞"
+      "phonogram": "のみもの",
+      "logogram": "飲み物",
+      "meaning": "飲料",
+      "type": "名詞"
     },
     {
-        "phonogram": "のみもの",
-        "logogram": "飲み物",
-        "meaning": "飲料",
-        "type": "名詞"
+      "phonogram": "どうぶつ",
+      "logogram": "動物",
+      "meaning": "動物",
+      "type": "名詞"
     },
     {
-        "phonogram": "ジャズ",
-        "logogram": "",
-        "meaning": "爵士樂 jazz",
-        "type": "名詞"
+      "phonogram": "ふじさん",
+      "logogram": "富士山",
+      "meaning": "富士山",
+      "type": "名詞"
     },
     {
-        "phonogram": "どうぶつ",
-        "logogram": "動物",
-        "meaning": "動物",
-        "type": "名詞"
+      "phonogram": "やま",
+      "logogram": "山",
+      "meaning": "山",
+      "type": "名詞"
     },
     {
-        "phonogram": "ふじさん",
-        "logogram": "富士山",
-        "meaning": "富士山",
-        "type": "名詞"
+      "phonogram": "くに",
+      "logogram": "国",
+      "meaning": "國家",
+      "type": "名詞"
     },
     {
-        "phonogram": "やま",
-        "logogram": "山",
-        "meaning": "山",
-        "type": "名詞"
+      "phonogram": "さむらい",
+      "logogram": "侍",
+      "meaning": "武士",
+      "type": "名詞"
     },
     {
-        "phonogram": "くに",
-        "logogram": "国",
-        "meaning": "國家",
-        "type": "名詞"
+      "phonogram": "ボタン",
+      "logogram": "",
+      "meaning": "鈕/按鈕",
+      "type": "名詞"
     },
     {
-        "phonogram": "さむらい",
-        "logogram": "侍",
-        "meaning": "武士",
-        "type": "名詞"
+      "phonogram": "もっと～",
+      "logogram": "",
+      "meaning": "更多地",
+      "type": "副詞"
     },
     {
-        "phonogram": "ボタン",
-        "logogram": "",
-        "meaning": "鈕/按鈕",
-        "type": "名詞"
+      "phonogram": "スピーチ",
+      "logogram": "",
+      "meaning": "演講 speech",
+      "type": "名詞"
     },
     {
-        "phonogram": "もっと～",
-        "logogram": "",
-        "meaning": "更多地",
-        "type": "副詞"
+      "phonogram": "ゆうがた",
+      "logogram": "夕方",
+      "meaning": "黃昏(午後4～6時)",
+      "type": "名詞"
     },
     {
-        "phonogram": "スピーチ",
-        "logogram": "",
-        "meaning": "演講 speech",
-        "type": "名詞"
+      "phonogram": "けいかん",
+      "logogram": "警官",
+      "meaning": "警察",
+      "type": "名詞"
     },
     {
-        "phonogram": "ゆうがた",
-        "logogram": "夕方",
-        "meaning": "黃昏(午後4～6時)",
-        "type": "名詞"
+      "phonogram": "よてい",
+      "logogram": "予定",
+      "meaning": "計劃安排、日程",
+      "type": "名詞"
     },
     {
-        "phonogram": "けいかん",
-        "logogram": "警官",
-        "meaning": "警察",
-        "type": "名詞"
+      "phonogram": "なまえ",
+      "logogram": "名前",
+      "meaning": "名稱、名字",
+      "type": "名詞"
     },
     {
-        "phonogram": "よてい",
-        "logogram": "予定",
-        "meaning": "計劃安排、日程",
-        "type": "名詞"
+      "phonogram": "ハンドバッグ",
+      "logogram": "",
+      "meaning": "手袋",
+      "type": "名詞"
     },
     {
-        "phonogram": "なまえ",
-        "logogram": "名前",
-        "meaning": "名稱、名字",
-        "type": "名詞"
+      "phonogram": "さいふ",
+      "logogram": "財布",
+      "meaning": "錢包",
+      "type": "名詞"
     },
     {
-        "phonogram": "ハンドバッグ",
-        "logogram": "",
-        "meaning": "手袋",
-        "type": "名詞"
+      "phonogram": "せびろ",
+      "logogram": "背広",
+      "meaning": "西裝(舊字)",
+      "type": "名詞"
     },
     {
-        "phonogram": "さいふ",
-        "logogram": "財布",
-        "meaning": "錢包",
-        "type": "名詞"
+      "phonogram": "スーツ",
+      "logogram": "",
+      "meaning": "西裝",
+      "type": "名詞"
     },
     {
-        "phonogram": "せびろ",
-        "logogram": "背広",
-        "meaning": "西裝(舊字)",
-        "type": "名詞"
+      "phonogram": "みずうみ",
+      "logogram": "湖",
+      "meaning": "湖",
+      "type": "名詞"
     },
     {
-        "phonogram": "スーツ",
-        "logogram": "",
-        "meaning": "西裝",
-        "type": "名詞"
+      "phonogram": "ほうほう",
+      "logogram": "方法",
+      "meaning": "方法",
+      "type": "名詞"
     },
     {
-        "phonogram": "みずうみ",
-        "logogram": "湖",
-        "meaning": "湖",
-        "type": "名詞"
+      "phonogram": "けいけん",
+      "logogram": "経験",
+      "meaning": "經驗",
+      "type": "名詞"
     },
     {
-        "phonogram": "ほうほう",
-        "logogram": "方法",
-        "meaning": "方法",
-        "type": "名詞"
+      "phonogram": "こんかい",
+      "logogram": "今回",
+      "meaning": "今次",
+      "type": "名詞"
     },
     {
-        "phonogram": "けいけん",
-        "logogram": "経験",
-        "meaning": "經驗",
-        "type": "名詞"
+      "phonogram": "おんがく",
+      "logogram": "音楽",
+      "meaning": "音樂",
+      "type": "名詞"
     },
     {
-        "phonogram": "こんかい",
-        "logogram": "今回",
-        "meaning": "今次",
-        "type": "名詞"
+      "phonogram": "くだもの",
+      "logogram": "果物",
+      "meaning": "水果",
+      "type": "名詞"
     },
     {
-        "phonogram": "おんがく",
-        "logogram": "音楽",
-        "meaning": "音樂",
-        "type": "名詞"
+      "phonogram": "ゆめ",
+      "logogram": "夢",
+      "meaning": "夢/夢想",
+      "type": "名詞"
     },
     {
-        "phonogram": "くだもの",
-        "logogram": "果物",
-        "meaning": "水果",
-        "type": "名詞"
+      "phonogram": "りんご",
+      "logogram": "林檎",
+      "meaning": "蘋果",
+      "type": "名詞"
     },
     {
-        "phonogram": "ゆめ",
-        "logogram": "夢",
-        "meaning": "夢/夢想",
-        "type": "名詞"
+      "phonogram": "バナナ",
+      "logogram": "",
+      "meaning": "香蕉",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ぶどう",
+      "logogram": "葡萄",
+      "meaning": "葡萄",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "メロン",
+      "logogram": "",
+      "meaning": "哈蜜瓜",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "もも",
+      "logogram": "桃",
+      "meaning": "桃",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "オレンジ",
+      "logogram": "",
+      "meaning": "橙",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "いちご",
+      "logogram": "莓",
+      "meaning": "草莓",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "すいか",
+      "logogram": "西瓜",
+      "meaning": "西瓜",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "バレーボール",
+      "logogram": "",
+      "meaning": "排球",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "たっきゅう",
+      "logogram": "卓球",
+      "meaning": "乒乓球",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "バドミントン",
+      "logogram": "",
+      "meaning": "羽毛球",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "サッカー",
+      "logogram": "",
+      "meaning": "英式足球",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "バスケットボール",
+      "logogram": "",
+      "meaning": "籃球",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "かいわ",
+      "logogram": "会話",
+      "meaning": "對話",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "れんしゅう",
+      "logogram": "練習",
+      "meaning": "練習",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "びょうき",
+      "logogram": "病気",
+      "meaning": "生病",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "こえ",
+      "logogram": "声",
+      "meaning": "聲音",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "あんぜん",
+      "logogram": "安全",
+      "meaning": "安全",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ほかのひと",
+      "logogram": "他の人",
+      "meaning": "其他人",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "プロジェクト",
+      "logogram": "",
+      "meaning": "Project",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "しきん",
+      "logogram": "資金",
+      "meaning": "資金",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "やりかた",
+      "logogram": "やり方",
+      "meaning": "方式、方法",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "はじめて",
+      "logogram": "初めて",
+      "meaning": "第一次",
+      "type": "副詞"
+    },
+    {
+      "phonogram": "くもり",
+      "logogram": "曇り",
+      "meaning": "多雲、陰天",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "そくたつ",
+      "logogram": "速達",
+      "meaning": "速遞",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "きしゃ",
+      "logogram": "記者",
+      "meaning": "記者",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "いとう",
+      "logogram": "伊藤",
+      "meaning": "伊藤",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "おみやげ",
+      "logogram": "お土産",
+      "meaning": "手信",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "なりたくうこう",
+      "logogram": "成田空港",
+      "meaning": "成田機場",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ほうこく",
+      "logogram": "報告",
+      "meaning": "報告、報導",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "クラシックおんがく",
+      "logogram": "クラシック音楽",
+      "meaning": "古典音樂",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "こてんおんがく",
+      "logogram": "古典音楽",
+      "meaning": "古典音樂",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "じだい",
+      "logogram": "時代",
+      "meaning": "時代",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "じだいおくれ",
+      "logogram": "時代遅れ",
+      "meaning": "過時、落後於時代",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "クラシック",
+      "logogram": "",
+      "meaning": "古典 Classic",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ジャズ",
+      "logogram": "",
+      "meaning": "爵士樂 jazz",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ロック",
+      "logogram": "",
+      "meaning": "搖滾音樂 Rock",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "わかいとき",
+      "logogram": "若い時",
+      "meaning": "年輕的時候",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "まわり",
+      "logogram": "周り",
+      "meaning": "周圍",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "りゅうこうおんがく",
+      "logogram": "流行音楽",
+      "meaning": "流行音樂",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "みんよう",
+      "logogram": "民謡",
+      "meaning": "民謡",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ポピュラー．ヒット",
+      "logogram": "",
+      "meaning": "流行．熱門",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "うた",
+      "logogram": "歌",
+      "meaning": "歌",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "かしゅ",
+      "logogram": "歌手",
+      "meaning": "歌手",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "きょくめい",
+      "logogram": "曲名",
+      "meaning": "曲名",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "カラオケ",
+      "logogram": "",
+      "meaning": "卡拉OK",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "しゅうきょう",
+      "logogram": "宗教",
+      "meaning": "宗教",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ぶっきょう",
+      "logogram": "仏教",
+      "meaning": "佛教",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "しんとう",
+      "logogram": "神道",
+      "meaning": "神道教",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "キリスト",
+      "logogram": "",
+      "meaning": "基督教",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "カトリック",
+      "logogram": "",
+      "meaning": "天主教",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "イスラムきょう",
+      "logogram": "イスラム教",
+      "meaning": "伊斯蘭教",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "きょうと",
+      "logogram": "教徒",
+      "meaning": "教徒",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "きょうかい",
+      "logogram": "教会",
+      "meaning": "教會",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "おてら",
+      "logogram": "お寺",
+      "meaning": "寺廟",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "じんじゃ",
+      "logogram": "神社",
+      "meaning": "神社",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "やすくにじんじゃ",
+      "logogram": "靖国神社",
+      "meaning": "靖國神社",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "だいどころ",
+      "logogram": "台所",
+      "meaning": "廚房",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "クーラー",
+      "logogram": "",
+      "meaning": "冷氣機",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "おぶろ",
+      "logogram": "お風呂",
+      "meaning": "風呂、浴缸",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ようしつ",
+      "logogram": "洋室",
+      "meaning": "西式房間(有床睡房)",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "やちん",
+      "logogram": "家賃",
+      "meaning": "租金",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "マンション",
+      "logogram": "",
+      "meaning": "高級公寓",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "わしつ",
+      "logogram": "和室",
+      "meaning": "日式房間(榻榻米)",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ともだち",
+      "logogram": "友達",
+      "meaning": "朋友",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "おおさかじょう",
+      "logogram": "大阪城",
+      "meaning": "大阪城",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "ところ",
+      "logogram": "所",
+      "meaning": "地方",
+      "type": "名詞"
+    },
+    {
+      "phonogram": "せいかつ",
+      "logogram": "生活",
+      "meaning": "生活",
+      "type": "名詞"
     }
-]
+  ]

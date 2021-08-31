@@ -1,296 +1,331 @@
 [
     {
-        "logogram": "起きる",
-        "phonogram": "おきる",
-        "meaning": "起床",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "起きる",
+      "phonogram": "おきる",
+      "meaning": "起床",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "寝る",
-        "phonogram": "ねる",
-        "meaning": "睡覺",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "寝る",
+      "phonogram": "ねる",
+      "meaning": "睡覺",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "始まる",
-        "phonogram": "はじまる",
-        "meaning": "開始",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "始まる",
+      "phonogram": "はじまる",
+      "meaning": "開始",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "終わる",
-        "phonogram": "おわる",
-        "meaning": "完結",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "終わる",
+      "phonogram": "おわる",
+      "meaning": "完結",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "閉まる",
-        "phonogram": "しまる",
-        "meaning": "關閉",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "閉まる",
+      "phonogram": "しまる",
+      "meaning": "關閉",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "来る",
-        "phonogram": "くる",
-        "meaning": "來",
-        "type": "か変",
-        "transitive": "自"
+      "logogram": "来る",
+      "phonogram": "くる",
+      "meaning": "來",
+      "type": "か変",
+      "transitive": "自"
     },
     {
-        "logogram": "帰る",
-        "phonogram": "かえる",
-        "meaning": "回去",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "帰る",
+      "phonogram": "かえる",
+      "meaning": "回去",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "出る",
-        "phonogram": "でる",
-        "meaning": "出去",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "出る",
+      "phonogram": "でる",
+      "meaning": "出去",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "できる",
-        "phonogram": "できる",
-        "meaning": "能力、完成、妊娠",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "できる",
+      "phonogram": "できる",
+      "meaning": "能力、完成、妊娠",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "結婚する",
-        "phonogram": "けっこんする",
-        "meaning": "結婚",
-        "type": "サ変",
-        "transitive": "自"
+      "logogram": "結婚する",
+      "phonogram": "けっこんする",
+      "meaning": "結婚",
+      "type": "サ変",
+      "transitive": "自"
     },
     {
-        "logogram": "かかる",
-        "phonogram": "かかる",
-        "meaning": "花費、需要(時間、金錢)",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "かかる",
+      "phonogram": "かかる",
+      "meaning": "花費、需要（時間、金錢）",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "要る",
-        "phonogram": "いる",
-        "meaning": "需要",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "要る",
+      "phonogram": "いる",
+      "meaning": "需要",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "続く",
-        "phonogram": "つづく",
-        "meaning": "繼續",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "続く",
+      "phonogram": "つづく",
+      "meaning": "繼續",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "動く",
-        "phonogram": "うごく",
-        "meaning": "活動、移動",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "動く",
+      "phonogram": "うごく",
+      "meaning": "活動、移動",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "足りる",
-        "phonogram": "たりる",
-        "meaning": "足夠",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "足りる",
+      "phonogram": "たりる",
+      "meaning": "足夠",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "出席する",
-        "phonogram": "しゅっせきする",
-        "meaning": "出席",
-        "type": "サ変",
-        "transitive": "自"
+      "logogram": "出席する",
+      "phonogram": "しゅっせきする",
+      "meaning": "出席",
+      "type": "サ変",
+      "transitive": "自"
     },
     {
-        "logogram": "壊れる",
-        "phonogram": "こわれる",
-        "meaning": "損壞、故障",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "壊れる",
+      "phonogram": "こわれる",
+      "meaning": "損壞、故障",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "遅れる",
-        "phonogram": "おくれる",
-        "meaning": "遲到",
-        "type": "一段",
-        "transitive": "自"
+      "logogram": "遅れる",
+      "phonogram": "おくれる",
+      "meaning": "遲到",
+      "type": "一段",
+      "transitive": "自"
     },
     {
-        "logogram": "行く",
-        "phonogram": "いく",
-        "meaning": "起行",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "行く",
+      "phonogram": "いく",
+      "meaning": "起行",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "知る",
-        "phonogram": "しる",
-        "meaning": "知道",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "知る",
+      "phonogram": "しる",
+      "meaning": "知道",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "飲む",
-        "phonogram": "のむ",
-        "meaning": "飲",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "飲む",
+      "phonogram": "のむ",
+      "meaning": "飲",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "吸う",
-        "phonogram": "すう",
-        "meaning": "吸(煙)",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "吸う",
+      "phonogram": "すう",
+      "meaning": "吸（煙）",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "読む",
-        "phonogram": "よむ",
-        "meaning": "讀",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "読む",
+      "phonogram": "よむ",
+      "meaning": "讀",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "見る",
-        "phonogram": "みる",
-        "meaning": "看見",
-        "type": "一段",
-        "transitive": "他"
+      "logogram": "見る",
+      "phonogram": "みる",
+      "meaning": "看見",
+      "type": "一段",
+      "transitive": "他"
     },
     {
-        "logogram": "する",
-        "phonogram": "する",
-        "meaning": "做(事情)",
-        "type": "サ変",
-        "transitive": "自/他"
+      "logogram": "する",
+      "phonogram": "する",
+      "meaning": "做（事情）",
+      "type": "サ変",
+      "transitive": "自/他"
     },
     {
-        "logogram": "書く",
-        "phonogram": "かく",
-        "meaning": "寫",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "書く",
+      "phonogram": "かく",
+      "meaning": "寫",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "勉強する",
-        "phonogram": "べんきょうする",
-        "meaning": "學習",
-        "type": "サ変",
-        "transitive": "他"
+      "logogram": "勉強する",
+      "phonogram": "べんきょうする",
+      "meaning": "學習",
+      "type": "サ変",
+      "transitive": "他"
     },
     {
-        "logogram": "買う",
-        "phonogram": "かう",
-        "meaning": "買",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "買う",
+      "phonogram": "かう",
+      "meaning": "買",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "食べる",
-        "phonogram": "たべる",
-        "meaning": "食",
-        "type": "一段",
-        "transitive": "他"
+      "logogram": "食べる",
+      "phonogram": "たべる",
+      "meaning": "食",
+      "type": "一段",
+      "transitive": "他"
     },
     {
-        "logogram": "弾く",
-        "phonogram": "ひく",
-        "meaning": "彈(琴)",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "弾く",
+      "phonogram": "ひく",
+      "meaning": "彈（琴）",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "取る",
-        "phonogram": "とる",
-        "meaning": "拿",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "取る",
+      "phonogram": "とる",
+      "meaning": "拿",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "言う",
-        "phonogram": "いう",
-        "meaning": "說",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "言う",
+      "phonogram": "いう",
+      "meaning": "說",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "持つ",
-        "phonogram": "もつ",
-        "meaning": "拿著、負責",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "持つ",
+      "phonogram": "もつ",
+      "meaning": "拿著、負責",
+      "type": "五段",
+      "transitive": "他"
     },
     {
-        "logogram": "注文する",
-        "phonogram": "ちゅうもんする",
-        "meaning": "下單",
-        "type": "サ変",
-        "transitive": "他"
+      "logogram": "注文する",
+      "phonogram": "ちゅうもんする",
+      "meaning": "下單",
+      "type": "サ変",
+      "transitive": "他"
     },
     {
-        "logogram": "落札する",
-        "phonogram": "らくさつする",
-        "meaning": "中標",
-        "type": "サ変",
-        "transitive": "他"
+      "logogram": "落札する",
+      "phonogram": "らくさつする",
+      "meaning": "中標",
+      "type": "サ変",
+      "transitive": "他"
     },
     {
-        "logogram": "旅行する",
-        "phonogram": "りょこうする",
-        "meaning": "旅行",
-        "type": "サ変",
-        "transitive": "自"
+      "logogram": "旅行する",
+      "phonogram": "りょこうする",
+      "meaning": "旅行",
+      "type": "サ変",
+      "transitive": "自"
     },
     {
-        "logogram": "寄る",
-        "phonogram": "よる",
-        "meaning": "順路去",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "寄る",
+      "phonogram": "よる",
+      "meaning": "順路去",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "帰って来る",
-        "phonogram": "かえってくる",
-        "meaning": "回來",
-        "type": "複合カ変",
-        "transitive": "自"
+      "logogram": "帰って来る",
+      "phonogram": "かえってくる",
+      "meaning": "回來",
+      "type": "複合カ変",
+      "transitive": "自"
     },
     {
-        "logogram": "戻る",
-        "phonogram": "もどる",
-        "meaning": "回去",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "戻る",
+      "phonogram": "もどる",
+      "meaning": "回去",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "転勤する",
-        "phonogram": "てんきんする",
-        "meaning": "內部轉職",
-        "type": "サ変",
-        "transitive": "自"
+      "logogram": "転勤する",
+      "phonogram": "てんきんする",
+      "meaning": "內部轉職",
+      "type": "サ変",
+      "transitive": "自"
     },
     {
-        "logogram": "引っ越す",
-        "phonogram": "ひっこす",
-        "meaning": "搬屋",
-        "type": "五段",
-        "transitive": "自"
+      "logogram": "引っ越す",
+      "phonogram": "ひっこす",
+      "meaning": "搬屋",
+      "type": "五段",
+      "transitive": "自"
     },
     {
-        "logogram": "手伝う",
-        "phonogram": "てつだう",
-        "meaning": "幫忙",
-        "type": "五段",
-        "transitive": "他"
+      "logogram": "手伝う",
+      "phonogram": "てつだう",
+      "meaning": "幫忙",
+      "type": "五段",
+      "transitive": "他"
+    },
+    {
+      "logogram": "洗う",
+      "phonogram": "あらう",
+      "meaning": "洗",
+      "type": "五段",
+      "transitive": "他"
+    },
+    {
+      "logogram": "おす",
+      "phonogram": "押す",
+      "meaning": "推",
+      "type": "五段",
+      "transitive": "他"
+    },
+    {
+      "logogram": "わすれる",
+      "phonogram": "忘れる",
+      "meaning": "忘記",
+      "type": "一段",
+      "transitive": "他"
+    },
+    {
+      "logogram": "つける",
+      "phonogram": "",
+      "meaning": "貼上、啟動",
+      "type": "一段",
+      "transitive": "他"
+    },
+    {
+      "logogram": "つく",
+      "phonogram": "着く",
+      "meaning": "到達",
+      "type": "五段",
+      "transitive": "自"
     }
-]
+  ]
